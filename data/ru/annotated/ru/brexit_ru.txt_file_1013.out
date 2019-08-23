@@ -1,0 +1,26 @@
+ru-1013
+Brexit	Brexit	EVT	EVT-Brexit
+Facebook	Facebook	PRO	PRO-Facebook
+REGNUM	REGNUM	ORG	ORG-REGNUM-News-Agency
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Европейского союза	Европейский союз	ORG	ORG-European-Union
+Захарова	Захарова	PER	PER-Maria-Zaharova
+ИА REGNUM	ИА REGNUM	ORG	ORG-REGNUM-News-Agency
+Кремля	Кремль	LOC	LOC-Moscow-Kremlin
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+МИД РФ	МИД РФ	ORG	ORG-Ministry-of-Foreign-Affairs-Russia
+МИД России	МИД России	ORG	ORG-Ministry-of-Foreign-Affairs-Russia
+Марии Захаровой	Мария Захарова	PER	PER-Maria-Zaharova
+Мария Захарова	Мария Захарова	PER	PER-Maria-Zaharova
+НАТО	НАТО	ORG	ORG-NATO
+Новичок	Новичок	PRO	PRO-Novichok
+Соединённого Королевства	Соединённое Королевство	LOC	GPE-Great-Britain
+Солсбери	Солсбери	LOC	GPE-Salisbury
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+ЧМ-2018	ЧМ-2018	EVT	EVT-FIFA-World-Cup
+отравлением в Эймсбери	отравление в Эймсбери	EVT	EVT-Amesbury-poisoning

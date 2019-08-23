@@ -1,0 +1,24 @@
+ru-1104
+Би-би-си	Би-би-си	ORG	ORG-BBC-Ltd
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Брекзита	Брекзит	EVT	EVT-Brexit
+Брекзита	Брекзита	EVT	EVT-Brexit
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Доминика Рааба	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+Европейским союзом	Европейский союз	ORG	ORG-European-Union
+Европейского союза	Европейский союз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+Лондона	Лондон	LOC	GPE-London
+МИД	МИД	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Референдум о выходе Великобритании из Евросоюза	Референдум о выходе Великобритании из Евросоюза	EVT	EVT-Brexit-Referendum
+Стив Бейкер	Стив Бейкер	PER	PER-Steve-Baker
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Чекерс	Чекерс	LOC	LOC-Chequers-Court
+британцев	британец	PER	GPE-Great-Britain
+таможенного союза	таможенный союз	ORG	ORG-European-Union-Customs-Union

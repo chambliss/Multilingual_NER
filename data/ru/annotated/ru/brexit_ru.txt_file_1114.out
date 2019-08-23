@@ -1,0 +1,16 @@
+ru-1114
+Brexit	Brexit	EVT	EVT-Brexit
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса	Борис	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Д.Дэвис	Д.Дэвис	PER	PER-David-Davis
+Даунинг-Стрит	Даунинг-Стрит	LOC	LOC-Downing-Street
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Скай ньюз	Скай ньюз	PRO	PRO-Sky-News-TV
+Т.Мэй	Т.Мэй	PER	PER-Theresa-May
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May

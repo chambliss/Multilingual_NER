@@ -1,0 +1,37 @@
+ru-1156
+Brexit	Brexit	EVT	EVT-Brexit
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании 	Великобритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Грег Хэндс	Грег Хэндс	PER	PER-Greg-Hands
+Департаменте по выходу Британии из ЕС	Департамент по выходу Британии из ЕС	ORG	ORG-Ministry-of-Brexity
+Джереми Хант	Джереми Хант	PER	PER-Jeremy-Hunt
+Джереми Ханта	Джереми Хант	PER	PER-Jeremy-Hunt
+Джонсоном	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+ЕС 	ЕС 	ORG	ORG-European-Union
+Европейская комиссия	Европейская комиссия	ORG	ORG-European-Commission
+Европейский Союз	Европейский союз	ORG	ORG-European-Union
+Европейского Союза	Европейский Союз	ORG	ORG-European-Union
+Елизавета II	Елизавета II	PER	PER-Queen-Elizabeth-II
+Ирландией 	Ирландия	LOC	GPE-Ireland
+Киев 	Киев 	LOC	GPE-Kiev
+Королева 	Королева	PER	PER-Queen-Elizabeth-II
+Мэй	Мэй	PER	PER-Theresa-May
+Руководящей группе Европейского парламента	Руководящая группа Европейского парламента	ORG	ORG-European Parliament Steering Group
+Северной Ирландией	Северная Ирландия	LOC	GPE-Northern-Ireland
+Совет Европейского союза	Совет Европейского союза	ORG	ORG-European-Council
+Совету ЕС	Совету ЕС	ORG	ORG-European-Council
+Соглашения о выходе Великобритании из Европейского Союза	Соглашение о выходе Великобритании из Европейского Союза	PRO	PRO-Brexit-withdrawal-agreement
+Содружества	Содружество	ORG	ORG-Commonwealth
+Соединенного Королевства	Соединенное Королевство	LOC	GPE-Great-Britain
+Соединенное Королевство	Соединенное Королевство	LOC	GPE-Great-Britain
+Стив Бейкер	Стив Бейкер	PER	PER-Steve-Baker
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+Филип Ли	Филип Ли	PER	PER-Phillip-Lee
+Хант 	Хант	PER	PER-Jeremy-Hunt
+Хант	Хант	PER	PER-Jeremy-Hunt
+Хитроу	Хитроу	LOC	LOC-Heathrow-Airport
+выхода Соединенного Королевства из ЕС	выход Соединенного Королевства из ЕС	EVT	EVT-Brexit

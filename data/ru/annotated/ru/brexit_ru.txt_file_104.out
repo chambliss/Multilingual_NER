@@ -1,0 +1,68 @@
+ru-104
+Bloomberg	Bloomberg	ORG	ORG-Bloomberg-LP
+Brexit	Brexit	EVT	EVT-Brexit
+Chatham House	Chatham House	ORG	ORG-Chatham-House
+The Times	The Times	PRO	PRO-The-Times
+YouGov	YouGov	ORG	ORG-YouGov
+Ананьева	Ананьева	PER	PER-Elena-Ananieva
+Белфастского соглашения 1998 года	Белфастское соглашение 1998 года	PRO	PRO-The-Belfast-Agreement
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брекзитеры	Брекзитеры	PER	EVT-Brexit
+Британии	Британия	LOC	GPE-Great-Britain
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+ГРУ	ГРУ	ORG	ORG-GRU-(Russian-GU)
+Гэвин Уильямсон	Гэвин Уильямсон	PER	PER-Gavin-Williamson
+Джеймс Шерр	Джеймс Шерр	PER	PER-James-Sherr
+Джереми Корбин	Джереми Корбин	PER	PER-Jeremy-Corbyn
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвис	Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейский союз	Европейский союз	ORG	ORG-European-Union
+Европейскому союзу	Европейский союз	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Елена Ананьева	Елена Ананьева	PER	PER-Elena-Ananieva
+Иана Дункана Смита	Иан Дункан Смит	PER	PER-Iain-Duncan-Smith
+Ирландиями	Ирландии	LOC	GPE-Ireland
+Ирландиями	Ирландии	LOC	GPE-Northern-Ireland
+Ирландской Республикой	Ирландская Республика	LOC	GPE-Ireland
+Кентского университета Великобритании	Кентский университет Великобритании	ORG	ORG-University-of-Kent-UK
+Консервативной партии	Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+Константин Косачев	Константин Косачев	PER	PER-Konstantin-Kosachev
+Корбина	Корбин	PER	PER-Jeremy-Corbyn
+Лейбористской партии	Лейбористская партия	ORG	ORG-Labour-Party-UK
+Лондон	Лондон	LOC	GPE-London
+Лондона	Лондон	LOC	GPE-London
+МИДе	МИД	ORG	ORG-Foreign-Office
+Майкл Говард	Майкл Говард	PER	PER-Michael-Howard
+Москву	Москва	LOC	LOC-Moscow
+Мэй	Мэй	PER	PER-Theresa-May
+Новичок	Новичок	PRO	PRO-Novichok
+Пит Вишарт	Пит Вишарт	PER	PER-Pete-Wishart
+РБК	РБК	ORG	ORG-RBK-Group
+Ричард Саква	Ричард Саква	PER	PER-Richard-Sakwa
+России	Россия	LOC	GPE-Russia
+Россия	Россия	LOC	GPE-Russia
+Саква	Саква	PER	PER-Richard-Sakwa
+Северной Ирландии	Северная Ирландия	LOC	GPE-Northern-Ireland
+Сергея Скрипаля	Сергей Скрипаль	PER	PER-Siergiej-Skripal
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезу Мэй	Тереза Мэй	PER	PER-Theresa-May
+Центра британских исследований Института Европы РАН	Центр британских исследований Института Европы РАН	ORG	ORG-UK-Studies-Center-of-the-RAS-Institute-of-the-Russian-Academy-of-Sciences
+Чекерс	Чекерс	LOC	LOC-Chequers-Court
+Шотландской национальной партии	Шотландская национальная партия	ORG	ORG-Scottish-National-Party
+Юлию	Юлия	PER	PER-Yulia-Skripal
+британского правительства	британское правительство	ORG	ORG-the-UK-Government
+британское правительство	британское правительство	ORG	ORG-the-UK-Government
+закона Магнитского	закон Магнитского	PRO	PRO-Magnitsky-Act
+компромисса Чекерс	компромисс Чекерс	PRO	PRO-Chequers-plan
+консерваторов	консерваторы	PER	ORG-Conservative-and-Unionist-Party-UK
+консерваторы	консерваторы	PER	ORG-Conservative-and-Unionist-Party-UK
+лейбористов	лейбористы	PER	ORG-Labour-Party-UK
+международного комитета Совета Федерации	международный комитет Совета Федерации	ORG	ORG-Federation-Council-Foreign-Affairs-Commit
+правительство Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government
+шотландские националисты	шотландские националисты	PER	ORG-Scottish-National-Party

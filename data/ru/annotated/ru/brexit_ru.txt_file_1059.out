@@ -1,0 +1,9 @@
+ru-1059
+Brexit	Brexit	EVT	EVT-Brexit
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Лондоне	Лондон	LOC	GPE-London
+Терезе Мэй	Тереза Мэй	PER	PER-Theresa-May
+Эймсбери	Эймсбери	LOC	LOC-Amesbury
+консервативной партии Великобритании	консервативная партия Великобритании	ORG	ORG-Conservative-and-Unionist-Party-UK
+правительства Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government

@@ -1,0 +1,16 @@
+ru-1087
+Brexit	Brexit	EVT	EVT-Brexit
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Гитлере	Гитлер	PER	PER-Adolf-Hitler
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+МИД	МИД	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Олимпиадой	Олимпиада	EVT	EVT-Olympics
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+чемпионат мира по футболу в РФ	чемпионат мира по футболу в РФ	EVT	EVT-FIFA-World-Cup

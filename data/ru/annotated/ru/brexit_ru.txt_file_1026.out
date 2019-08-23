@@ -1,0 +1,22 @@
+ru-1026
+BBC	BBC	ORG	ORG-BBC-Ltd
+Bloomberg	Bloomberg	ORG	ORG-Bloomberg-LP
+Brexit	Brexit	EVT	EVT-Brexit
+FT	FT	PRO	PRO-Financial-Times
+Financial Times	Financial Times	PRO	PRO-Financial-Times
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Британию	Британия	LOC	GPE-Great-Britain
+Брюссель	Брюссель	LOC	GPE-Brussles
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+Дэвису	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Мэй	Мэй	PER	PER-Theresa-May
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+британского правительства	британское правительство	ORG	ORG-the-UK-Government
+британском правительстве	британское правительство	ORG	ORG-the-UK-Government
+таможенный союз	таможенный союз	ORG	ORG-European-Union-Customs-Union
+тори	тори	PER	ORG-Conservative-and-Unionist-Party-UK

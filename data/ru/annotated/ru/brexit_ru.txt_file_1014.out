@@ -1,0 +1,22 @@
+ru-1014
+Brexit	Brexit	EVT	EVT-Brexit
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брюсселя	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Дэвис Дэвис	Дэвис Дэвис	PER	PER-David-Davis
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Захарова	Захарова	PER	PER-Maria-Zaharova
+Кремля	Кремль	LOC	LOC-Moscow-Kremlin
+Лондона	Лондон	LOC	GPE-London
+МИД России	МИД России	ORG	ORG-Ministry-of-Foreign-Affairs-Russia
+Мария Захарова	Мария Захарова	PER	PER-Maria-Zaharova
+Москва	Москва	LOC	LOC-Moscow
+Новичок	Новичок	PRO	PRO-Novichok
+Скрипалей	Скрипаль	PER	PER-Yulia-Skripal
+Скрипали	Скрипаль	PER	PER-Siergiej-Skripal
+Скрипали	Скрипаль	PER	PER-Yulia-Skripal
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+ЧМ-2018	ЧМ-2018	EVT	EVT-FIFA-World-Cup
+Эймсбери	Эймсбери	LOC	LOC-Amesbury

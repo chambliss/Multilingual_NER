@@ -1,0 +1,21 @@
+ru-116
+Brexit	Brexit	EVT	EVT-Brexit
+The Telegraph	The Telegraph	PRO	PRO-The-Telegraph
+Англии	Англия	LOC	GPE-England
+Болтон	Болтон	PER	PER-John-Bolton
+Брексит	Брексит	EVT	EVT-Brexit
+Великобританией	Великобритания	LOC	GPE-Great-Britain
+Джон Болтон	Джон Болтон	PER	PER-John-Bolton
+Дональда Трампа	Дональд Трамп	PER	PER-Donald-Trump
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского союза	Европейский союз	ORG	ORG-European-Union
+Европейской исследовательской группы евроскептиков	Европейская исследовательская группа евроскептиков	ORG	ORG-European-Research-Group
+Лондоном	Лондон	LOC	GPE-London
+Марком Седвиллом	Марком Седвиллом	PER	PER-Mark-Sedwill
+Референдум о выходе Англии из европейского союза	Референдум о выходе Англии из европейского союза	EVT	EVT-Brexit-Referendum
+США	США	LOC	GPE-USA
+Трамп	Трамп	PER	PER-Donald-Trump
+Трампа	Трамп	PER	PER-Donald-Trump
+английским	английский	LOC	GPE-England
+английскими	английский	LOC	GPE-England
+брексита	брексит	EVT	EVT-Brexit

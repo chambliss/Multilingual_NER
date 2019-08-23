@@ -1,0 +1,18 @@
+ru-1098
+Brexit	Brexit	EVT	EVT-Brexit
+Британии	Британия	LOC	GPE-Great-Britain
+Брюсселе	Брюссель	LOC	GPE-Brussles
+Брюсселя	Брюссель	LOC	GPE-Brussles
+Великобританией	Великобритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+Еврокомиссии	Еврокомиссия	ORG	ORG-European-Commission
+Европейская Комиссия	Европейская Комиссия	ORG	ORG-European-Commission
+Евросоюзе	Евросоюз	ORG	ORG-European-Union
+Лондона	Лондон	LOC	GPE-London
+Маргаритис Схинас	Маргаритис Схинас	PER	PER-Margaritis-Schinas
+Схинас	Схинас	PER	PER-Margaritis-Schinas
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+переговоров в резиденции Чекерс	переговоры в резиденции Чекерс	EVT	EVT-Chequers-Cabinet-Meeting

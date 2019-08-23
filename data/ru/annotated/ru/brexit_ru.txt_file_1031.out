@@ -1,0 +1,16 @@
+ru-1031
+Brexit	Brexit	EVT	EVT-Brexit
+Nomura	Nomura	ORG	ORG-Nomura-Holdings-Inc
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джордана Рочестера (Jordan Rochester)	Джордан Рочестер (Jordan Rochester)	PER	PER-Jordan-Rochester
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюзу	Евросоюз	ORG	ORG-European-Union
+МОСКВА	МОСКВА	LOC	LOC-Moscow
+ПРАЙМ	ПРАЙМ	ORG	ORG-PRIME-News-Agency
+Рейтер	Рейтер	ORG	ORG-Reuters
+США	США	LOC	GPE-USA
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May

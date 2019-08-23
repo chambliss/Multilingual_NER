@@ -1,0 +1,19 @@
+ru-1041
+Brexit	Brexit	EVT	EVT-Brexit
+Англии	Англия	LOC	GPE-Great-Britain
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Доминика Рааба	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Мэй	Мэй	PER	PER-Theresa-May
+РИА Новости	РИА Новости	ORG	ORG-RIA-Novosti
+РФ	РФ	LOC	GPE-Russia
+Рабб	Рабб	PER	PER-Dominic-Raab
+Стив Бейкер	Стив Бейкер	PER	PER-Steve-Baker
+Суэлла Браверман	Суэлла Браверман	PER	PER-Suella-Braverman
+ТАСС	ТАСС	ORG	ORG-TASS
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+британский Кабмин	британский Кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom
+кабмина	кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom

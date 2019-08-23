@@ -1,0 +1,31 @@
+ru-1024
+"Интерфакс-Украина"	"Интерфакс-Украина"	ORG	ORG-Interfax-Ukraine
+Brexit	Brexit	EVT	EVT-Brexit
+Британии	Британия	LOC	GPE-Great-Britain
+Британия	Британия	LOC	GPE-Great-Britain
+Брюсселе	Брюссель	LOC	GPE-Brussles
+Брюсселю	Брюссель	LOC	GPE-Brussles
+Брюсселя	Брюссель	LOC	GPE-Brussles
+Великобританией	Великобритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Еврокомиссии	Еврокомиссия	ORG	ORG-European-Commission
+Европа	Европа	LOC	LOC-Europe
+Европейская комиссия	Европейская комиссия	ORG	ORG-European-Commission
+Европейского Союза	Европейский Союз	ORG	ORG-European-Union
+Елизавета II	Елизавета II	PER	PER-Queen-Elizabeth-II
+ИнА "Українські Новини"	ИнА "Українські Новини"	ORG	ORG-Ukranian-News-Agency
+Консервативной партии	Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+Лондона	Лондон	LOC	GPE-London
+Маргаритис Схинас	Маргаритис Схинас	PER	PER-Margaritis-Schinas
+ООО "ФОКУС МЕДИА"	ООО "ФОКУС МЕДИА"	ORG	ORG-Focus-Media
+Рааб	Рааб	PER	PER-Dominic-Raab
+Схинас	Схинас	PER	PER-Margaritis-Schinas
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+ФОКУС	ФОКУС	PRO	PRO-Focus-magazine
+британского правительства	британское правительство	ORG	ORG-the-UK-Government
+британском правительстве	британское правительств	ORG	ORG-the-UK-Government

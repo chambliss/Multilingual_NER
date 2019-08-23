@@ -1,0 +1,35 @@
+ru-1070
+Brexit	Brexit	EVT	EVT-Brexit
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Грег Хэндс	Грег Хэндс	PER	PER-Greg-Hands
+Департаменте по выходу Британии из ЕС	Департамент по выходу Британии из ЕС	ORG	ORG-Ministry-of-Brexity
+Джонсоном	Джонсон	PER	PER-Boris-Johnson
+Дональд Туск	Дональд Туск	PER	PER-Donald-Tusk
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвисом	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейская комиссия	Европейская комиссия	ORG	ORG-European-Commission
+Европейский Союз	Европейский Союз	ORG	ORG-European-Union
+Европейского Союза	Европейский Союз	ORG	ORG-European-Union
+Европейского парламента	Европейский парламент	ORG	ORG-European-Parlament
+Елизавета II	Елизавета II	PER	PER-Queen-Elizabeth-II
+Ирландией	Ирландия	LOC	GPE-Ireland
+Киев	Киев	LOC	GPE-Kiev
+Северной Ирландией	Северная Ирландия	LOC	GPE-Northern-Ireland
+Совет Европейского союза	Совет Европейского союза	ORG	ORG-European-Council
+Совета ЕС	Совет ЕС	ORG	ORG-European-Council
+Совету ЕС	Совет ЕС	ORG	ORG-European-Council
+Соглашения о выходе Великобритании из Европейского Союза	Соглашение о выходе Великобритании из Европейского Союза	PRO	PRO-Brexit-withdrawal-agreement
+Соглашения	Соглашение	PRO	PRO-Brexit-withdrawal-agreement
+Соединенного Королевства	Соединенное Королевство	LOC	GPE-Great-Britain
+Соединенное Королевство	Соединенное Королевство	LOC	GPE-Great-Britain
+Стив Бейкер	Стив Бейкер	PER	PER-Steve-Baker
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Туск	Туск	PER	PER-Donald-Tusk
+Филип Ли	Филип Ли	PER	PER-Phillip-Lee
+Хитроу	Хитроу	LOC	LOC-Heathrow-Airport
+британском правительстве	британское правительство	ORG	ORG-the-UK-Government
+плана по Brexit	план по Brexit	PRO	PRO-Brexit-withdrawal-agreement

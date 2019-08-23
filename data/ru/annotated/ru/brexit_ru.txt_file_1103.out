@@ -1,0 +1,17 @@
+ru-1103
+Brexit	Brexit	EVT	EVT-Brexit
+Англии	Англии	LOC	GPE-Great-Britain
+Англии	Англия	LOC	GPE-England
+Англии	Англия	LOC	GPE-Great-Britain
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Доминика Рааба	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+Елизавета II	Елизавета II	PER	PER-Queen-Elizabeth-II
+Кабмин	Кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom
+РИА Новости	РИА Новости	ORG	ORG-RIA-Novosti
+Рааб	Рааб	PER	PER-Dominic-Raab
+Терезе Мэй	Тереза Мэй	PER	PER-Theresa-May
+европейского союза	европейский союз	ORG	ORG-European-Union

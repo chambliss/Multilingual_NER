@@ -1,0 +1,28 @@
+ru-1037
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брекзита	Брекзит	EVT	EVT-Brexit
+Брекзиту	Брекзит	EVT	EVT-Brexit
+Британия	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+Дэвисом	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейским союзом	Европейский союз	ORG	ORG-European-Union
+Европейского союза	Европейский союз	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+Консервативной партии	Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+Лейбористской партии	Лейбористская партия	ORG	ORG-Labour-Party-UK
+Лондона	Лондон	LOC	GPE-London
+Питер Бон	Питер Бон	PER	PER-Peter-Bone
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+британского правительства	британское правительство	ORG	ORG-the-UK-Government
+британцев	британцы	PER	GPE-Great-Britain
+европейцами	европейцы	PER	LOC-Europe
+министерства "Брекзита"	министерство "Брекзита"	ORG	ORG-Ministry-of-Brexity
+референдума	референдум	EVT	EVT-Brexit-Referendum

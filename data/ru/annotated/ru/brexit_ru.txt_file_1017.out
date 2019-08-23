@@ -1,0 +1,16 @@
+ru-1017
+Brexit	Brexit	EVT	EVT-Brexit
+The Guardian	The Guardian	PRO	PRO-The-Guardian
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Бориса Джонсона	PER	PER-Boris-Johnson
+Бориса	Борис	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+КИЕВ	КИЕВ	LOC	GPE-Kiev
+МИД Соединенного Королевства	МИД Соединенного Королевства	ORG	ORG-Foreign-Office
+Стив Бейкер	Стив Бейкер	PER	PER-Steve-Baker
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+УНН	УНН	ORG	ORG-UNN

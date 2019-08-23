@@ -1,0 +1,34 @@
+ru-1158
+ Скрипалей	Скрипали	PER	PER-Siergiej-Skripal
+"делу Скрипалей"	"дело Скрипалей"	EVT	EVT-Scripals'-poisoning
+Alexey_Pushkov	Alexey_Pushkov	PER	PER-Aleksey-Pushkov
+Brexit	Brexit	EVT	EVT-Brexit
+RT.	RT.	PRO	PRO-RT (Russia Today)
+Sky News	Sky News	PRO	PRO-Sky-News-TV
+Twitter	Twitter	PRO	PRO-Twitter
+Алексей Пушков	Алексей Пушков	PER	PER-Aleksey-Pushkov
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Британия	Британия	LOC	GPE-Great-Britain
+Брутер	Брутер	PER	PER-Vladimir-Bruter
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Владимир Брутер	Владимир Брутер	PER	PER-Vladimir-Bruter
+Джереми Хант	Джереми Хант	PER	PER-Jeremy-Hunt
+Джереми Ханта	Джереми Хант	PER	PER-Jeremy-Hunt
+Дэвидом Дэвисом	Дэвид Дэвис	PER	PER-David-Davis
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+МИД Британии	МИД Британии	ORG	ORG-Foreign-Office
+МИД	МИД	ORG	ORG-Foreign-Office
+Международного института гуманитарно-политических исследований	Международный институт гуманитарно-политических исследований	ORG	ORG-International-Institute-for-humanities-an
+Пушкова	Пушков	PER	PER-Aleksey-Pushkov
+России	Россия	LOC	GPE-Russia
+Российский	Российский	LOC	GPE-Russia
+Скрипалей	Скрипали	PER	PER-Yulia-Skripal
+Солсбери	Солсбери	LOC	GPE-Salisbury
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Хант	Хант	PER	PER-Jeremy-Hunt
+британского МИД	британский МИД	ORG	ORG-Foreign-Office
+британской	британский	LOC	GPE-Great-Britain
+британском Форин Офисе	британский Форин Офис	ORG	ORG-Foreign-Office
+правительству Терезы Мэй	правительство Терезы Мэй	ORG	ORG-the-UK-Government

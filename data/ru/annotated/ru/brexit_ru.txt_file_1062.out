@@ -1,0 +1,25 @@
+ru-1062
+Brexit	Brexit	EVT	EVT-Brexit
+Facebook	Facebook	PRO	PRO-Facebook
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Джонсону	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Захарова	Захарова	PER	PER-Maria-Zaharova
+Кремля	Кремль	LOC	LOC-Moscow-Kremlin
+Лермонтова	Лермонтов	PER	PER-Mikhail-Lermontov
+Лондона	Лондон	LOC	GPE-London
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+МИД	МИД	ORG	ORG-Foreign-Office
+Мария Захарова	Мария Захарова	PER	PER-Maria-Zaharova
+Мэй	Мэй	PER	PER-Theresa-May
+Новичок	Новичок	PRO	PRO-Novichok
+Пушкина	Пушкин	PER	PER-Alexander-Pushkin
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+ЧМ-2018	ЧМ-2018	EVT	EVT-FIFA-World-Cup
+российского МИДа	российский МИД	ORG	ORG-Ministry-of-Foreign-Affairs-Russia

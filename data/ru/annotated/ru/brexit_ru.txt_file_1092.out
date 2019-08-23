@@ -1,0 +1,17 @@
+ru-1092
+Brexit	Brexit	EVT	EVT-Brexit
+Telegram	Telegram	PRO	PRO-Telegram
+Англии	Англия	LOC	GPE-Great-Britain
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Дэвис	Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+МИД	МИД	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Соединенное Королевство	Соединенное Королевство	LOC	GPE-Great-Britain
+Соединенном Королевстве	Соединенное Королевство	LOC	GPE-Great-Britain
+европейского союза	европейский союз	ORG	ORG-European-Union
+кабинете Мэй	кабинет Мэй	ORG	ORG-Cabinet-of-the-United-Kingdom

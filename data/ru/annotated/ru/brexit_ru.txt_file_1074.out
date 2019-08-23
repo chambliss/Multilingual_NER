@@ -1,0 +1,21 @@
+ru-1074
+Brexit	Brexit	EVT	EVT-Brexit
+Twitter	Twitter	PRO	PRO-Twitter
+Борисом Джонсоном	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Британия	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Джонсоном	Джонсон	PER	PER-Boris-Johnson
+Дональд Туск	Дональд Туск	PER	PER-Donald-Tusk
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвидом Дэвисом	Дэвид Дэвис	PER	PER-David-Davis
+Дэвисом	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского совета	Европейский совет	ORG	ORG-European-Council
+Евросоюз	Евросоюз	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+МИД	МИД	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+план по выходу из ЕС	план по выходу из ЕС	PRO	PRO-Brexit-withdrawal-agreement

@@ -1,0 +1,24 @@
+ru-1084
+Brexit	Brexit	EVT	EVT-Brexit
+Twitter	Twitter	PRO	PRO-Twitter
+Б.Джонсон	Б.Джонсон	PER	PER-Boris-Johnson
+Б.Джонсона	Б.Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брюсселе	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Д.Дэвис	Д.Дэвис	PER	PER-David-Davis
+Д.Туск	Д.Туск	PER	PER-Donald-Tusk
+Джонсоном	Джонсон	PER	PER-Boris-Johnson
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дональд Туск	Дональд Туск	PER	PER-Donald-Tusk
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+Дэвисом	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского совета	Европейский совет	ORG	ORG-European-Council
+Европейского союза	Европейский союз	ORG	ORG-European-Union
+Евросовета	Евросовет	ORG	ORG-European-Council
+МИД	МИД	ORG	ORG-Foreign-Office
+Соединенного Королевства	Соединенное Королевство	LOC	GPE-Great-Britain
+Туск	Туск	PER	PER-Donald-Tusk
+внешнеполитического ведомства	внешнеполитическое ведомство	ORG	ORG-Foreign-Office
+правительство Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government

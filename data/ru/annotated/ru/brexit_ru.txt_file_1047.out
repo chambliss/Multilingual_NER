@@ -1,0 +1,32 @@
+ru-1047
+Brexit	Brexit	EVT	EVT-Brexit
+The Guardian	The Guardian	PRO	PRO-The-Guardian
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса	Борис	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Департаменте по выходу Британии из ЕС	Департамент по выходу Британии из ЕС	ORG	ORG-Ministry-of-Brexity
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Джонсоном	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейская комиссия	Европейская комиссия	ORG	ORG-European-Commission
+Европейский Союз	Европейский Союз	ORG	ORG-European-Union
+Европейского Союза	Европейский Союз	ORG	ORG-European-Union
+Европейского парламента	Европейский парламент	ORG	ORG-European-Parlament
+Елизавета II	Елизавета II	PER	PER-Queen-Elizabeth-II
+Ирландией	Ирландия	LOC	GPE-Ireland
+Лондон	Лондон	LOC	GPE-London
+МИД Британии	МИД Британии	ORG	ORG-Foreign-Office
+Северной Ирландией	Северная Ирландия	LOC	GPE-Northern-Ireland
+Совет Европейского союза	Совет Европейского союза	ORG	ORG-European-Council
+Совету ЕС	Совет ЕС	ORG	ORG-European-Council
+Соглашения о выходе Великобритании из Европейского Союза	Соглашение о выходе Великобритании из Европейского Союза	PRO	PRO-Brexit-withdrawal-agreement
+Соглашения	Соглашение	PRO	PRO-Brexit-withdrawal-agreement
+Соединенного Королевства	Соединенное Королевство	LOC	GPE-Great-Britain
+Соединенное Королевство	Соединенное Королевство	LOC	GPE-Great-Britain
+Стив Бейкер	Стив Бейкер	PER	PER-Steve-Baker
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+британским Кабинетом министров	британский Кабинет министров	ORG	ORG-Cabinet-of-the-United-Kingdom

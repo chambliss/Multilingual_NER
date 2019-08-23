@@ -1,0 +1,45 @@
+ru-10
+Brexit	Brexit	EVT	EVT-Brexit
+Альбиона	Альбион	LOC	GPE-Great-Britain
+Альбионе	Альбион	LOC	GPE-Great-Britain
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Британия	Британия	LOC	GPE-Great-Britain
+Брюсселе	Брюссель	LOC	GPE-Brussles
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Брюссель	Брюссель	LOC	GPE-Brussles
+Брюсселю	Брюссель	LOC	GPE-Brussles
+Брюсселя	Брюссель	LOC	GPE-Brussles
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+ЕС	ЕС	ORG	ORG-European-Union
+Еврокомиссия	Еврокомиссия	ORG	ORG-European-Commission
+Европа	Европа	LOC	LOC-Europe
+Европе	Европа	LOC	LOC-Europe
+Европейскому	Европейский	ORG	ORG-European-Parlament
+Европой	Европа	LOC	LOC-Europe
+Европы	Европа	LOC	LOC-Europe
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+Консервативной партии	Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+Ла-Манша	Ла-Манш	LOC	LOC-English-Channel
+Лондон	Лондон	LOC	GPE-London
+Лондона	Лондон	LOC	GPE-London
+Лондоне	Лондон	LOC	GPE-London
+Лондону	Лондон	LOC	GPE-London
+Международного валютного фонда	Международный валютный фонд	ORG	ORG-International-Monetary-Fund
+Мишелю Барнье	Мишель Барнье	PER	PER-Michel-Barnier
+Мэй	Мэй	PER	PER-Theresa-May
+Себастьян Курц	Себастьян Курц	PER	PER-Sebastian-Kurz
+Северную Ирландию	Северная Ирландия	LOC	GPE-Northern-Ireland
+Соединенного Королевства	Соединенное Королевство	LOC	GPE-Great-Britain
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезу	Тереза	PER	PER-Theresa-May
+брекзит	брекзит	EVT	EVT-Brexit
+брекзита	брекзит	EVT	EVT-Brexit
+брекзиту	брекзит	EVT	EVT-Brexit
+брексит	брексит	EVT	EVT-Brexit
+британском парламенте	британский парламент	ORG	ORG-British-Parlament
+британскому парламентам	британский парламент	ORG	ORG-British-Parlament
+лейбористы	лейборист	ORG	ORG-Labour-Party-UK
+тори	тори	ORG	ORG-Conservative-and-Unionist-Party-UK
