@@ -1,0 +1,18 @@
+ru-1022
+Brexit	Brexit	EVT	EVT-Brexit
+Telegram	Telegram	PRO	PRO-Telegram
+telegram	telegram	PRO	PRO-Telegram
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского Союза	Европейский Союз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+Консервативной партии	Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+Корреспондент.net	Корреспондент.net	PRO	PRO-Korrespondent-net
+Рааб	Рааб	PER	PER-Dominic-Raab
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+британского правительства	британское правительство	ORG	ORG-the-UK-Government

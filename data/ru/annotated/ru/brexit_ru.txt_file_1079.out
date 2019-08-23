@@ -1,0 +1,17 @@
+ru-1079
+Brexit	Brexit	EVT	EVT-Brexit
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Великобританией	Великобритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европой	Европа	LOC	LOC-Europe
+Лондона	Лондон	LOC	GPE-London
+Лондоном	Лондон	LOC	GPE-London
+Мэй	Мэй	PER	PER-Theresa-May
+Палате общин британского парламента	Палата общин британского парламента	ORG	ORG-House-of-Commons
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+референдума	референдум	EVT	EVT-Brexit-Referendum

@@ -1,0 +1,17 @@
+ru-108
+Brexit (Брексит)	Brexit (Брексит)	EVT	EVT-Brexit
+Times	Times	PRO	PRO-The-Times
+Twitter	Twitter	PRO	PRO-Twitter
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джереми Хант	Джереми Хант	PER	PER-Jeremy-Hunt
+Джереми Ханта	Джереми Хант	PER	PER-Jeremy-Hunt
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Кабмина	Кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+МИД	МИД	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Ракурс	Ракурс	PRO	PRO-Racurs-ua
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May

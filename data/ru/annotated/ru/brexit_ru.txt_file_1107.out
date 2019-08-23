@@ -1,0 +1,14 @@
+ru-1107
+Brexit	Brexit	EVT	EVT-Brexit
+Белую книгу	Белая книга	PRO	PRO-Brexit-withdrawal-agreement
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Доминика Рааба	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+Лондона	Лондон	LOC	GPE-London
+Мэй	Мэй	PER	PER-Theresa-May
+Рааба	Рааб	PER	PER-Dominic-Raab
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May

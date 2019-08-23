@@ -1,0 +1,16 @@
+ru-1085
+Brexit	Brexit	EVT	EVT-Brexit
+Sky News	Sky News	PRO	PRO-Sky-News-TV
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса	Борис	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Д.Дэвис	Д.Дэвис	PER	PER-David-Davis
+Даунинг-Стрит	Даунинг-Стрит	LOC	LOC-Downing-Street
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+ИФ	ИФ	ORG	ORG-Interfax
+Т.Мэй	Т.Мэй	PER	PER-Theresa-May
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May

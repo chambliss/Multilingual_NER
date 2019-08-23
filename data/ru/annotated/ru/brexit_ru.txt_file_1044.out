@@ -1,0 +1,12 @@
+ru-1044
+Brexit	Brexit	EVT	EVT-Brexit
+Англии	Англии	LOC	GPE-Great-Britain
+Англии	Англия	LOC	GPE-Great-Britain
+Англия	Англия	LOC	GPE-Great-Britain
+Дэвис	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Рааб	Рааб	PER	PER-Dominic-Raab
+Рабу	Раб	PER	PER-Dominic-Raab
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+кабмина	кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom
+министерства жилищного строительства	министерство жилищного строительства	ORG	ORG-Ministry-of-Housing-Communities-and-Local

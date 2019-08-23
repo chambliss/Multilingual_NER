@@ -1,0 +1,25 @@
+ru-1027
+Бельгии	Бельгия	LOC	GPE-Belgium
+Брекзиту	Брекзит	EVT	EVT-Brexit
+Британцы	Британцы	PER	GPE-Great-Britain
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Ги Верхофстадт	Ги Верхофстадт	PER	PER-Guy-Verhofstadt
+Доминика Раба	Доминик Раб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европарламента	Европарламент	ORG	ORG-European-Parlament
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Лондон	Лондон	LOC	GPE-London
+Лондона	Лондон	LOC	GPE-London
+Лондоном	Лондон	LOC	GPE-London
+Мэй	Мэй	PER	PER-Theresa-May
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+повторный референдум	повторный референдум	EVT	EVT-Brexit-Repeated-Referendum
+правительство Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government
+референдуме	референдум	EVT	EVT-Brexit-Referendum
+суда ЕС	суд ЕС	ORG	ORG-European-Court-of-Justice
+таможенного союза	таможенный союз	ORG	ORG-European-Union-Customs-Union

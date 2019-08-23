@@ -1,0 +1,14 @@
+ru-1096
+Brexit	Brexit	EVT	EVT-Brexit
+twitter	twitter	PRO	PRO-Twitter
+Англии	Англия	LOC	GPE-Great-Britain
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Доминика Рааба	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Рааб	Рааб	PER	PER-Dominic-Raab
+Рааба	Рааб	PER	PER-Dominic-Raab
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+европейского союза	европейский союз	ORG	ORG-European-Union
+правительства Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government

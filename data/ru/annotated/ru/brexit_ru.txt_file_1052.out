@@ -1,0 +1,23 @@
+ru-1052
+BBC	BBC	ORG	ORG-BBC-Ltd
+Brexit	Brexit	EVT	EVT-Brexit
+Reuters	Reuters	ORG	ORG-Reuters
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Брюсселю	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Доминика Рааба	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Лондоном	Лондон	LOC	GPE-London
+Мэй	Мэй	PER	PER-Theresa-May
+Рааб	Рааб	PER	PER-Dominic-Raab
+Рааба	Рааб	PER	PER-Dominic-Raab
+Северной Ирландией	Северная Ирландия	LOC	GPE-Northern-Ireland
+Тереза Май	Тереза Май	PER	PER-Theresa-May
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+британского кабмина	британский кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom
+референдума	референдум	EVT	EVT-Brexit-Referendum
+референдуме 2016 года	референдум 2016 года	EVT	EVT-Brexit-Referendum
+соглашения о Brexit	соглашение о Brexit	PRO	PRO-Brexit-withdrawal-agreement

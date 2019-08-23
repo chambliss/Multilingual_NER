@@ -1,0 +1,26 @@
+ru-1019
+Brexit	Brexit	EVT	EVT-Brexit
+Coca-Cola	Coca-Cola	ORG	ORG-The-Coca-Cola-Company
+Nestle	Nestle	ORG	ORG-Nestle-SA
+Procter & Gamble	Procter & Gamble	ORG	ORG-The-Procter-&-Gamble-Company
+Unilever	Unilever	ORG	ORG-Unilever
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Британия	Британия	LOC	GPE-Great-Britain
+Брюсселя	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Владимир Путин	Владимир Путин	PER	PER-Vladimir-Putin
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+Министерства иностранных дел Британии	Министерство иностранных дел Британии	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Новичок	Новичок	PRO	PRO-Novichok
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+УРА-Информ	УРА-Информ	ORG	ORG-URA-Inform
+кабинета	кабинет	ORG	ORG-Cabinet-of-the-United-Kingdom
+таможенный союз	таможенный союз	ORG	ORG-European-Union-Customs-Union

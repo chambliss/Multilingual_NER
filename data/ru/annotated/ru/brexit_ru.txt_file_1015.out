@@ -1,0 +1,18 @@
+ru-1015
+Brexit	Brexit	EVT	EVT-Brexit
+Борис Джoнсон	Борис Джoнсон	PER	PER-Boris-Johnson
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Брюсселю	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+Западных Балкан	Западные Балканы	LOC	LOC-Balkans
+Консервативной партии	Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+Лондоне	Лондон	LOC	GPE-London
+МИД Германии	МИД Германии	ORG	ORG-Ministry-of-Foreign-Affairs-Germany
+Мэй	Мэй	PER	PER-Theresa-May
+Польши	Польши	ORG	ORG-Ministry-of-Foreign-Affairs-Poland
+Терезу Мэй	Тереза Мэй	PER	PER-Theresa-May
+внешнеполитического ведомства Великобритании	внешнеполитическое ведомство Великобритании	ORG	ORG-Foreign-Office
+таможенному сoюзу ЕС	таможенный союз ЕС	ORG	ORG-European-Union-Customs-Union

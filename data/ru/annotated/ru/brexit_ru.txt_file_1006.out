@@ -1,0 +1,14 @@
+ru-1006
+Brexit	Brexit	EVT	EVT-Brexit
+Facebook	Facebook	PRO	PRO-Facebook
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Захарова	Захарова	PER	PER-Maria-Zaharova
+Захаровой	Захарова	PER	PER-Maria-Zaharova
+МИД России	МИД России	ORG	ORG-Ministry-of-Foreign-Affairs-Russia
+Мария Захарова	Мария Захарова	PER	PER-Maria-Zaharova
+Мэй	Мэй	PER	PER-Theresa-May
+Т. Мэй	Т. Мэй	PER	PER-Theresa-May

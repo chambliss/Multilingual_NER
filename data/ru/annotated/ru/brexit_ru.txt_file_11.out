@@ -1,0 +1,21 @@
+ru-11
+Brexit	Brexit	EVT	EVT-Brexit
+Reuters	Reuters	ORG	ORG-Reuters
+«Брекзита»	Брекзит	EVT	EVT-Brexit
+«Брексите»	Брексит	EVT	EVT-Brexit
+Англии	Англия	LOC	GPE-Great-Britain
+Брюсселю	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+ЕС	ЕС	ORG	ORG-European-Union
+Зальцбурге	Зальцбург	LOC	GPE-Salzburg
+Ирландией	Ирландия	LOC	GPE-Ireland
+Консервативной партии	Консервативная партии	ORG	ORG-Conservative-and-Unionist-Party-UK
+Лондона	Лондон	LOC	GPE-London
+Лондону	Лондон	LOC	GPE-London
+Меркель	Меркель	PER	PER-Angela-Merkel
+Мишелю Барнье	Мишель Барнье	PER	PER-Michel-Barnier
+Мэй	Мэй	PER	PER-Theresa-May
+Северной Ирландией	Северная Ирландия	LOC	GPE-Northern-Ireland
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Туска	Туск	PER	PER-Donald-Tusk

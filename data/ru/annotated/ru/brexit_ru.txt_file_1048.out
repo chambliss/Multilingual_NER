@@ -1,0 +1,20 @@
+ru-1048
+Brexit	Brexit	EVT	EVT-Brexit
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Борису Джонсону	Борис Джонсон	PER	PER-Boris-Johnson
+Брюсселем	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+британский кабинет министров	британский кабинет министров	ORG	ORG-Cabinet-of-the-United-Kingdom
+британского МИДа	британский МИД	ORG	ORG-Foreign-Office
+правительства Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government

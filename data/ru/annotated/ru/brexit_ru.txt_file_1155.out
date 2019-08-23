@@ -1,0 +1,26 @@
+ru-1155
+Brexit 	Brexit	EVT	EVT-Brexit
+Англии 	Англия	LOC	GPE-England
+Б.Джонсон	Б.Джонсон	PER	PER-Boris-Johnson
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Британии 	Британия	LOC	GPE-Great-Britain
+Великобритании 	Великобритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Дж.Хант	Дж.Хант	PER	PER-Jeremy-Hunt
+Дж.Ханта	Дж.Хант	PER	PER-Jeremy-Hunt
+Джереми Райт	Джереми Райт	PER	PER-Jeremy Wright
+Джереми Хант	Джереми Хант	PER	PER-Jeremy-Hunt
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвида Кэмерона	Дэвид Кэмерон	PER	PER-David-Cameron
+ЕС	ЕС	ORG	ORG-European-Union
+Консервативной партии	Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+МИД 	МИД 	ORG	ORG-Foreign-Office
+Мэттью Хэнкок	Мэттью Хэнкок	PER	PER-Matthew Hancock
+Олимпийских игр	Олимпийские игры	EVT	EVT-2012-Summer_Olympics
+Т.Мэй	Т.Мэй	PER	PER-Theresa-May
+Уэльса 	Уэльс	LOC	GPE-Wales
+британского МИД	британский МИД	ORG	ORG-Foreign-Office
+кабинете 	кабинет	ORG	ORG-Cabinet-of-the-United-Kingdom
+правительство Британии	правительство Британии	ORG	ORG-the-UK-Government
+референдума о выходе Британии из ЕС в 2016 году	референдум о выходе Британии из ЕС в 2016 году	EVT	EVT-Brexit-Referendum

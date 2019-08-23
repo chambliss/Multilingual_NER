@@ -1,0 +1,40 @@
+ru-105
+Brexit	Brexit	EVT	EVT-Brexit
+Nigel Farage	Nigel Farage	PER	PER-Nigel-Farage
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Брекзит	Брекзит	EVT	EVT-Brexit
+Брекзита	Брекзит	EVT	EVT-Brexit
+Брекзитом	Брекзит	EVT	EVT-Brexit
+Британии	Британия	LOC	GPE-Great-Britain
+Великобританией	Великобритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Даунинг стрит	Даунинг стрит	LOC	LOC-Downing-Street
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Джонсоном	Джонсон	PER	PER-Boris-Johnson
+Дональд Туск	Дональд Туск	PER	PER-Donald-Tusk
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвид	Дэвид	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+Дэвисом	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского совета	Европейский совет	ORG	ORG-European-Council
+Европейского союза	Европейский союз	ORG	ORG-European-Union
+Европейского суда	Европейский суд	ORG	ORG-European-Court-of-Justice
+Ирландией	Ирландия	LOC	GPE-Ireland
+Ирландия	Ирландия	LOC	GPE-Ireland
+Лондоне	Лондон	LOC	GPE-London
+Мэй	Мэй	PER	PER-Theresa-May
+Найджел Фарадж	Найджел Фарадж	PER	PER-Nigel-Farage
+Соединенное Королевство	Соединенное Королевство	LOC	GPE-Great-Britain
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Чекерсе	Чекерс	LOC	LOC-Chequers-Court
+консерваторов	консерваторы	PER	ORG-Conservative-and-Unionist-Party-UK
+правительство Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government
+референдума	референдум	EVT	EVT-Brexit-Referendum
+референдуме	референдум	EVT	EVT-Brexit-Referendum
+таможенный союз	таможенный союз	ORG	ORG-European-Union-Customs-Union
+твиттере	твиттер	PRO	PRO-Twitter

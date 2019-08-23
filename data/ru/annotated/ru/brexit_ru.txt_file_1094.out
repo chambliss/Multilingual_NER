@@ -1,0 +1,17 @@
+ru-1094
+Brexit	Brexit	EVT	EVT-Brexit
+Facebook	Facebook	PRO	PRO-Facebook
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Захарова	Захарова	PER	PER-Maria-Zaharova
+Захаровой	Захарова	PER	PER-Maria-Zaharova
+Кремля	Кремль	LOC	LOC-Moscow-Kremlin
+МИД	МИД	ORG	ORG-Foreign-Office
+Новичок	Новичок	PRO	PRO-Novichok
+России	Россия	LOC	GPE-Russia
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+ЧМ-2018	ЧМ-2018	EVT	EVT-FIFA-World-Cup
+отравления в Эймсбери	отравление в Эймсбери	EVT	EVT-Amesbury-poisoning

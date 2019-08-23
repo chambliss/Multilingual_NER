@@ -1,0 +1,9 @@
+ru-1116
+Brexit	Brexit	EVT	EVT-Brexit
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсона 	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+МИД	МИД	ORG	ORG-Foreign-Office
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+выходу Великобритании из Евросоюза	выход Великобритании из Евросоюза	EVT	EVT-Brexit

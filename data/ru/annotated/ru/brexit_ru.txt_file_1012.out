@@ -1,0 +1,18 @@
+ru-1012
+Brexit	Brexit	EVT	EVT-Brexit
+REGNUM	REGNUM	ORG	ORG-REGNUM-News-Agency
+Англии	Англия	LOC	GPE-England
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Владимир Васильев	Владимир Васильев	PER	PER-Vladimir-Vasilyev
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+ИА REGNUM	ИА REGNUM	ORG	ORG-REGNUM-News-Agency
+Мэй	Мэй	PER	PER-Theresa-May
+Россией	Россия	LOC	GPE-Russia
+России	Россия	LOC	GPE-Russia
+Скрипалей	Скрипали	PER	PER-Siergiej-Skripal
+Скрипалей	Скрипали	PER	PER-Yulia-Skripal
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+британского правительства	британское правительство	ORG	ORG-the-UK-Government
+чемпионат мира по футболу	чемпионат мира по футболу	EVT	EVT-FIFA-World-Cup

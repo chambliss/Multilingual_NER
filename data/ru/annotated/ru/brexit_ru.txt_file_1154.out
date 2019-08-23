@@ -1,0 +1,32 @@
+ru-1154
+Brexit 	Brexit	EVT	EVT-Brexit
+Brexit	Brexit	EVT	EVT-Brexit
+Sky News	Sky News	PRO	PRO-Sky-News-TV
+Англии 	Англия	LOC	GPE-England
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брюсселе 	Брюссель	LOC	GPE-Brussles
+Великобритании 	Великобритания	LOC	GPE-Great-Britain
+ГРУ 	ГРУ	ORG	ORG-GRU-(Russian-GU)
+Джереми Райт	Джереми Райт	PER	PER-Jeremy Wright
+Джереми Хант	Джереми Хант	PER	PER-Jeremy-Hunt
+Джонсона 	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Лондона 	Лондон	LOC	GPE-London
+МИД 	МИД	ORG	ORG-Foreign-Office
+Минкультуры	Минкультуры	ORG	ORG-Ministry of Culture-UK
+Мэй 	Мэй	PER	PER-Theresa-May
+Мэтт Хэнкок	Мэтт Хэнкок	PER	PER-Matthew Hancock
+Сергея Скрипаля	Сергей Скрипаль	PER	PER-Siergiej-Skripal
+Скрипалей	Скрипали	PER	PER-Siergiej-Skripal
+Скрипалей	Скрипали	PER	PER-Yulia-Skripal
+Соединенного Королевства	Соединенное Королевство	LOC	GPE-Great-Britain
+Солсбери	Солсбери	LOC	GPE-Salisbury
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Уэльса 	Уэльс	LOC	GPE-Wales
+Ханат 	Хант	PER	PER-Jeremy-Hunt
+Хант 	Хант	PER	PER-Jeremy-Hunt
+британских 	британский	LOC	GPE-Great-Britain
+британского МИД	британский МИД	ORG	ORG-Foreign-Office
+британской 	британский	LOC	GPE-Great-Britain

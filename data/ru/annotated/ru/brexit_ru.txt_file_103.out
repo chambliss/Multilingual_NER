@@ -1,0 +1,18 @@
+ru-103
+Brexit	Brexit	EVT	EVT-Brexit
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брекситу	Брексит	EVT	EVT-Brexit
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Джереми Хант	Джереми Хант	PER	PER-Jeremy-Hunt
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+Лондона	Лондон	LOC	GPE-London
+МИДа	МИД	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+РИА Новости	РИА Новости	ORG	ORG-RIA-Novosti
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Ъ	ъ	PRO	PRO-Kommersant
+правительства Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government

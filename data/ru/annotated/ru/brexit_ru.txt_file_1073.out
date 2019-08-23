@@ -1,0 +1,40 @@
+ru-1073
+Brexit	Brexit	EVT	EVT-Brexit
+Facebook	Facebook	PRO	PRO-Facebook
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брюсселя	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дональда Туска	Дональд Туск	PER	PER-Donald-Tusk
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвис	Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+Дэвисом	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского совета	Европейский совет	ORG	ORG-European-Council
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Захарова	Захарова	PER	PER-Maria-Zaharova
+Кремля	Кремль	LOC	LOC-Moscow-Kremlin
+Лондона	Лондон	LOC	GPE-London
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+МИД РФ	МИД РФ	ORG	ORG-Ministry-of-Foreign-Affairs-Russia
+МИД	МИД	ORG	ORG-Foreign-Office
+Мария Захарова	Мария Захарова	PER	PER-Maria-Zaharova
+Мэй	Мэй	PER	PER-Theresa-May
+НАТО	НАТО	ORG	ORG-NATO
+Новичок	Новичок	PRO	PRO-Novichok
+Скрипали	Скрипали	PER	PER-Siergiej-Skripal
+Скрипали	Скрипали	PER	PER-Yulia-Skripal
+Соединенного Королевства	Соединенное Королевство	LOC	GPE-Great-Britain
+Соединенное Королевство	Соединенное Королевство	LOC	GPE-Great-Britain
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Туск	Туск	PER	PER-Donald-Tusk
+ЧМ-2018	ЧМ-2018	EVT	EVT-FIFA-World-Cup
+Эймсбери	Эймсбери	LOC	LOC-Amesbury
+британского правительства	британское правительство	ORG	ORG-the-UK-Government
+британском кабинете министров	британский кабинет министров	ORG	ORG-Cabinet-of-the-United-Kingdom
+российского МИД	российский МИД	ORG	ORG-Ministry-of-Foreign-Affairs-Russia

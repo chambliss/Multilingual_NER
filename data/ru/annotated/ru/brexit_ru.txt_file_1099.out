@@ -1,0 +1,17 @@
+ru-1099
+Brexit	Brexit	EVT	EVT-Brexit
+CNN	CNN	ORG	ORG-CNN
+Британия	Британия	LOC	GPE-Great-Britain
+Брюссель	Брюссель	LOC	GPE-Brussles
+Брюсселю	Брюссель	LOC	GPE-Brussles
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дональд Туск	Дональд Туск	PER	PER-Donald-Tusk
+Дэвис	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Лондон	Лондон	LOC	GPE-London
+Рааб	Рааб	PER	PER-Dominic-Raab
+Северной Ирландией	Северная Ирландия	LOC	GPE-Northern-Ireland
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Украина	Украина	LOC	GPE-Ukraine

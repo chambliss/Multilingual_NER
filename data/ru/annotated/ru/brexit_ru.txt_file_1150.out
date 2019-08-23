@@ -1,0 +1,26 @@
+ru-1150
+"Голосуй за выход"	"Голосуй за выход"	EVT	EVT-Vote Leave Campaign
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании 	Великобритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джереми Хант	Джереми Хант	PER	PER-Jeremy-Hunt
+Джонсон 	Джонсон	PER	PER-Boris-Johnson
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Джонсону	Джонсон	PER	PER-Boris-Johnson
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвиса 	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+МИД Британии	МИД Британии	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Палате общин	Палата общин	ORG	ORG-House-of-Commons
+Стив Бейкер	Стив Бейкер	PER	PER-Steve-Baker
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+брекзит 	брекзит	EVT	EVT-Brexit
+брекзита	брекзит	EVT	EVT-Brexit
+европейскими 	европейский	LOC	LOC-Europe
+консервативной партии	консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+министерства иностранных дел	министерство иностранных дел	ORG	ORG-Foreign-Office
+правительства 	правительство	ORG	ORG-the-UK-Government
+правительство 	правительство	ORG	ORG-the-UK-Government

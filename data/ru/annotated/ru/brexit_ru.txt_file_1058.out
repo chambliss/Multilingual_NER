@@ -1,0 +1,20 @@
+ru-1058
+Brexit	Brexit	EVT	EVT-Brexit
+REGNUM	REGNUM	ORG	ORG-REGNUM-News-Agency
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвида Девиса	Дэвид Девис	PER	PER-David-Davis
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+ИА REGNUM	ИА REGNUM	ORG	ORG-REGNUM-News-Agency
+МИД Британии	МИД Британии	ORG	ORG-Foreign-Office
+МИД РФ	МИД РФ	ORG	ORG-Ministry-of-Foreign-Affairs-Russia
+Мэй	Мэй	PER	PER-Theresa-May
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+палате общин парламента	палата общин парламента	ORG	ORG-House-of-Commons
+референдума	референдум	EVT	EVT-Brexit-Referendum

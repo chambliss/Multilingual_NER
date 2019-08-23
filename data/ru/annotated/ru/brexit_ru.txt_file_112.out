@@ -1,0 +1,22 @@
+ru-112
+Brexit	Brexit	EVT	EVT-Brexit
+The Sunday Telegraph	The Sunday Telegraph	PRO	PRO-The-Sunday-Telegraph
+The Telegraph	The Telegraph	PRO	PRO-The-Telegraph
+Англии	Англия	LOC	GPE-Great-Britain
+Болтон	Болтон	PER	PER-John-Bolton
+Болтона	Болтон	PER	PER-John-Bolton
+Брексита	Брексит	EVT	EVT-Brexit
+Великобританией	Великобритания	LOC	GPE-Great-Britain
+Джона Болтона	Джон Болтон	PER	PER-John-Bolton
+Дональд Трамп	Дональд Трамп	PER	PER-Donald-Trump
+ЕС	ЕС	ORG	ORG-European-Union
+Европейской исследовательской группы	Европейская исследовательская группа	ORG	ORG-European-Research-Group
+Кабмина	Кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom
+Лондон	Лондон	LOC	GPE-London
+Марком Седвиллом	Марк Седвилл	PER	PER-Mark-Sedwill
+США	США	LOC	GPE-USA
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Трамп	Трамп	PER	PER-Donald-Trump
+Трампа	Трамп	PER	PER-Donald-Trump
+английской Консервативной партии	английская Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+тори	тори	ORG	ORG-Conservative-and-Unionist-Party-UK

@@ -1,0 +1,9 @@
+ru-1100
+Brexit	Brexit	EVT	EVT-Brexit
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Кабмином	Кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom
+Рааб	Рааб	PER	PER-Dominic-Raab
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May

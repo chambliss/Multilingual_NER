@@ -1,0 +1,26 @@
+ru-1065
+Brexit	Brexit	EVT	EVT-Brexit
+Twitter	Twitter	PRO	PRO-Twitter
+Борис Донсон	Борис Донсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Британия	Британия	LOC	GPE-Great-Britain
+ВТО	ВТО	ORG	ORG-WTO-World-Trade-Organization
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Джонсоном	Джонсон	PER	PER-Boris-Johnson
+Дональт Туск	Дональт Туск	PER	PER-Donald-Tusk
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+Дэвисом	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского Совета	Европейский Совет	ORG	ORG-European-Council
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+МИД	МИД	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Соединенного Королевства	Соединенное Королевство	LOC	GPE-Great-Britain
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Туск	Туск	PER	PER-Donald-Tusk
+внешнеполитического ведомства	внешнеполитическое ведомство	ORG	ORG-Foreign-Office

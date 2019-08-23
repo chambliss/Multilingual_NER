@@ -1,0 +1,21 @@
+ru-1060
+Бибиси	Бибиси	ORG	ORG-BBC-Ltd
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Брекзита	Брекзит	EVT	EVT-Brexit
+Брекзиту	Брекзит	EVT	EVT-Brexit
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Девид Девис	Девид Девис	PER	PER-David-Davis
+Девидом Кэмеронм	Девид Кэмерон	PER	PER-David-Cameron
+Дэвида Кэмерона	Дэвид Кэмерон	PER	PER-David-Cameron
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзу	Евросоюз	ORG	ORG-European-Union
+Кэмерон	Кэмерон	PER	PER-David-Cameron
+Мэй	Мэй	PER	PER-Theresa-May
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+кабинета министров	кабинет министров	ORG	ORG-Cabinet-of-the-United-Kingdom
+партии консерваторов	партия консерваторов	ORG	ORG-Conservative-and-Unionist-Party-UK
+план правительства по условиям Брекзита	план правительства по условиям Брекзита	PRO	PRO-Brexit-withdrawal-agreement

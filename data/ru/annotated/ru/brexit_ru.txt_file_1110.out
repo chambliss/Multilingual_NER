@@ -1,0 +1,17 @@
+ru-1110
+Brexit	Brexit	EVT	EVT-Brexit
+ONLINE.UA	ONLINE.UA	PRO	PRO-ONLINE-UA
+The Guardian	The Guardian	PRO	PRO-The-Guardian
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса	Борис	PER	PER-Boris-Johnson
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Кабинетом министров	Кабинет министров	ORG	ORG-Cabinet-of-the-United-Kingdom
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May

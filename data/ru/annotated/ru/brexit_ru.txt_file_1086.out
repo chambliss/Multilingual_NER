@@ -1,0 +1,13 @@
+ru-1086
+ Хофбург 	Хофбург	LOC	LOC-Hofburg-Palace
+Brexit	Brexit	EVT	EVT-Brexit
+Асгардия	Асгардия	LOC	GPE-Asgardia
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвиса	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+НАТО	НАТО	ORG	ORG-NATO
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May

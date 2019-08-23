@@ -1,0 +1,16 @@
+ru-1151
+Brexit 	Brexit	EVT	EVT-Brexit
+ONLINE.UA	ONLINE.UA	PRO	PRO-ONLINE-UA
+Twitter 	Twitter	PRO	PRO-Twitter
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Британии 	Британия	LOC	GPE-Great-Britain
+ВВС	BBC	ORG	ORG-BBC-Ltd
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Джереми Хант	Джереми Хант	PER	PER-Jeremy-Hunt
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+ЕС 	ЕС	ORG	ORG-European-Union
+МИД 	МИД	ORG	ORG-Foreign-Office
+МИД Британии	МИД Британии	ORG	ORG-Foreign-Office
+Министерства иностранных дел Великобритании	Министерство иностранных дел Великобритании	ORG	ORG-Foreign-Office
+Хант 	Хант	PER	PER-Jeremy-Hunt

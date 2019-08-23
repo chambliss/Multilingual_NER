@@ -1,0 +1,16 @@
+ru-1051
+Brexit	Brexit	EVT	EVT-Brexit
+The Guardian	The Guardian	PRO	PRO-The-Guardian
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-Стрит	Даунинг-Стрит	LOC	LOC-Downing-Street
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+Терезой Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+британского правительства	британское правительство	ORG	ORG-the-UK-Government
+министерства иностранных дел Великобритании	министерство иностранных дел Великобритании	ORG	ORG-Foreign-Office

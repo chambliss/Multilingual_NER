@@ -1,0 +1,13 @@
+ru-1105
+Brexit	Brexit	EVT	EVT-Brexit
+Англии	Англия	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Доминик Рааб	Доминик Рааб	PER	PER-Dominic-Raab
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвида Девиса	Дэвид Девис	PER	PER-David-Davis
+Дэвиса	Дэвиса	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Елизаветы II	Елизавета II	PER	PER-Queen-Elizabeth-II
+Рабу	Раб	PER	PER-Dominic-Raab
+Стив Бейкер	Стив Бейкер	PER	PER-Steve-Baker
+Суэлла Браверман	Суэлла Браверман	PER	PER-Suella-Braverman

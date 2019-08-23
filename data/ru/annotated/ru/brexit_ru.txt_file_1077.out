@@ -1,0 +1,56 @@
+ru-1077
+Facebook	Facebook	PRO	PRO-Facebook
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса	Борис	PER	PER-Boris-Johnson
+Брексита	Брексит	EVT	EVT-Brexit
+Брекситу	Брексит	EVT	EVT-Brexit
+Британии	Британия	LOC	GPE-Great-Britain
+Британские парламентарии	Британские парламентарии	PER	ORG-British-Parlament
+Брюсселю	Брюссель	LOC	GPE-Brussles
+Великобританией	Великобритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Джавадом Зарифом	Джавад Зариф	PER	PER-Mohammad-Javad-Zarif
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Дональд Туск	Дональд Туск	PER	PER-Donald-Tusk
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+Дэвида Дэвиса	Дэвид Дэвис	PER	PER-David-Davis
+Дэвисом	Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского совета	Европейский совет	ORG	ORG-European-Council
+Европейского союза	Европейский союз	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Екатерина Мареева	Екатерина Мареева	PER	PER-Ekaterina-Mareeva
+Захарова	Захарова	PER	PER-Maria-Zaharova
+Константин Косачев	Константин Косачев	PER	PER-Konstantin-Kosachev
+Лейбористской партии	Лейбористская партия	ORG	ORG-Labour-Party-UK
+Лондона	Лондон	LOC	GPE-London
+Лондоне	Лондон	LOC	GPE-London
+Лондоном	Лондон	LOC	GPE-London
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+МИД Ирана	МИД Ирана	ORG	ORG-Ministry-of-Foreign-Affairs-Iran
+МИД РФ	МИД РФ	ORG	ORG-Ministry-of-Foreign-Affairs-Russia
+МИД России	МИД России	ORG	ORG-Ministry-of-Foreign-Affairs-Russia
+МИДе	МИД	ORG	ORG-Foreign-Office
+Мария Захарова	Мария Захарова	PER	PER-Maria-Zaharova
+Новичков	Новички	PRO	PRO-Novichok
+Россией	Россия	LOC	GPE-Russia
+Россия	Россия	LOC	GPE-Russia
+Сергей Кисляк	Сергей Кисляк	PER	PER-Sergey-Kislyak
+Скрипалей	Скрипали	PER	PER-Siergiej-Skripal
+Скрипалей	Скрипали	PER	PER-Yulia-Skripal
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезе Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+Том Уотсон	Том Уотсон	PER	PER-Tom-Watson
+Туск	Туск	PER	PER-Donald-Tusk
+Ъ FM	Ъ FM	ORG	ORG-Kommersant-FM
+британского МИДа	британский МИД	ORG	ORG-Foreign-Office
+британское правительство	британское правительство	ORG	ORG-the-UK-Government
+британском правительстве	британское правительство	ORG	ORG-the-UK-Government
+кабинете министров	кабинет министров	ORG	ORG-Cabinet-of-the-United-Kingdom
+комитета Совета федерации по международным делам	комитет Совета федерации по международным делам	ORG	ORG-Federation-Council-Foreign-Affairs-Commit
+план правительства по выходу из ЕС	план правительства по выходу из ЕС	PRO	PRO-Brexit-withdrawal-agreement
+правительство Британии	правительство Британии	ORG	ORG-the-UK-Government
+правительство Великобритании	правительство Великобритании	ORG	ORG-the-UK-Government

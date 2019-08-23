@@ -1,0 +1,15 @@
+ru-1076
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса Джонсона	Борис Джонсон	PER	PER-Boris-Johnson
+Бориса	Борис	PER	PER-Boris-Johnson
+Брексита	Брексит	EVT	EVT-Brexit
+Британии	Британия	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Даунинг-стрит	Даунинг-стрит	LOC	LOC-Downing-Street
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Дэвид Дэвис	Дэвид Дэвис	PER	PER-David-Davis
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+МИД Великобритании	МИД Великобритании	ORG	ORG-Foreign-Office
+Терезы Мэй	Тереза Мэй	PER	PER-Theresa-May
+кабинете министров	кабинет министров	ORG	ORG-Cabinet-of-the-United-Kingdom

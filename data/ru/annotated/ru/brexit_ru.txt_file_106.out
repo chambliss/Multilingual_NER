@@ -1,0 +1,27 @@
+ru-106
+Brexit	Brexit	EVT	EVT-Brexit
+The Sunday Telegraph	The Sunday Telegraph	PRO	PRO-The-Sunday-Telegraph
+Адольфом Гитлером	Адольф Гитлер	PER	PER-Adolf-Hitler
+Борис Джонсон	Борис Джонсон	PER	PER-Boris-Johnson
+Борису Джонсону	Борис Джонсон	PER	PER-Boris-Johnson
+Брекзит	Брекзит	EVT	EVT-Brexit
+Брекзита	Брекзит	EVT	EVT-Brexit
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Великобритания	Великобритания	LOC	GPE-Great-Britain
+Гитлер	Гитлер	PER	PER-Adolf-Hitler
+Джонсон	Джонсон	PER	PER-Boris-Johnson
+Джонсона	Джонсон	PER	PER-Boris-Johnson
+Джонсону	Джонсон	PER	PER-Boris-Johnson
+ЕС	ЕС	ORG	ORG-European-Union
+Евросоюз	Евросоюз	ORG	ORG-European-Union
+Евросоюза	Евросоюз	ORG	ORG-European-Union
+Евросоюзом	Евросоюз	ORG	ORG-European-Union
+Лондона	Лондон	LOC	GPE-London
+МИДа	МИД	ORG	ORG-Foreign-Office
+Мэй	Мэй	PER	PER-Theresa-May
+Наполеон	Наполеон	PER	PER-Napoleon-Bonaparte
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезе Мэй	Тереза Мэй	PER	PER-Theresa-May
+британский кабинет министров	британский кабинет министров	ORG	ORG-Cabinet-of-the-United-Kingdom
+внешнеполитического ведомства Великобритании	внешнеполитическое ведомство Великобритании	ORG	ORG-Foreign-Office
+референдумом по Brexit	референдум по Brexit	EVT	EVT-Brexit-Referendum

@@ -1,0 +1,27 @@
+ru-1042
+ANO	ANO	ORG	ORG-ANO-political-party-CZ
+Brexit	Brexit	EVT	EVT-Brexit
+The Guardian	The Guardian	PRO	PRO-The-Guardian
+Андрея Бабиша	Андрей Бабиш	PER	PER-Andrej-Babis
+Великбритании	Великбритания	LOC	GPE-Great-Britain
+Великобритании	Великобритания	LOC	GPE-Great-Britain
+Девида Дэвиса	Девид Дэвис	PER	PER-David-Davis
+Доминик Рааба	Доминик Рааб	PER	PER-Dominic-Raab
+ЕС	ЕС	ORG	ORG-European-Union
+Европейского союза	Европейский союз	ORG	ORG-European-Union
+Консервативной партии	Консервативная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+Консерватовной партии	Консерватовная партия	ORG	ORG-Conservative-and-Unionist-Party-UK
+Лондон	Лондон	LOC	GPE-London
+Милош Земан	Милош Земан	PER	PER-Milos-Zeman
+Правительство Великобритании	Правительство Великобритании	ORG	ORG-the-UK-Government
+Рааб	Рааб	PER	PER-Dominic-Raab
+Северной Ирландии	Северная Ирландия	LOC	GPE-Northern-Ireland
+Тереза Мэй	Тереза Мэй	PER	PER-Theresa-May
+Терезе Мэй	Тереза Мэй	PER	PER-Theresa-May
+Чекерс	Чекерс	LOC	LOC-Chequers-Court
+Чехии	Чехия	LOC	GPE-Czech-Republic
+британским Кабмином	британский Кабмин	ORG	ORG-Cabinet-of-the-United-Kingdom
+британского правительства	британское правительство	ORG	ORG-the-UK-Government
+британський парламент	британський парламент	ORG	ORG-British-Parlament
+министерства по вопросам Brexit	министерство по вопросам Brexit	ORG	ORG-Ministry-of-Brexity
+таможенного союза ЕС	таможенный союз ЕС	ORG	ORG-European-Union-Customs-Union
