@@ -1,0 +1,17 @@
+T1	PER 0 5	Обама
+T2	ORG 46 50	NASA
+T3	GEOPOLIT 62 65	США
+T4	PER 66 77	Барак Обама
+T5	PER 85 117	Чарльза Болдена (Charles Bolden)
+T6	ORG 150 154	NASA
+T7	MEDIA 173 176	AFP
+T8	GEOPOLIT 204 215	Белого дома
+T9	PER 234 241	Болдена
+T10	ORG 251 256	Сенат
+T11	ORG 343 377	Американское космическое агентство
+T12	ORG 420 424	NASA
+T13	PER 448 473	Лори Гарвер (Lori Garver)
+T14	PER 503 515	Барака Обамы
+T15	ORG 593 597	NASA
+T16	PER 653 666	Майкл Гриффин
+T17	PER 718 725	Гриффин

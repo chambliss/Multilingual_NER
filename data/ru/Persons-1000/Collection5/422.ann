@@ -1,0 +1,21 @@
+T1	ORG 0 12	Скотланд-Ярд
+T2	PER 77 116	Бернард Хогард-Хоу (Bernard Hogan-Howe)
+T3	LOC 155 164	Мерсисайд
+T4	ORG 192 205	Скотланд-Ярда
+T5	MEDIA 220 228	BBC News
+T6	PER 251 263	Елизавета II
+T7	PER 304 314	Хогард-Хоу
+T8	PER 379 409	Тимоти Годвин (Timothy Godwin)
+T9	ORG 450 463	Скотланд-Ярда
+T10	PER 539 556	Борисом Джонсоном
+T11	PER 584 609	Терезой Мэй (Theresa May)
+T12	MEDIA 627 630	BBC
+T13	PER 652 663	Хогарда-Хоу
+T14	LOC 715 722	Лондоне
+T15	PER 808 818	Хогард-Хоу
+T16	ORG 915 928	Скотланд-Ярда
+T17	PER 934 965	Пол Стивенсон (Paul Stephenson)
+T18	MEDIA 1103 1120	News of The World
+T19	PER 1133 1143	Стивенсона
+T20	PER 1383 1408	Нила Уолиса (Neil Wallis)
+T21	MEDIA 1433 1450	News of The World

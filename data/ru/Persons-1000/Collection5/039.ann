@@ -1,0 +1,24 @@
+T1	PER 0 12	Билл Клинтон
+T2	ORG 41 44	ООН
+T3	GEOPOLIT 48 53	Гаити
+T4	GEOPOLIT 72 75	США
+T5	PER 76 88	Билл Клинтон
+T6	ORG 125 128	ООН
+T7	GEOPOLIT 132 137	Гаити
+T8	MEDIA 158 160	AP
+T9	PER 191 199	Клинтона
+T10	PER 200 229	Мэтта Маккенну (Matt McKenna)
+T11	PER 272 286	Билла Клинтона
+T12	MEDIA 329 345	The Miami Herald
+T13	ORG 430 433	ООН
+T14	PER 434 445	Пан Ги Муна
+T15	PER 462 472	Пан Ги Мун
+T16	PER 505 513	Клинтона
+T17	PER 532 540	Клинтона
+T18	GEOPOLIT 706 711	Гаити
+T19	MEDIA 837 856	The Washington Post
+T20	PER 870 877	Клинтон
+T21	GEOPOLIT 912 917	Гаити
+T22	MEDIA 962 978	The Miami Herald
+T23	PER 1038 1052	Билла Клинтона
+T24	ORG 1053 1075	The Clinton Foundation

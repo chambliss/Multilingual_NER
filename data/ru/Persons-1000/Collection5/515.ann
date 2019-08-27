@@ -1,0 +1,11 @@
+T1	ORG 6 16	Fannie Mae
+T2	ORG 102 112	Fannie Mae
+T3	PER 113 126	Майкл Уильямс
+T4	MEDIA 181 189	Би-би-си
+T5	PER 209 217	М.Уильмс
+T6	PER 407 416	М.Уильямс
+T7	ORG 432 442	Fannie Mae
+T8	ORG 601 611	Fannie Mae
+T9	ORG 614 625	Freddie Mac
+T10	ORG 702 723	Министерству финансов
+T11	GEOPOLIT 724 727	США

@@ -1,0 +1,23 @@
+T1	ORG 0 8	Facebook
+T2	ORG 83 91	Facebook
+T3	PER 111 142	Дэвид Эберсман (David Ebersman)
+T4	MEDIA 153 176	The Wall Street Journal
+T5	ORG 190 198	Facebook
+T6	PER 227 235	Эберсман
+T7	ORG 290 299	Genentech
+T8	PER 304 312	Эберсман
+T9	ORG 354 362	Facebook
+T10	ORG 365 374	Genentech
+T11	ORG 477 485	Facebook
+T12	ORG 554 563	Genentech
+T13	PER 564 578	Дэвид Эберсман
+T14	PER 662 670	Эберсман
+T15	ORG 709 722	Roche Holding
+T16	ORG 729 738	Genentech
+T17	MEDIA 753 776	The Wall Street Journal
+T18	ORG 813 821	Facebook
+T19	ORG 899 907	Facebook
+T20	PER 908 944	Марком Цукербергом (Mark Zuckerberg)
+T21	ORG 1011 1019	Facebook
+T22	PER 1024 1044	Гидеон Ю (Gideon Yu)
+T23	ORG 1181 1189	Facebook

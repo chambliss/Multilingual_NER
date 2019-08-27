@@ -1,0 +1,71 @@
+T1	PER 16 29	Уоррен Баффет
+T2	PER 83 96	Уоррен Баффет
+T3	LOC 267 279	Коннектикуте
+T4	PER 280 303	Тодд Коумс (Todd Combs)
+T5	ORG 346 364	Berkshire Hathaway
+T6	PER 465 478	Уоррен Баффет
+T7	PER 657 662	Коумс
+T8	LOC 690 700	Уолл-Стрит
+T9	ORG 748 768	Castle Point Capital
+T10	LOC 779 786	Гринвич
+T11	ORG 920 938	Berkshire Hathaway
+T12	PER 956 963	Баффета
+T13	PER 964 978	Энди Килпатрик
+T14	PER 1081 1090	Килпатрик
+T15	PER 1242 1248	Баффет
+T16	PER 1336 1340	Тодд
+T17	PER 1442 1452	Тодд Коумс
+T18	LOC 1472 1479	Флориде
+T19	ORG 1520 1545	Колумбийской бизнес-школе
+T20	LOC 1548 1557	Нью-Йорке
+T21	PER 1608 1623	Уоррена Баффета
+T22	PER 1637 1642	Коумс
+T23	ORG 1656 1668	Castle Point
+T24	ORG 1723 1736	Goldman Sachs
+T25	PER 1737 1753	Стивена Фридмана
+T26	PER 1763 1769	Коумса
+T27	GEOPOLIT 1896 1899	США
+T28	ORG 1960 1972	U.S. Bancorp
+T29	ORG 1974 1984	MasterCard
+T30	ORG 1986 1999	Western Union
+T31	ORG 2002 2012	Chubb Corp
+T32	PER 2083 2089	Баффет
+T33	PER 2105 2112	Коумсом
+T34	PER 2143 2158	Стивена Мангера
+T35	PER 2375 2381	Баффет
+T36	PER 2555 2561	Баффет
+T37	PER 2669 2679	Тодд Коумс
+T38	PER 2806 2812	Баффет
+T39	ORG 2974 2983	Berkshire
+T40	PER 3157 3164	Баффета
+T41	PER 3165 3171	Говард
+T42	LOC 3298 3307	Иллинойсе
+T43	ORG 3401 3419	Berkshire Hathaway
+T44	ORG 3446 3459	Buffett Farms
+T45	PER 3471 3484	Говард Баффет
+T46	PER 3658 3665	Баффета
+T47	PER 3666 3677	Дэвид Сокол
+T48	PER 3707 3712	Сокол
+T49	LOC 3723 3728	Омахе
+T50	LOC 3735 3743	Небраска
+T51	ORG 3796 3803	NetJets
+T52	ORG 3828 3846	MidAmerican Energy
+T53	ORG 3898 3907	Berkshire
+T54	PER 3930 3936	Коумсу
+T55	PER 3998 4003	Ли Лу
+T56	PER 4005 4007	Ли
+T57	LOC 4116 4127	Тяньаньмэнь
+T58	PER 4196 4198	Ли
+T59	GEOPOLIT 4207 4210	США
+T60	ORG 4233 4258	Колумбийскую бизнес-школу
+T61	PER 4377 4383	Баффет
+T62	PER 4400 4405	Ли Лу
+T63	ORG 4488 4515	Himalaya Capital Management
+T64	PER 4601 4603	Ли
+T65	ORG 4626 4648	LL Investment Partners
+T66	PER 4739 4746	Баффета
+T67	PER 4747 4759	Чарли Мангер
+T68	PER 4802 4807	Ли Лу
+T69	PER 4953 4960	Баффета
+T70	PER 5134 5140	Уоррен
+T71	PER 5166 5172	Коумса

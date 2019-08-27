@@ -1,0 +1,23 @@
+T1	PER 0 10	Ким Чен Ын
+T2	ORG 21 23	ЦК
+T3	ORG 24 39	Трудовой партии
+T4	GEOPOLIT 40 45	Кореи
+T5	PER 85 95	Ким Чен Ын
+T6	ORG 138 153	Трудовой партии
+T7	GEOPOLIT 154 159	Кореи
+T8	MEDIA 220 240	Agence France-Presse
+T9	GEOPOLIT 260 264	КНДР
+T10	MEDIA 266 278	Родон Синмун
+T11	PER 422 434	Ким Чен Ыном
+T12	PER 511 521	Ким Чен Ын
+T13	GEOPOLIT 792 796	КНДР
+T14	PER 816 826	Ким Чен Ын
+T15	MEDIA 1007 1010	СМИ
+T16	GEOPOLIT 1021 1025	КНДР
+T17	MEDIA 1137 1153	North Korea Tech
+T18	PER 1203 1214	Ким Чен Ына
+T19	PER 1217 1227	Ким Ир Сен
+T20	PER 1230 1240	Ким Чен Ир
+T21	GEOPOLIT 1261 1276	Северной Кореей
+T22	GEOPOLIT 1312 1316	КНДР
+T23	PER 1317 1327	Ким Чен Ир

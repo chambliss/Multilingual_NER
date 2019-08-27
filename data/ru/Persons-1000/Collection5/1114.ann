@@ -1,0 +1,18 @@
+T1	ORG 0 7	Газпром
+T2	PER 105 119	Алексей Миллер
+T3	ORG 212 219	Газпром
+T4	ORG 315 337	South Stream Transport
+T5	PER 383 397	Алексей Миллер
+T6	MEDIA 453 458	Прайм
+T7	PER 609 615	Миллер
+T8	ORG 731 753	South Stream Transport
+T9	PER 766 780	Марсель Крамер
+T10	ORG 877 884	Statoil
+T11	ORG 910 917	Gasunie
+T12	MEDIA 943 948	Прайм
+T13	ORG 1032 1040	Газпрома
+T14	PER 1042 1054	Олег Аксютин
+T15	ORG 1279 1287	Газпрома
+T16	LOC 1368 1380	Черного моря
+T17	LOC 1568 1573	Анапы
+T18	GEOPOLIT 1722 1728	Европу

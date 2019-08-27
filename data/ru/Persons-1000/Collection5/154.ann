@@ -1,0 +1,15 @@
+T1	ORG 6 9	AMD
+T2	ORG 64 92	Advanced Micro Devices (AMD)
+T3	PER 93 116	Дирк Мейер (Dirk Meyer)
+T4	PER 232 262	Томас Сейферт (Thomas Seifert)
+T5	ORG 317 320	AMD
+T6	PER 322 329	Сейферт
+T7	PER 557 589	Брюсом Клафлином (Bruce Claflin)
+T8	PER 636 642	Мейера
+T9	PER 752 760	Клафлина
+T10	PER 762 767	Мейер
+T11	PER 859 866	Клафлин
+T12	ORG 868 871	AMD
+T13	PER 1029 1039	Дирк Мейер
+T14	ORG 1079 1082	AMD
+T15	ORG 1105 1110	Intel

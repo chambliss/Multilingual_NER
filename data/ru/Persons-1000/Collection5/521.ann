@@ -1,0 +1,19 @@
+T1	ORG 19 34	Huffington Post
+T2	PER 51 62	Стросс-Кана
+T3	ORG 95 125	Международного валютного фонда
+T4	PER 126 146	Доминика Стросс-Кана
+T5	PER 147 159	Анна Синклер
+T6	MEDIA 202 220	Le Huffington Post
+T7	MEDIA 231 251	Agence France-Presse
+T8	MEDIA 256 274	Le Huffington Post
+T9	MEDIA 351 370	The Huffington Post
+T10	PER 384 403	Арианной Хаффингтон
+T11	MEDIA 405 423	Le Huffington Post
+T12	MEDIA 461 469	Le Monde
+T13	ORG 557 572	Huffington Post
+T14	PER 700 712	Анна Синклер
+T15	GEOPOLIT 735 742	Франции
+T16	MEDIA 844 847	TF1
+T17	PER 861 868	Синклер
+T18	PER 950 968	Доминик Стросс-Кан
+T19	GEOPOLIT 1011 1018	Франции

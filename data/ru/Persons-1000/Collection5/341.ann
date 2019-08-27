@@ -1,0 +1,24 @@
+T1	ORG 6 19	Скотланд-Ярда
+T2	MEDIA 53 70	News Of The World
+T3	ORG 80 93	Скотланд-Ярда
+T4	PER 98 129	Пол Стивенсон (Paul Stephenson)
+T5	MEDIA 175 192	News Of The World
+T6	PER 266 275	Стивенсон
+T7	ORG 291 303	Скотланд-Ярд
+T8	PER 535 544	Стивенсон
+T9	PER 655 680	Нила Уолиса (Neil Wallis)
+T10	MEDIA 705 722	News Of The World
+T11	PER 885 894	Стивенсон
+T12	PER 957 962	Уолис
+T13	PER 1008 1017	Стивенсон
+T14	PER 1063 1070	Уолисом
+T15	MEDIA 1123 1131	Sky News
+T16	LOC 1137 1144	Лондона
+T17	PER 1145 1158	Борис Джонсон
+T18	PER 1181 1191	Стивенсона
+T19	PER 1278 1288	Стивенсона
+T20	MEDIA 1388 1405	News Of The World
+T21	GEOPOLIT 1417 1431	Великобритании
+T22	PER 1662 1675	Руперт Мердок
+T23	ORG 1692 1708	News Corporation
+T24	MEDIA 1727 1744	News Of The World

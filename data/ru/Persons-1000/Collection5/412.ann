@@ -1,0 +1,27 @@
+T1	MEDIA 1 10	РБК daily
+T2	GEOPOLIT 29 32	США
+T3	GEOPOLIT 43 45	РФ
+T4	ORG 82 115	Американская торговая палата в РФ
+T5	ORG 117 155	American Chamber of Commerce in Russia
+T6	ORG 204 220	Торговой палатой
+T7	GEOPOLIT 221 224	США
+T8	GEOPOLIT 282 284	РФ
+T9	PER 285 303	Аркадия Дворковича
+T10	MEDIA 476 485	РБК daily
+T11	GEOPOLIT 672 674	РФ
+T12	ORG 773 781	Руссофта
+T13	PER 783 799	Валентин Макаров
+T14	MEDIA 809 818	РБК daily
+T15	GEOPOLIT 986 991	Индии
+T16	GEOPOLIT 993 998	Китае
+T17	GEOPOLIT 1003 1006	США
+T18	PER 1131 1140	В.Макаров
+T19	ORG 1176 1181	Intel
+T20	GEOPOLIT 1184 1190	России
+T21	PER 1191 1204	Игорь Калошин
+T22	GEOPOLIT 1328 1330	РФ
+T23	GEOPOLIT 1584 1589	Китае
+T24	ORG 1947 1953	Auriga
+T25	PER 1954 1967	Андрей Пронин
+T26	ORG 2191 2198	Reksoft
+T27	PER 2199 2215	Александр Егоров

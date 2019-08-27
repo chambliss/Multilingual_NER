@@ -1,0 +1,33 @@
+T1	PER 0 5	Обама
+T2	GEOPOLIT 43 46	США
+T3	PER 47 58	Барак Обама
+T4	MEDIA 144 164	Agence France-Presse
+T5	PER 178 183	Обамы
+T6	GEOPOLIT 210 221	Белого дома
+T7	PER 222 234	Роберт Гиббс
+T8	PER 338 343	Обамы
+T9	PER 387 392	Обама
+T10	LOC 457 463	Чикаго
+T11	PER 514 541	Джима Мессину (Jim Messina)
+T12	PER 657 662	Обамы
+T13	GEOPOLIT 759 764	Ирака
+T14	GEOPOLIT 792 795	США
+T15	GEOPOLIT 798 809	Афганистане
+T16	PER 842 847	Обамы
+T17	PER 1171 1176	Обаму
+T18	PER 1265 1277	Барака Обамы
+T19	GEOPOLIT 1404 1407	США
+T20	LOC 1461 1472	Массачусетс
+T21	PER 1473 1498	Митта Ромни (Mitt Romney)
+T22	LOC 1521 1530	Миннесоты
+T23	PER 1531 1558	Тима Поленти (Tim Pawlenty)
+T24	MEDIA 1712 1731	Wall Street Journal
+T25	MEDIA 1734 1742	NBC News
+T26	PER 1753 1758	Обамы
+T27	ORG 1947 1950	ABC
+T28	PER 1992 1997	Обамы
+T29	MEDIA 2168 2171	CNN
+T30	PER 2258 2263	Обамы
+T31	PER 2334 2339	Обама
+T32	GEOPOLIT 2367 2370	США
+T33	ORG 2462 2471	Конгрессу

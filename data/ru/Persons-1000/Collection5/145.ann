@@ -1,0 +1,23 @@
+T1	PER 0 5	Обама
+T2	GEOPOLIT 61 64	США
+T3	PER 65 76	Барак Обама
+T4	PER 162 190	Уильям Дэйли (William Daley)
+T5	MEDIA 223 242	The Chicago Tribune
+T6	PER 321 333	Роберт Гиббс
+T7	MEDIA 338 358	Agence France-Presse
+T8	PER 481 489	Пит Рауз
+T9	PER 516 521	Обамы
+T10	MEDIA 526 529	AFP
+T11	PER 546 558	Уильям Дэйли
+T12	PER 584 598	Билла Клинтона
+T13	PER 633 638	Дэйли
+T14	PER 669 674	Обамы
+T15	GEOPOLIT 715 718	США
+T16	ORG 809 824	Торговой палате
+T17	GEOPOLIT 825 828	США
+T18	PER 858 863	Обаму
+T19	ORG 906 928	Республиканской партии
+T20	PER 999 1004	Дэйли
+T21	PER 1179 1191	Роберт Гиббс
+T22	PER 1239 1250	Рам Эмануэл
+T23	LOC 1335 1341	Чикаго

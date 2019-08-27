@@ -1,0 +1,35 @@
+T1	PER 0 5	Обама
+T2	GEOPOLIT 22 25	США
+T3	GEOPOLIT 28 34	Грузии
+T4	GEOPOLIT 37 49	Таджикистане
+T5	GEOPOLIT 61 64	США
+T6	PER 65 76	Барак Обама
+T7	GEOPOLIT 133 139	Грузии
+T8	GEOPOLIT 142 154	Таджикистане
+T9	GEOPOLIT 178 189	Белого дома
+T10	GEOPOLIT 219 226	Тбилиси
+T11	PER 249 275	Джону Бассу (John R. Bass)
+T12	PER 294 298	Басс
+T13	GEOPOLIT 311 316	Ираке
+T14	LOC 391 398	Багдада
+T15	GEOPOLIT 415 420	Ираке
+T16	PER 421 425	Басс
+T17	ORG 462 508	Операционный центр по экстренному реагированию
+T18	ORG 509 524	Госдепартамента
+T19	GEOPOLIT 525 528	США
+T20	GEOPOLIT 688 691	США
+T21	PER 692 696	Басс
+T22	GEOPOLIT 725 731	России
+T23	ORG 734 738	НАТО
+T24	GEOPOLIT 813 819	Европе
+T25	GEOPOLIT 838 841	США
+T26	GEOPOLIT 844 856	Таджикистане
+T27	PER 857 868	Барак Обама
+T28	PER 890 923	Кеннета Гросса (Kenneth E. Gross)
+T29	PER 931 936	Гросс
+T30	MEDIA 947 956	ИТАР-ТАСС
+T31	GEOPOLIT 1001 1004	США
+T32	LOC 1007 1014	Душанбе
+T33	GEOPOLIT 1065 1068	США
+T34	LOC 1071 1076	Басре
+T35	GEOPOLIT 1078 1082	Ирак

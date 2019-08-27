@@ -1,0 +1,34 @@
+T1	ORG 13 20	Госдепа
+T2	MEDIA 55 64	WikiLeaks
+T3	ORG 81 96	Госдепартамента
+T4	GEOPOLIT 97 100	США
+T5	PER 101 130	Филип Кроули (Philip Crowley)
+T6	PER 210 225	Брэдли Мэннинга
+T7	MEDIA 298 307	WikiLeaks
+T8	GEOPOLIT 325 328	США
+T9	PER 329 344	Хиллари Клинтон
+T10	MEDIA 355 363	BBC News
+T11	PER 416 422	Кроули
+T12	ORG 516 525	WikiLeaks
+T13	GEOPOLIT 582 585	США
+T14	LOC 675 684	Вирджиния
+T15	PER 719 732	Филипу Кроули
+T16	PER 763 771	Мэннинга
+T17	ORG 795 880	Массачусетском технологическом институте (Massachusetts Institute of Technology, MIT)
+T18	ORG 895 910	Госдепартамента
+T19	ORG 934 944	Минобороны
+T20	GEOPOLIT 945 948	США
+T21	PER 951 960	Мэннингом
+T22	PER 1098 1104	Кроули
+T23	ORG 1223 1226	MIT
+T24	PER 1228 1234	Кроули
+T25	ORG 1346 1356	Минобороны
+T26	GEOPOLIT 1357 1360	США
+T27	PER 1379 1387	Мэннинга
+T28	GEOPOLIT 1473 1476	США
+T29	PER 1477 1488	Барак Обама
+T30	MEDIA 1545 1554	WikiLeaks
+T31	PER 1594 1608	Брэдли Мэннинг
+T32	PER 1667 1674	Мэннинг
+T33	MEDIA 1805 1814	WikiLeaks
+T34	PER 1862 1869	Мэннинг

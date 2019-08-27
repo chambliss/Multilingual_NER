@@ -1,0 +1,29 @@
+T1	PER 0 5	Обама
+T2	GEOPOLIT 22 25	США
+T3	GEOPOLIT 28 33	Индии
+T4	GEOPOLIT 36 42	Японии
+T5	PER 54 65	Барак Обама
+T6	GEOPOLIT 103 106	США
+T7	GEOPOLIT 109 115	Японии
+T8	GEOPOLIT 118 123	Индии
+T9	MEDIA 134 137	AFP
+T10	GEOPOLIT 165 176	Белого дома
+T11	ORG 253 260	Сенатом
+T12	GEOPOLIT 291 297	Японии
+T13	PER 308 328	Джон Рус (John Roos)
+T14	PER 393 398	Обамы
+T15	GEOPOLIT 410 413	США
+T16	GEOPOLIT 416 421	Индии
+T17	PER 429 459	Тимоти Роумер (Timothy Roemer)
+T18	ORG 474 495	Палаты представителей
+T19	ORG 499 521	Демократической партии
+T20	PER 523 529	Роумер
+T21	MEDIA 540 556	Associated Press
+T22	ORG 679 688	Конгресса
+T23	PER 754 758	Руса
+T24	PER 761 768	Роумера
+T25	GEOPOLIT 811 822	Белым домом
+T26	GEOPOLIT 993 996	США
+T27	GEOPOLIT 999 1013	Великобритании
+T28	PER 1021 1047	Луис Сасмэн (Louis Susman)
+T29	ORG 1109 1118	Citigroup

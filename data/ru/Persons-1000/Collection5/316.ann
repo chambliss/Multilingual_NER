@@ -1,0 +1,33 @@
+T1	ORG 0 5	Skype
+T2	ORG 51 73	Skype Technologies S.A
+T3	ORG 116 121	Skype
+T4	MEDIA 203 215	Businessweek
+T5	ORG 327 332	Skype
+T6	PER 395 419	Дэвид Гурл (David Gurle)
+T7	PER 421 453	Кристофер Дин (Christopher Dean)
+T8	PER 455 479	Дон Альберт (Don Albert)
+T9	PER 482 502	Расс Шоу (Russ Shaw)
+T10	ORG 545 550	Skype
+T11	PER 666 691	Даг Бьюшер (Doug Bewsher)
+T12	PER 694 723	Энн Гиллеспи (Anne Gillespie)
+T13	ORG 783 786	Qik
+T14	PER 787 814	Раму Сункара (Ramu Sunkara)
+T15	PER 817 846	Эллисон Кампа (Allyson Campa)
+T16	ORG 947 952	Skype
+T17	PER 953 976	Тони Бейтс (Tony Bates)
+T18	ORG 1057 1062	Skype
+T19	ORG 1096 1105	Microsoft
+T20	MEDIA 1119 1128	Bloomberg
+T21	ORG 1200 1205	Skype
+T22	ORG 1208 1217	Microsoft
+T23	ORG 1291 1300	Microsoft
+T24	ORG 1354 1359	Skype
+T25	ORG 1403 1408	Skype
+T26	ORG 1421 1430	Microsoft
+T27	ORG 1457 1462	Skype
+T28	ORG 1463 1472	Microsoft
+T29	ORG 1547 1579	Федеральная комиссия по торговле
+T30	GEOPOLIT 1580 1583	США
+T31	ORG 1585 1588	FTC
+T32	ORG 1594 1603	Microsoft
+T33	ORG 1628 1633	Skype
