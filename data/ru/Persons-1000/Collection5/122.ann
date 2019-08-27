@@ -1,0 +1,31 @@
+T1	ORG 51 60	Microsoft
+T2	ORG 156 165	Microsoft
+T3	PER 166 174	Рэй Оззи
+T4	ORG 242 251	Microsoft
+T5	PER 252 263	Стив Балмер
+T6	PER 329 335	Р.Оззи
+T7	PER 454 466	Билла Гейтса
+T8	PER 496 502	Р.Оззи
+T9	PER 539 548	С.Балмера
+T10	PER 597 603	Р.Оззи
+T11	PER 664 670	Р.Оззи
+T12	ORG 674 683	Microsoft
+T13	ORG 733 740	Windows
+T14	PER 741 758	Стивеном Синофски
+T15	MEDIA 799 802	СМИ
+T16	PER 804 810	Р.Оззи
+T17	PER 955 966	Стивен Элоп
+T18	ORG 995 1028	Microsoft Entertainment & Devices
+T19	PER 1029 1038	Робби Бах
+T20	PER 1087 1098	Джей Аллард
+T21	MEDIA 1133 1136	СМИ
+T22	ORG 1245 1254	Microsoft
+T23	PER 1259 1265	Р.Оззи
+T24	ORG 1282 1291	Microsoft
+T25	PER 1348 1354	Р.Оззи
+T26	ORG 1364 1379	Groove Networks
+T27	ORG 1431 1440	Microsoft
+T28	PER 1441 1447	Р.Оззи
+T29	ORG 1548 1557	Microsoft
+T30	PER 1558 1567	Б.Гейтсом
+T31	PER 1584 1590	Р.Оззи

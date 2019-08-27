@@ -1,0 +1,34 @@
+T1	ORG 15 23	Газпрома
+T2	ORG 44 58	Lietuvos dujos
+T3	ORG 91 105	Lietuvos dujos
+T4	MEDIA 219 228	Интерфакс
+T5	ORG 313 321	Газпрома
+T6	PER 323 339	Валерия Голубева
+T7	ORG 340 354	Lietuvos dujos
+T8	PER 384 392	Голубева
+T9	PER 414 431	Петер Франкенберг
+T10	PER 440 447	Голубев
+T11	PER 506 518	Франкенберга
+T12	ORG 544 558	Lietuvos dujos
+T13	ORG 583 591	Газпрому
+T14	ORG 595 609	Lietuvos dujos
+T15	ORG 694 698	E.On
+T16	ORG 844 852	Газпрома
+T17	ORG 895 899	E.On
+T18	GEOPOLIT 918 923	Литвы
+T19	GEOPOLIT 1073 1078	Литва
+T20	PER 1099 1107	Голубева
+T21	ORG 1111 1125	Lietuvos dujos
+T22	ORG 1182 1196	Lietuvos dujos
+T23	ORG 1242 1249	Газпром
+T24	GEOPOLIT 1253 1258	Литва
+T25	GEOPOLIT 1331 1336	Литве
+T26	ORG 1357 1371	Lietuvos dujos
+T27	GEOPOLIT 1475 1477	ЕС
+T28	ORG 1480 1487	Газпром
+T29	GEOPOLIT 1617 1623	Латвии
+T30	GEOPOLIT 1626 1633	Эстонии
+T31	GEOPOLIT 1663 1668	Литвы
+T32	ORG 1704 1712	Газпроме
+T33	GEOPOLIT 1739 1745	Литвой
+T34	MEDIA 1776 1779	СМИ

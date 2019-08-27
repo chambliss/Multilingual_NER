@@ -1,0 +1,14 @@
+T1	ORG 21 31	McDonald's
+T2	PER 32 42	Дж.Скиннер
+T3	LOC 87 95	Бангалор
+T4	ORG 135 145	McDonald's
+T5	PER 146 158	Джим Скиннер
+T6	MEDIA 197 204	Reuters
+T7	PER 225 235	Дж.Скиннер
+T8	PER 347 358	Дон Томпсон
+T9	PER 363 373	Дж.Скиннер
+T10	ORG 396 406	McDonald's
+T11	ORG 539 554	McDonald's Corp
+T12	PER 613 616	Дик
+T13	PER 619 634	Мак Макдональды
+T14	ORG 724 734	McDonald's

@@ -1,0 +1,21 @@
+T1	ORG 10 19	X5 Retail
+T2	PER 20 27	Л.Хасис
+T3	ORG 54 62	Wal-Mart
+T4	ORG 108 116	Wal-Mart
+T5	ORG 138 153	Х5 Retail Group
+T6	PER 154 165	Льва Хасиса
+T7	MEDIA 315 322	Reuters
+T8	PER 341 348	Л.Хасис
+T9	ORG 381 389	Wal-Mart
+T10	LOC 392 403	Бентонвилле
+T11	LOC 410 418	Арканзас
+T12	ORG 449 471	Wal-Mart International
+T13	PER 472 487	Дагу Макмиллану
+T14	ORG 514 516	X5
+T15	PER 683 690	Л.Хасис
+T16	PER 739 746	Л.Хасис
+T17	PER 772 783	Джона Адена
+T18	ORG 858 866	Wal-Mart
+T19	PER 899 906	Л.Хасис
+T20	ORG 915 924	X5 Retail
+T21	PER 1076 1088	Андрей Гусев

@@ -1,0 +1,20 @@
+T1	ORG 6 20	Dow Jones & Co
+T2	PER 22 30	Л.Хинтон
+T3	ORG 103 117	Dow Jones & Co
+T4	PER 119 129	Лес Хинтон
+T5	ORG 255 264	News Corp
+T6	MEDIA 276 292	Associater Press
+T7	PER 297 305	Л.Хинтон
+T8	ORG 317 331	Dow Jones & Co
+T9	MEDIA 423 439	Associated Press
+T10	PER 451 460	Л.Хинтона
+T11	ORG 505 514	News Corp
+T12	GEOPOLIT 612 626	Великобритании
+T13	MEDIA 686 703	News of the World
+T14	ORG 714 728	Dow Jones & Co
+T15	MEDIA 799 816	News of the World
+T16	GEOPOLIT 893 917	Соединенного Королевства
+T17	ORG 1144 1180	Федеральное бюро расследований (ФБР)
+T18	GEOPOLIT 1181 1184	США
+T19	ORG 1226 1242	News Corporation
+T20	MEDIA 1315 1318	СМИ

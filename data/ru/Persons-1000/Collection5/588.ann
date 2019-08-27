@@ -1,0 +1,30 @@
+T1	GEOPOLIT 0 3	США
+T2	GEOPOLIT 28 37	Пакистане
+T3	GEOPOLIT 41 50	Вашингтон
+T4	GEOPOLIT 76 85	Пакистане
+T5	PER 115 148	Кэмерона Мантера (Cameron Munter)
+T6	MEDIA 159 167	CBS News
+T7	PER 169 175	Мантер
+T8	GEOPOLIT 330 333	США
+T9	ORG 338 366	Министерство иностранных дел
+T10	GEOPOLIT 367 376	Пакистана
+T11	PER 506 513	Мантера
+T12	GEOPOLIT 565 576	Афганистане
+T13	PER 577 605	Ричард Олсон (Richard Olson)
+T14	GEOPOLIT 635 638	США
+T15	GEOPOLIT 641 650	Пакистане
+T16	PER 651 673	Марк Стро (Mark Stroh)
+T17	PER 726 734	Мантером
+T18	GEOPOLIT 905 915	Пакистаном
+T19	GEOPOLIT 918 921	США
+T20	GEOPOLIT 1138 1147	Исламабад
+T21	PER 1167 1183	Осамы бин Ладена
+T22	GEOPOLIT 1323 1331	Пакистан
+T23	GEOPOLIT 1417 1420	США
+T24	PER 1421 1436	Хиллари Клинтон
+T25	LOC 1460 1468	Нью-Дели
+T26	MEDIA 1582 1591	USA Today
+T27	MEDIA 1628 1644	Associated Press
+T28	PER 1702 1717	Халидом Раббани
+T29	GEOPOLIT 1807 1818	Афганистане
+T30	GEOPOLIT 1822 1830	Пакистан

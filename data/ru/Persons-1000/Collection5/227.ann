@@ -1,0 +1,21 @@
+T1	ORG 11 15	Opel
+T2	ORG 101 105	Opel
+T3	PER 113 132	Карл-Фридрих Штраке
+T4	ORG 239 253	General Motors
+T5	ORG 310 315	Опеля
+T6	PER 317 327	Нику Рейли
+T7	ORG 372 374	GM
+T8	GEOPOLIT 377 383	Европе
+T9	MEDIA 466 488	Automotive News Europe
+T10	PER 493 512	Карл-Фридрих Штраке
+T11	ORG 542 556	General Motors
+T12	ORG 694 699	Опеля
+T13	LOC 712 718	Бохуме
+T14	ORG 816 818	GM
+T15	LOC 821 833	Рюссельхайме
+T16	PER 893 899	Штраке
+T17	GEOPOLIT 977 985	Германии
+T18	GEOPOLIT 988 991	США
+T19	PER 996 1002	Штраке
+T20	ORG 1075 1089	General Motors
+T21	PER 1097 1111	Джон Калабрезе

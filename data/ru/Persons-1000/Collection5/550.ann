@@ -1,0 +1,34 @@
+T1	ORG 0 6	Google
+T2	ORG 34 43	Пентагоне
+T3	ORG 56 115	Управления перспективных исследовательских проектов (DARPA)
+T4	ORG 116 136	Министерства обороны
+T5	GEOPOLIT 137 140	США
+T6	PER 141 168	Регина Дуган (Regina Dugan)
+T7	ORG 201 207	Google
+T8	MEDIA 218 223	Wired
+T9	PER 244 249	Дуган
+T10	ORG 259 265	Google
+T11	ORG 360 365	DARPA
+T12	PER 409 414	Дуган
+T13	PER 415 448	Кейгэм Гэбриэль (Kaigham Gabriel)
+T14	ORG 468 473	DARPA
+T15	PER 474 479	Дуган
+T16	ORG 564 569	DARPA
+T17	GEOPOLIT 643 646	США
+T18	MEDIA 750 759	CNET News
+T19	ORG 800 805	DARPA
+T20	PER 806 811	Дуган
+T21	PER 946 951	Дуган
+T22	PER 1025 1052	Пейтер Затко (Peiter Zatko)
+T23	PER 1087 1092	Mudge
+T24	PER 1110 1115	Дуган
+T25	ORG 1129 1134	DARPA
+T26	MEDIA 1174 1179	Wired
+T27	ORG 1357 1377	Министерство обороны
+T28	PER 1428 1433	Дуган
+T29	ORG 1464 1476	RedX Defense
+T30	PER 1550 1555	Дуган
+T31	PER 1670 1675	Дуган
+T32	ORG 1710 1716	Google
+T33	ORG 1734 1739	DARPA
+T34	PER 1824 1829	Дуган

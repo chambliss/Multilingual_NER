@@ -1,0 +1,17 @@
+T1	ORG 0 9	Hermitage
+T2	ORG 39 43	ГУВД
+T3	LOC 44 50	Москвы
+T4	PER 65 78	С.Магнитского
+T5	ORG 87 104	Hermitage Capital
+T6	PER 151 169	Анатолия Михалкина
+T7	ORG 232 236	ГУВД
+T8	LOC 237 243	Москвы
+T9	PER 265 283	Сергея Магнитского
+T10	ORG 384 401	Hermitage Capital
+T11	ORG 451 455	ГУВД
+T12	LOC 456 462	Москвы
+T13	PER 495 506	А.Кузнецова
+T14	PER 524 536	С.Магнитский
+T15	PER 588 598	А.Михалкин
+T16	PER 637 649	А.Кузнецовым
+T17	ORG 768 777	Hermitage

@@ -1,0 +1,27 @@
+T1	GEOPOLIT 13 16	США
+T2	GEOPOLIT 19 25	России
+T3	ORG 56 60	НАТО
+T4	GEOPOLIT 77 80	США
+T5	GEOPOLIT 83 89	России
+T6	PER 90 128	Александр Вершбоу (Alexander Vershbow)
+T7	ORG 174 178	НАТО
+T8	ORG 200 216	Associated Press
+T9	PER 232 239	Вершбоу
+T10	PER 258 296	Клаудио Бизоньеро (Claudio Bisogniero)
+T11	ORG 323 327	НАТО
+T12	PER 328 348	Андерс Фог Расмуссен
+T13	PER 377 384	Вершбоу
+T14	PER 428 437	Бизоньеро
+T15	PER 545 552	Вершбоу
+T16	PER 610 617	Вершбоу
+T17	ORG 642 646	НАТО
+T18	GEOPOLIT 703 709	России
+T19	GEOPOLIT 771 782	Южную Корею
+T20	PER 796 803	Вершбоу
+T21	GEOPOLIT 849 852	США
+T22	PER 896 903	Вершбоу
+T23	ORG 956 960	НАТО
+T24	GEOPOLIT 1043 1046	США
+T25	ORG 1111 1114	ОВС
+T26	ORG 1115 1119	НАТО
+T27	PER 1138 1175	Джеймс Ставридис (James G. Stavridis)

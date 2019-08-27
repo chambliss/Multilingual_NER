@@ -1,0 +1,26 @@
+T1	PER 0 7	Б.Обама
+T2	ORG 31 34	ФБР
+T3	GEOPOLIT 64 67	США
+T4	PER 68 79	Барак Обама
+T5	ORG 123 126	ФБР
+T6	PER 141 153	Джеймса Коми
+T7	MEDIA 170 178	NBC News
+T8	PER 225 232	Дж.Коми
+T9	ORG 266 269	ФБР
+T10	PER 281 296	Роберта Мюллера
+T11	PER 402 414	Джеймсу Коми
+T12	LOC 477 487	Манхэттена
+T13	PER 531 552	Джорджа Буша-младшего
+T14	ORG 609 631	Bridgewater Associates
+T15	ORG 655 670	Lockheed Martin
+T16	ORG 704 708	HSBC
+T17	ORG 753 778	Колумбийском университете
+T18	PER 783 790	Б.Обама
+T19	PER 807 814	Дж.Коми
+T20	ORG 915 918	ФБР
+T21	PER 999 1006	Б.Обамы
+T22	GEOPOLIT 1053 1056	США
+T23	ORG 1225 1236	IT-компаний
+T24	ORG 1246 1252	Google
+T25	ORG 1255 1264	Faceboook
+T26	ORG 1296 1299	ФБР

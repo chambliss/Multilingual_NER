@@ -1,0 +1,42 @@
+T1	ORG 13 22	Bloomberg
+T2	ORG 43 52	Dow Jones
+T3	ORG 88 97	Bloomberg
+T4	PER 98 123	Лекс Фенуик (Lex Fenwick)
+T5	ORG 177 196	Dow Jones & Company
+T6	MEDIA 215 222	Reuters
+T7	PER 227 233	Фенуик
+T8	ORG 256 265	Bloomberg
+T9	PER 329 335	Фенуик
+T10	PER 343 379	Майкла Блумберга (Michael Bloomberg)
+T11	PER 416 422	Фенуик
+T12	ORG 445 463	Bloomberg Ventures
+T13	ORG 520 529	Dow Jones
+T14	PER 530 553	Лес Хинтон (Les Hinton)
+T15	MEDIA 634 651	News of The World
+T16	PER 666 672	Хинтон
+T17	ORG 684 702	News International
+T18	PER 743 758	Руперту Мердоку
+T19	ORG 768 777	News Corp
+T20	ORG 788 806	News International
+T21	MEDIA 842 859	News of The World
+T22	PER 978 984	Хинтон
+T23	PER 1006 1012	Хинтон
+T24	MEDIA 1081 1099	The New York Times
+T25	ORG 1108 1117	Dow Jones
+T26	PER 1157 1182	Тодд Ларсен (Todd Larsen)
+T27	ORG 1223 1242	Dow Jones & Company
+T28	MEDIA 1268 1291	The Wall Street Journal
+T29	ORG 1320 1329	Dow Jones
+T30	PER 1357 1374	Рупертом Мердоком
+T31	ORG 1458 1467	News Corp
+T32	PER 1592 1599	Хинтона
+T33	MEDIA 1651 1668	News of The World
+T34	ORG 1695 1713	News International
+T35	PER 1714 1726	Ребека Брукс
+T36	PER 1745 1758	Джеймс Мердок
+T37	MEDIA 1810 1831	News Group Newspapers
+T38	MEDIA 1843 1850	The Sun
+T39	MEDIA 1869 1886	News of The World
+T40	MEDIA 1890 1910	Times Newspapers Ltd
+T41	MEDIA 1922 1931	The Times
+T42	MEDIA 1934 1950	The Sunday Times

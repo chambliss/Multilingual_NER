@@ -1,0 +1,15 @@
+T1	ORG 95 110	Lockheed Martin
+T2	PER 111 136	Боб Стивенс (Bob Stevens)
+T3	ORG 305 320	Lockheed Martin
+T4	PER 321 360	Кристофер Кубасик (Christopher Kubasik)
+T5	PER 362 370	Кубасика
+T6	PER 391 426	Мэрилин Хьюсон (Marillyn A. Hewson)
+T7	ORG 495 513	Electronic Systems
+T8	ORG 529 544	Lockheed Martin
+T9	PER 559 566	Стивенс
+T10	ORG 615 630	Lockheed Martin
+T11	ORG 685 712	Loral Systems Manufacturing
+T12	PER 714 721	Стивенс
+T13	ORG 1125 1140	Lockheed Martin
+T14	GEOPOLIT 1156 1159	США
+T15	ORG 1192 1200	Пентагон

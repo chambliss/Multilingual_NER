@@ -1,0 +1,13 @@
+T1	ORG 6 9	RBS
+T2	PER 10 18	С.Хестер
+T3	ORG 60 82	Royal Bank of Scotland
+T4	PER 83 96	Стивен Хестер
+T5	PER 186 195	С.Хестера
+T6	ORG 333 336	RBS
+T7	GEOPOLIT 363 377	Великобритании
+T8	PER 439 447	С.Хестер
+T9	ORG 559 562	RBS
+T10	ORG 754 757	RBS
+T11	PER 902 910	С.Хестер
+T12	ORG 930 933	RBS
+T13	PER 1037 1045	С.Хестер

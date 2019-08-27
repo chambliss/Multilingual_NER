@@ -1,0 +1,44 @@
+T1	ORG 0 18	Metro Cash & Carry
+T2	GEOPOLIT 21 27	России
+T3	ORG 97 115	Metro Cash & Carry
+T4	GEOPOLIT 118 124	России
+T5	PER 132 142	Питер Боон
+T6	MEDIA 161 172	РИА Новости
+T7	PER 221 225	Боон
+T8	PER 233 249	Йеруна де Гроота
+T9	ORG 343 361	Metro Cash & Carry
+T10	PER 389 393	Боон
+T11	ORG 523 541	Metro Cash & Carry
+T12	GEOPOLIT 544 550	России
+T13	ORG 617 622	Makro
+T14	GEOPOLIT 625 629	Азии
+T15	GEOPOLIT 632 645	Южной Америке
+T16	PER 666 674	де Гроот
+T17	ORG 732 764	Metro Cash & Carry International
+T18	PER 854 862	де Гроот
+T19	ORG 943 961	Metro Cash & Carry
+T20	ORG 972 975	СНГ
+T21	ORG 990 1008	Metro Cash & Carry
+T22	ORG 1198 1237	Европа и Ближний Восток/Северная Африка
+T23	ORG 1242 1265	Азия, СНГ и Новые рынки
+T24	PER 1291 1303	Франс Муллер
+T25	ORG 1364 1382	Metro Cash & Carry
+T26	GEOPOLIT 1385 1391	Россия
+T27	GEOPOLIT 1393 1398	Китай
+T28	GEOPOLIT 1400 1408	Германия
+T29	GEOPOLIT 1410 1417	Франция
+T30	GEOPOLIT 1419 1425	Италия
+T31	GEOPOLIT 1427 1433	Польша
+T32	GEOPOLIT 1435 1442	Испания
+T33	GEOPOLIT 1445 1451	Турция
+T34	ORG 1456 1474	Metro Cash & Carry
+T35	ORG 1493 1504	Metro Group
+T36	GEOPOLIT 1588 1594	России
+T37	ORG 1617 1622	Metro
+T38	LOC 1646 1652	Москве
+T39	ORG 1741 1746	Metro
+T40	ORG 1788 1810	Metro/Makro Cash&Carry
+T41	ORG 1855 1859	Real
+T42	ORG 1861 1872	Media Markt
+T43	ORG 1875 1881	Saturn
+T44	ORG 1902 1917	Galeria Kaufhof
