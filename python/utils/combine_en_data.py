@@ -1,3 +1,7 @@
+import csv
+import numpy as np
+import pandas as pd
+
 def preprocess_conll(data):
 
     """
@@ -68,23 +72,57 @@ def create_combined_en_dataset(dataset_path_list, combined_path):
     return None
 
 
-if __name__ == '__main__':
+def map_to_standardized_labels(label):
 
-    conll_path = '../data/en/CONLL2003/'
-    ee_path = '../data/en/emerging_entities_17/'
-    combined_path = '../data/en/combined/'
+    """
+    Meant to be used w/ pd.apply().
+    Maps a label to a standardized set of labels, because
+    the CONLL and EE data include different labelsets and
+    labeling conventions (EE has a larger # of classes,
+    and writes out labels as "person", "location", etc.,
+    while CONLL uses "PER", "LOC", and so on).
+    """
 
-    # Training set
-    create_combined_en_dataset([conll_path + 'train.txt',
-                                ee_path + 'wnut17train.conll'],
-                                combined_path + 'train_combined.txt')
+    if pd.isna(label):
+        return label
 
-    # Validation set
-    create_combined_en_dataset([conll_path + 'valid.txt',
-                                ee_path + 'emerging.dev.conll'],
-                                combined_path + 'dev_combined.txt')
+    # [:2] keeps the 'B-' or 'I-' part of the label
+    elif 'loc' in label.lower():
+        label = label[:2] + 'LOC'
 
-    # Test set
-    create_combined_en_dataset([conll_path + 'test.txt',
-                                ee_path + 'emerging.test.annotated'],
-                                combined_path + 'test_combined.txt')
+    elif 'per' in label.lower():
+        label = label[:2] + 'PER'
+
+    elif any([s in label.lower() for s in ['org', 'corp', 'group']]):
+        label = label[:2] + 'ORG'
+
+    # For any leftover labels that are not 'O': map them to MISC
+    elif label != 'O':
+        label = label[:2] + 'MISC'
+
+    return label
+
+
+def standardize_labels_and_save(dataset_file_list):
+
+    """
+    Standardizes the labels for each dataset and saves them
+    under the same filename + '_std' for 'standardized'.
+    """
+
+    for file in dataset_file_list:
+
+        # `sep`, `quoting`, and skip_blank_lines args help preserve data structure
+        data_df = pd.read_table(
+                    file, header=None, skip_blank_lines=False,
+                    sep=' |\t', quoting=csv.QUOTE_NONE, engine='python'
+                    ).replace([None], np.nan)
+
+        data_df[1] = data_df[1].apply(map_to_standardized_labels)
+
+        data_df.to_csv(f'{file[:-4]}_std.txt', header=False, index=False,
+                        sep=' ', quoting=csv.QUOTE_NONE)
+
+        print(f'Saved standardized data to {file}.')
+
+    return None
