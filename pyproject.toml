@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.data         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.config
+    | \.resources
+  )/
+  | 
+)
+'''

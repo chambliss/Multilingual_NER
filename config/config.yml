@@ -1,0 +1,9 @@
+# paths:
+repo_path: Multilingual_NER/
+utils_path: python/utils/
+
+# data paths:
+## en data:
+conll_path: 'data/en/CONLL2003/'
+ee_path: 'data/en/emerging_entities_17/'
+en_combined_path: 'data/en/combined/'
