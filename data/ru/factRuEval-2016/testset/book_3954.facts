@@ -1,0 +1,57 @@
+3954-0 Deal
+Participant obj1762 СТС | СТС Медиа
+Participant obj1763 Caramba TV | Карамба ТВ
+Type купля/продажа
+
+3954-1 Ownership
+Owner obj1768 Орлов Михаил 
+Property obj1763 Caramba TV | Карамба ТВ
+Сложность повышенная
+
+3954-2 Ownership
+Owner obj1769 Голополосов Максим 
+Property obj1763 Caramba TV | Карамба ТВ
+Сложность повышенная
+
+3954-3 Occupation
+Who obj1769 Голополосов Максим 
+Job span79127 ведущий
+Where obj2030 +100500
+
+3954-4 Occupation
+Who obj1770 Сивак Петр 
+Job span79128 режиссер
+Where obj2030 +100500
+Сложность повышенная
+
+3954-5 Ownership
+Owner obj1770 Сивак Петр 
+Property obj1763 Caramba TV | Карамба ТВ
+Сложность обычная
+
+3954-6 Ownership
+Owner obj1771 Рязанов Дмитрий 
+Property obj1763 Caramba TV | Карамба ТВ
+Сложность повышенная
+
+3954-7 Ownership
+Owner obj1767 Скалл Партнерс
+Property obj1763 Caramba TV | Карамба ТВ
+Сложность повышенная
+
+3954-8 Ownership
+Owner obj1768 Орлов Михаил 
+Property obj1767 Скалл Партнерс
+
+3954-9 Ownership
+Owner obj1769 Голополосов Максим 
+Property obj1767 Скалл Партнерс
+
+3954-10 Ownership
+Owner obj1770 Сивак Петр 
+Property obj1767 Скалл Партнерс
+
+3954-11 Ownership
+Owner obj1762 СТС | СТС Медиа
+Property obj1766 Перец
+

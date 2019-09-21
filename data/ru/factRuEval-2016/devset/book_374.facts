@@ -1,0 +1,30 @@
+374-0 Occupation
+Who obj919 Миллер Алексей
+Position span28648 глава
+Where obj918 Газпром
+
+374-1 Deal
+Participant obj918 Газпром
+Participant obj920 Белтрансгаз
+Participant obj921 правительство Белоруссии
+Participant obj916 Россия
+Participant obj917 Белоруссия
+Type займ/возвращение займа
+
+374-2 Occupation
+Who obj922 Товпинец Эдуард
+Position span28668 первый замминистра энергетики
+Where obj917 Белоруссия
+
+374-3 Occupation
+Who obj924 Озерец Александр
+Position span28670 министр энергетики
+Where obj917 Белоруссия
+
+374-4 isPartOf
+Part obj921 правительство Белоруссии
+Whole obj917 Белоруссия
+
+374-5 Meeting
+Participant obj919 Миллер Алексей
+Participant obj924 Озерец Александр

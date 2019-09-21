@@ -1,0 +1,116 @@
+3980-0 Deal
+Participant obj1953 ВТБ
+Participant obj1954 Tele2 | Tele2 AB
+Type купля/продажа
+Participant obj1961 Tele2 Россия
+
+3980-1 Occupation
+Who obj1960 Соловьёв Юрий 
+Job span78379 первый зампред
+Where obj1959 правление банка
+
+3980-2 Occupation
+Who obj1962 Нильсон Ларс 
+Job span78397 Финансовый директор
+Where obj1954 Tele2 | Tele2 AB
+Сложность повышенная
+
+3980-3 Ownership
+Owner obj1964 Investment AB Kinnevik
+Property obj1954 Tele2 | Tele2 AB
+
+3980-4 Occupation
+Who obj1965 Гранрид Матс 
+Job span78419 Президент
+Where obj1954 Tele2 | Tele2 AB
+
+3980-5 Occupation
+Who obj1965 Гранрид Матс 
+Job span78420 гендиректор
+Where obj1954 Tele2 | Tele2 AB
+
+3980-6 Occupation
+Who obj1968 Страшнов Дмитрий 
+Job span78435 президент
+Where obj1961 Tele2 Россия
+Фаза конец
+
+3980-7 Occupation
+Who obj1968 Страшнов Дмитрий 
+Where obj1969 Почта России
+Модальность возможность
+
+3980-8 Occupation
+Who obj1970 Калмис Джери 
+Job span78435 президент
+Where obj1961 Tele2 Россия
+Фаза начало
+Сложность повышенная
+
+3980-9 Occupation
+Who obj1970 Калмис Джери 
+Where obj1971 36,6
+Модальность завершено в прошлом
+Фаза начало
+
+3980-11 Ownership
+Owner obj1972 Garsdale
+Property obj1976 Усманов Алишер 
+
+3980-12 Deal
+Participant obj1972 Garsdale
+Participant obj1961 Tele2 Россия
+Модальность возможность | отрицание
+Participant obj1954 Tele2 | Tele2 AB
+
+3980-13 Ownership
+Owner obj1975 МТС
+Property obj1961 Tele2 Россия
+Модальность возможность | отрицание
+
+3980-14 Ownership
+Owner obj1974 Вымпелком
+Property obj1961 Tele2 Россия
+Модальность возможность | отрицание
+
+3980-15 Ownership
+Owner obj1973 Мегафон
+Property obj1961 Tele2 Россия
+Модальность возможность | отрицание
+
+3980-16 Deal
+Participant obj1967 Ростелеком
+Participant obj1954 Tele2 | Tele2 AB
+Модальность возможность | отрицание
+Participant obj1961 Tele2 Россия
+
+3980-17 Ownership
+Owner obj1955 Россия
+Property obj1967 Ростелеком
+Сложность повышенная
+
+3980-18 Occupation
+Who obj1978 Родионов Иван 
+Job span78459 председатель
+Where obj1977 совет директоров госоператора
+
+3980-20 Ownership
+Owner obj1953 ВТБ
+Property obj1961 Tele2 Россия
+Сложность повышенная
+
+3980-21 Ownership
+Owner obj1955 Россия
+Property obj1953 ВТБ
+Сложность повышенная
+
+3980-22 Occupation
+Who obj1980 Костин Андрей 
+Job span78482 Президент
+Where obj1953 ВТБ
+
+3980-23 Occupation
+Who obj1982 Либин Сергей 
+Job span78490 аналитик
+Where obj1981 Райффайзенбанк
+

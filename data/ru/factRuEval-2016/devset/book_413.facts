@@ -1,0 +1,22 @@
+413-0 Occupation
+Who obj1341 Илюмжинов Кирсан
+Position span29329 Президент
+Where obj1339 ФИДЕ
+
+413-1 Deal
+Participant obj1341 Илюмжинов Кирсан
+Participant obj1343 Крамник Владимир
+Participant obj1339 ФИДЕ
+Type участие в мероприятии
+
+413-2 Deal
+Participant obj1341 Илюмжинов Кирсан
+Participant obj1342 Топалов Веселин
+Participant obj1339 ФИДЕ
+Type участие в мероприятии
+
+413-3 Deal
+Participant obj1339 ФИДЕ
+Participant obj1345 Мехико
+Participant obj1341 Илюмжинов Кирсан
+Type услуги

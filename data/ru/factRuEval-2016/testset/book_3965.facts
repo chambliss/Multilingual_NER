@@ -1,0 +1,31 @@
+3965-0 Occupation
+Who obj772 Стубб Александр
+Job span56210 Премьер-министр
+Where obj770 Финляндия
+
+3965-1 Occupation
+Who obj776 Валрус Налле
+Job span56212 главы
+Where obj782 Nordea
+
+3965-2 Occupation
+Who obj772 Стубб Александр
+Job span56225 премьер-министром
+Where obj770 Финляндия
+Фаза начало
+
+3965-3 Deal
+Participant obj785 Nokia
+Participant obj778 Microsoft
+Type купля/продажа
+
+3965-4 Occupation
+Who obj777 Кук Тим
+Job span56243 гендиректор
+Where obj771 Apple
+
+3965-5 Ownership
+Owner obj774 Джобс Стив
+Property obj771 Apple
+Сложность повышенная
+

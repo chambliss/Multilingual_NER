@@ -1,0 +1,26 @@
+3746-0 Deal
+Participant obj2678 Черногория
+Participant obj2679 РФ | Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+Фаза начало
+
+3746-1 Occupation
+Who obj2681 Вуянович Филип 
+Job span86399 Президент
+Where obj2678 Черногория
+Сложность повышенная
+
+3746-2 Deal
+Participant obj2680 ЕС | Евросоюз
+Participant obj2679 РФ | Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+
+3746-3 Occupation
+Who obj2685 Фишер Хайнц 
+Job span86420 президента
+Where obj2684 Австрия
+
+3746-4 Meeting
+Participant obj2681 Вуянович Филип 
+Participant obj2685 Фишер Хайнц 
+

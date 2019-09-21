@@ -1,0 +1,49 @@
+3942-0 Deal
+Participant obj1779 Яндекс
+Participant obj1784 Blekko
+Type инвестиции
+
+3942-1 Occupation
+Who obj1782 Волож Аркадий 
+Job span79191 гендиректор
+Where obj1779 Яндекс
+
+3942-2 Occupation
+Who obj1782 Волож Аркадий 
+Where obj1785 совет директоров Blekko
+
+3942-3 Ownership
+Owner obj1779 Яндекс
+Property obj1784 Blekko
+
+3942-4 Deal
+Participant obj1787 MLC
+Participant obj1784 Blekko
+Type инвестиции
+Сложность повышенная
+
+3942-5 Deal
+Participant obj1788 U.S. Venture Partners
+Participant obj1784 Blekko
+Type инвестиции
+
+3942-6 Deal
+Participant obj1789 CMEA Capital
+Participant obj1784 Blekko
+Type инвестиции
+
+3942-7 Deal
+Participant obj1790 PivotNorth Capital
+Participant obj1784 Blekko
+Type инвестиции
+
+3942-8 Occupation
+Who obj1782 Волож Аркадий 
+Job span79229 главы
+Where obj1780 Yandex
+Сложность повышенная
+
+3942-9 Ownership
+Owner obj1780 Yandex
+Property obj1779 Яндекс
+

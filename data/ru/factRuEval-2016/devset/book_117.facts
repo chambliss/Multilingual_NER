@@ -1,0 +1,26 @@
+117-0 Meeting
+Participant obj102 Саркози Николя
+Participant obj101 Обама Барак
+
+117-1 Occupation
+Who obj102 Саркози Николя
+Position span22887 президент
+Where obj104 Франция
+Сложность повышенная
+
+117-2 Occupation
+Who obj101 Обама Барак
+Position span22887 президент
+Where obj107 США
+Сложность повышенная
+
+117-3 Occupation
+Who obj101 Обама Барак
+Position span22888 главой
+Where obj106 администрация США
+Сложность повышенная
+
+117-4 isPartOf
+Company obj106 администрация США
+Company obj107 США
+

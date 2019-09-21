@@ -1,0 +1,13 @@
+310-0 Ownership
+Owner obj664 Видениус Майкл
+Property obj666 MySQL
+
+310-1 Deal
+Participant obj662 Oracle
+Participant obj663 Sun | Sun Microsystems
+Type купля/продажа
+
+310-2 Deal
+Participant obj663 Sun | Sun Microsystems
+Participant obj666 MySQL
+Type купля/продажа

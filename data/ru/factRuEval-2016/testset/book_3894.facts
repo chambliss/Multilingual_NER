@@ -1,0 +1,67 @@
+3894-0 Deal
+Participant obj1704 RTL Group
+Participant obj1705 НМГ | Национальная Медиа Группа
+Type купля/продажа
+
+3894-1 Ownership
+Owner obj1708 Ковальчук Юрий 
+Property obj1705 НМГ | Национальная Медиа Группа
+
+3894-2 Ownership
+Owner obj1708 Ковальчук Юрий 
+Property obj1707 Россия
+
+3894-3 Ownership
+Owner obj1705 НМГ | Национальная Медиа Группа
+Property obj1704 RTL Group
+Фаза начало
+
+3894-4 Ownership
+Owner obj1705 НМГ | Национальная Медиа Группа
+Property obj1709 РЕН ТВ
+
+3894-5 Deal
+Participant obj1705 НМГ | Национальная Медиа Группа
+Participant obj1704 RTL Group
+Type купля/продажа
+Participant obj1709 РЕН ТВ
+
+3894-6 Ownership
+Owner obj1715 Мордашов А А
+Property obj1707 Россия
+
+3894-7 Ownership
+Owner obj1705 НМГ | Национальная Медиа Группа
+Property obj2029 Петербург — Пятый канал
+Сложность повышенная
+
+3894-8 Ownership
+Owner obj1704 RTL Group
+Property obj1717 Fremantle Media
+
+3894-9 Occupation
+Who obj1718 Габрелянов Арам 
+Job span80757 заместитель главы
+Where obj1705 НМГ | Национальная Медиа Группа
+
+3894-10 Occupation
+Who obj1718 Габрелянов Арам 
+Job span80753 гендиректор
+Where obj1717 Ньюс Медиа-Рус
+
+3894-11 Occupation
+Who obj1718 Габрелянов Арам 
+Job span80754 председателем
+Where obj1719 совет директоров ОАО Известия
+Фаза начало
+
+3894-12 Ownership
+Owner obj1705 НМГ | Национальная Медиа Группа
+Сложность повышенная
+Property obj1710 Первый канал
+
+3894-13 Ownership
+Owner obj1705 НМГ | Национальная Медиа Группа
+Property obj1712 Известия
+Сложность повышенная
+

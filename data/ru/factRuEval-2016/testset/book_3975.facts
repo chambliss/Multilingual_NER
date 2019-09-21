@@ -1,0 +1,17 @@
+3975-0 Deal
+Participant obj1811 Microsoft
+Participant obj1812 Yahoo | Yahoo!
+Модальность возможность
+Type купля/продажа
+
+3975-1 Occupation
+Who obj1814 Балмер Стив 
+Job span78783 президент
+Where obj1811 Microsoft
+
+3975-2 Occupation
+Who obj1813 Гейтс Билл 
+Job span78783 президент
+Where obj1811 Microsoft
+Модальность завершено в прошлом
+

@@ -1,0 +1,77 @@
+3725-0 Deal
+Participant obj3720 ПрофМедиа
+Participant obj3726 Viacom
+Type услуги
+Participant obj3721 MTV
+
+3725-1 Ownership
+Owner obj3726 Viacom
+Property obj3721 MTV
+
+3725-2 Deal
+Participant obj3743 Руководство Первого канала
+Participant obj3742 Руководство Пятницы
+Type услуги
+
+3725-3 Occupation
+Who obj3728 Картозия Николай 
+Job span86778 президент
+Where obj3720 ПрофМедиа
+Сложность повышенная
+
+3725-4 Occupation
+Who obj3747 Анатольевич Александр 
+Where obj3721 MTV
+Сложность повышенная
+Job span89440 ви-джеи
+
+3725-5 Occupation
+Who obj3748 Пашков Юра 
+Where obj3721 MTV
+Сложность повышенная
+Job span89440 ви-джеи
+
+3725-6 Occupation
+Where obj3721 MTV
+Сложность повышенная
+Job span89440 ви-джеи
+Who obj3746 Понарошку Ирена
+
+3725-7 Occupation
+Where obj3721 MTV
+Сложность повышенная
+Job span89440 ви-джеи
+Who obj3752 Марика
+
+3725-8 Occupation
+Who obj3748 Пашков Юра 
+Where obj3721 MTV
+Фаза конец
+Модальность возможность
+Сложность повышенная
+Job span89440 ви-джеи
+
+3725-9 Occupation
+Who obj3747 Анатольевич Александр 
+Where obj3721 MTV
+Фаза конец
+Модальность возможность
+Сложность повышенная
+Job span89440 ви-джеи
+
+3725-10 Occupation
+Where obj3721 MTV
+Фаза конец
+Модальность будущее
+Сложность повышенная
+Job span89440 ви-джеи
+Who obj3746 Понарошку Ирена
+
+3725-11 Occupation
+Where obj3721 MTV
+Фаза конец
+Модальность будущее
+Сложность повышенная
+Job span89440 ви-джеи
+Who obj3752 Марика
+

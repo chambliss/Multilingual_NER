@@ -1,0 +1,20 @@
+3763-0 Occupation
+Who obj2722 Репин Дмитрий 
+Where obj2723 Skolkovo Business School
+
+3763-1 Occupation
+Who obj2724 Манчулянцев Олег 
+Where obj2745 Начинай
+
+3763-4 Deal
+Participant obj2739 RIS Ventures
+Participant obj2740 ABRT
+Type инвестиции
+Participant obj2741 Microsoft
+Participant obj2742 Центр предпринимательства США-Россия
+
+3763-5 Deal
+Participant obj2727 Агентство по развитию инновационного предпринимательства
+Participant obj2745 Начинай
+Type инвестиции
+

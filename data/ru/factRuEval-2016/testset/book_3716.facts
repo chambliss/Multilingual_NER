@@ -1,0 +1,32 @@
+3716-0 Occupation
+Who obj3099 Порошенко Петр 
+Job span86822 Президент
+Where obj3098 Украина
+
+3716-1 Occupation
+Who obj3110 Путин Владимир 
+Job span86842 президентом
+Where obj3100 Россия
+
+3716-2 Occupation
+Who obj3112 Олланд Франсуа 
+Job span86843 президентом
+Where obj3111 Франция
+
+3716-3 Occupation
+Who obj3114 Меркель Ангела 
+Job span86844 канцлером
+Where obj3113 Германия
+
+3716-4 Occupation
+Who obj3110 Путин Владимир 
+Job span86804 лидер
+Where obj3100 Россия
+Сложность повышенная
+
+3716-5 Occupation
+Who obj3099 Порошенко Петр 
+Job span86804 лидер
+Where obj3098 Украина
+Сложность повышенная
+

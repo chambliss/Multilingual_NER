@@ -1,0 +1,24 @@
+333-0 Occupation
+Who obj532 Гачечиладзе Леван
+Position span28010 депутатом
+Where obj1220 парламент
+
+333-1 Occupation
+Who obj532 Гачечиладзе Леван
+Position span28013 членом
+Where obj536 бюджетно-финансовый парламентский комитет
+
+333-2 Occupation
+Who obj538 Зурабишвили Саломе
+Position span28024 премьер-министром
+Where obj533 Грузия
+Модальность возможность
+
+333-3 Occupation
+Who obj538 Зурабишвили Саломе
+Position span28025 глава
+Where obj537 Путь Грузии
+
+333-4 Occupation
+Who obj532 Гачечиладзе Леван
+Where obj534 Новые правые

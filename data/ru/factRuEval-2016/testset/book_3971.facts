@@ -1,0 +1,20 @@
+3971-0 Deal
+Participant obj1641 Ростелеком
+Participant obj1642 Скай Линк | Скайлинк
+Type купля/продажа
+Фаза конец
+Participant obj1645 Мобител
+
+3971-1 Ownership
+Owner obj1641 компания
+Property obj1645 Мобител
+
+3971-2 Ownership
+Owner obj1644 Россия
+Property obj1641 Ростелеком
+
+3971-3 Occupation
+Who obj1646 Провоторов Александр
+Job span78897 президент
+Where obj1641 Ростелеком
+

@@ -1,0 +1,21 @@
+3802-1 Deal
+Participant obj2428 Интер РАО ЕЭС
+Participant obj2427 Белоруссия
+Type займ/возвращение займа/долг
+
+3802-2 Occupation
+Who obj2431 Зенькович Людмила 
+Job span84860 пресс-секретаря
+Where obj2432 белорусское министерство энергетики
+
+3802-3 Deal
+Participant obj2428 Интер РАО ЕЭС
+Participant obj2427 Белоруссия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+Модальность возможность
+
+3802-4 Deal
+Participant obj2428 Интер РАО ЕЭС
+Participant obj2427 Белоруссия
+Type услуги
+

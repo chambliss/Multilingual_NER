@@ -1,0 +1,61 @@
+3842-0 Occupation
+Who obj2243 Путин Владимир 
+Job span84112 Президент
+Where obj2248 Россия
+
+3842-1 Occupation
+Who obj2243 Путин Владимир 
+Job span84116 Глава
+Where obj2248 Россия
+Сложность повышенная
+
+3842-2 Occupation
+Who obj2253 Суини Джон 
+Job span84114 корреспондента
+Where obj2252 Би-би-си
+
+3842-3 Meeting
+Participant obj2243 Путин Владимир 
+Participant obj2253 Суини Джон 
+
+3842-4 Occupation
+Who obj2260 Песков Дмитрий 
+Job span84158 пресс-секретарю президента
+Where obj2248 Россия
+
+3842-5 Occupation
+Who obj2264 Кучма Леонид 
+Job span84193 экс-президент
+Where obj2255 Украина
+
+3842-6 Occupation
+Who obj2265 Зурабов Михаил 
+Job span84194 посол | span84195 посол России на Украине
+Where obj2248 Россия
+
+3842-7 Occupation
+Who obj2267 Тальявини Хайди 
+Job span84196 представитель
+Where obj2266 ОБСЕ
+
+3842-8 Occupation
+Who obj2269 Пургин Андрей 
+Job span84197 вице-премьер
+Where obj2245 ДНР | Донбасс | Донецкая народная республика
+
+3842-9 Meeting
+Participant obj2264 Кучма Леонид 
+Participant obj2265 Зурабов Михаил 
+Participant obj2267 Тальявини Хайди 
+Participant obj2269 Пургин Андрей 
+
+3842-10 Occupation
+Who obj2273 Лавров Сергей 
+Job span84198 глава
+Where obj2272 МИД России
+
+3842-11 Occupation
+Who obj2275 Порошенко Петр 
+Job span84205 Президент
+Where obj2255 Украина
+

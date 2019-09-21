@@ -1,0 +1,28 @@
+3886-0 Deal
+Participant obj2017 Мегафон
+Participant obj2014 Xiaomi | Китайский Apple | Сяоми
+Type услуги
+Модальность возможность
+
+3886-1 Occupation
+Who obj2018 Бекетова Алия
+Job span81530 пресс-секретарь
+Where obj2017 Мегафон
+Сложность повышенная
+
+3886-2 Deal
+Participant obj2017 Мегафон
+Participant obj2019 Micromax Informatics
+Type услуги
+
+3886-3 Deal
+Participant obj2024 Высокий суд Дели
+Participant obj2014 Xiaomi | Китайский Apple | Сяоми
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+Participant obj2026 Ericsson
+
+3886-4 Occupation
+Who obj2027 Лин Бин
+Job span81585 президент
+Where obj2014 Xiaomi | Китайский Apple | Сяоми
+

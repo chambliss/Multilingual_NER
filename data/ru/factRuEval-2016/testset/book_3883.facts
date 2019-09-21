@@ -1,0 +1,71 @@
+3883-1 Deal
+Participant obj2210 Первый канал
+Participant obj2184 ВКонтакте
+Type услуги
+
+3883-2 Occupation
+Who obj2187 Булавинов Илья 
+Job span83569 руководитель
+Where obj2211 дирекция интернет-вещания Первого канала
+
+3883-3 Ownership
+Owner obj2210 Первый канал
+Property obj2198 Вечерний Ургант
+
+3883-4 Ownership
+Owner obj2210 Первый канал
+Property obj2199 Пусть говорят
+
+3883-5 Ownership
+Owner obj2210 Первый канал
+Property obj2200 КВН
+
+3883-6 Ownership
+Owner obj2210 Первый канал
+Property obj2203 Здоровье
+
+3883-7 Ownership
+Owner obj2210 Первый канал
+Property obj2201 Пока все дома
+
+3883-8 Ownership
+Owner obj2210 Первый канал
+Property obj2204 Точь-в-точь
+
+3883-9 Ownership
+Owner obj2210 Первый канал
+Property obj2205 Ледниковый период
+
+3883-10 Ownership
+Owner obj2210 Первый канал
+Property obj2206 Познер
+
+3883-11 Ownership
+Owner obj2210 Первый канал
+Property obj2207 Что ? Где ? Когда ?
+
+3883-12 Ownership
+Owner obj2210 Первый канал
+Property obj2209 Человек и закон
+
+3883-13 Occupation
+Who obj2191 Сергеев Дмитрий 
+Job span83601 первый заместитель гендиректора
+Where obj2190 Mail.ru Group
+
+3883-14 Occupation
+Who obj2192 Добродеев Борис 
+Job span83604 гендиректор
+Where obj2192 Добродеев Борис 
+Сложность повышенная
+
+3883-15 Ownership
+Owner obj2210 Первый канал
+Property obj2195 kino.1tv.ru
+
+3883-16 Deal
+Participant obj2210 Первый канал
+Participant obj2196 YouTube
+Type услуги
+Сложность повышенная
+

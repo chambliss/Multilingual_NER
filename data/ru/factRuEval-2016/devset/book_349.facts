@@ -1,0 +1,21 @@
+349-0 Occupation
+Who obj764 Нетаньяху Биньямин
+Position span28573 глава
+Where obj766 правительство Израиля
+
+349-1 Occupation
+Who obj795 Эрекат Саеб
+Position span28601 Глава
+Where obj797 палестинская делегация
+
+349-2 Occupation
+Who obj764 Нетаньяху Биньямин
+Position span28577 премьер
+Where obj768 Израиль
+Сложность повышенная
+
+349-3 Deal
+Participant obj766 правительство Израиля
+Participant obj769 Иерусалим
+Type инвестиции
+

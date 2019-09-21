@@ -1,0 +1,62 @@
+3284 52595 52613 52614
+descriptor группировка
+name ИГ
+
+3285 52596 52597 52601 52615
+name США
+
+3286 52598 52599 52612
+descriptor телеканал
+name NBC News
+
+3287 52600
+descriptor министерство обороны
+name минобороны США
+
+3288 52602
+name ВВС
+
+3289 52603
+name НАСА
+
+3290 52609
+descriptor власти
+descriptor власть
+descriptor портовая власть
+descriptor портовые власти
+name портовые власти штата Нью-Йорк
+
+3291 52610
+descriptor власти
+descriptor власть
+descriptor портовая власть
+descriptor портовые власти
+name портовые власти штата Нью-Джерси
+
+3292 52607
+descriptor штат
+name Нью-Йорк
+
+3293 52608
+descriptor штат
+name Нью-Джерси
+
+3294 52606
+name Госдеп
+
+3295 52611
+descriptor компания
+name Flashpoint Intelligence
+
+3296 52619
+descriptor Центральное командование
+descriptor командование
+name Центральное командование ВС США
+
+3297 52616
+descriptor ВС
+name ВС США
+
+3298 52618
+nickname CENTCOM
+

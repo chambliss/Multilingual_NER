@@ -1,0 +1,19 @@
+115-0 Occupation
+Who obj98 Ху Цзиньтао
+Position span22863 председателя
+Where obj93 Китай
+
+115-1 Occupation
+Who obj94 Чэнь Дэмин
+Position span22872 министр торговли
+Where obj93 Китай
+
+115-2 Deal
+Participant obj90 Industrial and Commercial Bank of China | Промышленный и коммерческий банк Китая
+Participant obj91 американское отделение Bank of East Asia
+Type купля/продажа
+
+115-3 Ownership
+Owner obj100 правительство Китая
+Property obj90 Industrial and Commercial Bank of China | Промышленный и коммерческий банк Китая
+

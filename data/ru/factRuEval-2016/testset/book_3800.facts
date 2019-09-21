@@ -1,0 +1,70 @@
+3800-0 Occupation
+Who obj2489 Порошенко Петр 
+Job span85040 президент
+Where obj2469 Украина
+
+3800-1 Occupation
+Who obj2479 Путин Владимир 
+Job span85041 лидер
+Where obj2470 Россия
+
+3800-2 Occupation
+Who obj2479 Путин Владимир 
+Job span85025 президентов
+Where obj2470 Россия
+Сложность повышенная
+
+3800-3 Occupation
+Who obj2482 Меркель Ангела 
+Job span85063 канцлер
+Where obj2481 Германия | ФРГ
+
+3800-4 Occupation
+Who obj2483 Олланд Франсуа 
+Job span85064 президент
+Where obj2471 Франция
+
+3800-5 Meeting
+Participant obj2479 Путин Владимир 
+Фаза конец
+Сложность повышенная
+Participant obj2489 Порошенко Петр 
+Participant obj2483 Олланд Франсуа 
+Participant obj2482 Меркель Ангела 
+
+3800-6 Meeting
+Participant obj2482 Меркель Ангела 
+Модальность будущее
+Participant obj2483 Олланд Франсуа 
+
+3800-7 Occupation
+Who obj2486 Захарченко Алесандр 
+Where obj2484 Донецкая народная республика
+Job span88848 лидеры
+
+3800-8 Occupation
+Who obj2487 Плотницкий Игорь 
+Where obj2485 Луганская народная республика
+Job span88848 лидеры
+
+3800-9 Occupation
+Who obj2488 Сурков Владислав 
+Job span85067 помощник президента
+Where obj2470 Россия
+
+3800-10 Occupation
+Who obj2491 Лукашенко Александр 
+Job span85079 президентом
+Where obj2490 Белоруссия
+
+3800-11 Meeting
+Participant obj2489 Порошенко Петр 
+Модальность завершено в прошлом
+Participant obj2491 Лукашенко Александр 
+
+3800-12 Occupation
+Who obj2491 Лукашенко Александр 
+Job span85081 лидером
+Where obj2490 Белоруссия
+Сложность повышенная
+

@@ -1,0 +1,27 @@
+3574-0 Occupation
+Who obj3056 Мирзазаде Айдын
+Job span88566 депутат
+Where obj3054 Милли Меджлис
+
+3574-1 Occupation
+Who obj3058 Мамедъяров Эльмар
+Job span88583 глава
+Where obj3047 МИД
+
+3574-2 Occupation
+Who obj3058 Мамедъяров Эльмар
+Job span88603 министров иностранных дел
+Where obj3048 Азербайджан
+Сложность повышенная
+
+3574-3 Occupation
+Who obj3049 Лавров
+Job span88603 министров иностранных дел
+Where obj3052 Россия
+Сложность повышенная
+
+3574-4 Meeting
+Participant obj3058 Мамедъяров Эльмар
+Сложность повышенная
+Participant obj3049 Лавров
+

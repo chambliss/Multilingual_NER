@@ -1,0 +1,19 @@
+3904-0 Deal
+Participant obj1700 Газпром
+Participant obj1701 Нафтогаз
+Type услуги
+Модальность возможность
+Participant obj1698 Украина
+Participant obj1695 РФ | Россия
+
+3904-1 Occupation
+Who obj1702 Янукович Виктор 
+Job span80643 президент
+Where obj1698 Украина
+Сложность повышенная
+
+3904-3 Occupation
+Who obj1697 Зурабов Михаил 
+Job span80659 посол | span80660 посол России на Украине
+Where obj1695 РФ | Россия
+

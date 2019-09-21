@@ -1,0 +1,39 @@
+3833-1 Deal
+Participant obj2033 DST | Digital Sky Technologies
+Participant obj2034 Chatroulette
+Type купля/продажа
+Модальность возможность
+Participant obj2035 Терновский Андрей 
+
+3833-2 Ownership
+Owner obj2035 Терновский Андрей 
+Property obj2034 Chatroulette
+
+3833-3 Ownership
+Owner obj2033 DST | Digital Sky Technologies
+Property obj2037 Facebook
+
+3833-4 Deal
+Participant obj2038 Google
+Participant obj2034 Chatroulette
+Type инвестиции
+Модальность возможность
+
+3833-5 Deal
+Participant obj2039 Яндекс
+Participant obj2034 Chatroulette
+Type инвестиции
+Модальность возможность
+
+3833-6 Deal
+Participant obj2041 Skype
+Participant obj2034 Chatroulette
+Type инвестиции
+Модальность возможность
+
+3833-7 Deal
+Participant obj2042 Union Square Ventures
+Participant obj2034 Chatroulette
+Type инвестиции
+Модальность возможность
+

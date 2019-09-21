@@ -1,0 +1,36 @@
+3615-1 Occupation
+Who obj3316 Фёдор
+Job span89260 священника
+Where obj3359 церковь Фрола и Лавра
+
+3615-2 Meeting
+Participant obj3302 Воробьянинов Ипполит Матвеевич
+Participant obj3316 Фёдор
+Participant obj3317 Кузнецова
+
+3615-3 Meeting
+Participant obj3302 Воробьянинов Ипполит Матвеевич
+Participant obj3301 Бендер Остап
+
+3615-4 Meeting
+Participant obj3320 Мефистофель
+Participant obj3321 Фауст
+
+3615-5 Meeting
+Participant obj3302 Воробьянинов Ипполит Матвеевич
+Participant obj3327  Лиза 
+
+3615-7 Occupation
+Who obj3331 Якунин Владимир 
+Job span89327 начальник
+Where obj3358 железные дороги
+
+3615-8 Occupation
+Who obj3331 Якунин Владимир 
+Job span89328 председателем
+Where obj3357 попечительский совет
+
+3615-9 Meeting
+Participant obj3301 Бендер Остап
+Participant obj3342 Грицацуева  
+

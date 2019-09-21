@@ -1,0 +1,47 @@
+3977-0 Deal
+Participant obj1840 Yahoo!
+Participant obj1841 Tumblr
+Type купля/продажа
+
+3977-1 Occupation
+Who obj1844 Майер Марисса 
+Job span78702 президент
+Where obj1840 Yahoo!
+
+3977-2 Occupation
+Who obj1844 Майер Марисса 
+Job span78703 главный исполнительный директор
+Where obj1840 Yahoo!
+
+3977-3 Ownership
+Owner obj1845 Карп Дэвид 
+Property obj1841 Tumblr
+
+3977-4 Deal
+Participant obj1840 Yahoo!
+Participant obj1848 GeoCities
+Type купля/продажа
+
+3977-5 Deal
+Participant obj1848 GeoCities
+Participant obj1849 Flickr
+Type купля/продажа
+
+3977-6 Occupation
+Who obj1844 Майер Марисса 
+Job span78733 инженером
+Where obj1846 Google
+Модальность завершено в прошлом
+
+3977-7 Occupation
+Who obj1844 Майер Марисса 
+Job span78735 менеджером по продукции
+Where obj1846 Google
+Модальность завершено в прошлом
+
+3977-8 Occupation
+Who obj1844 Майер Марисса 
+Job span78737 руководителем
+Where obj1846 Google
+Модальность завершено в прошлом
+

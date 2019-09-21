@@ -1,0 +1,53 @@
+3539-0 Occupation
+Who obj3417 Вертинский Александр
+Where obj3510 Соловцовский театр
+Job span89437 статистом
+
+3539-1 Occupation
+Who obj3417 Вертинский Александр
+Where obj3454 театр миниатюр Марьи Арцыбушевой
+
+3539-2 Meeting
+Participant obj3417 Вертинский Александр
+Сложность повышенная
+Participant obj3456 Станиславский  
+
+3539-3 Meeting
+Participant obj3417 Вертинский Александр
+Participant obj3458 Баженов  
+
+3539-4 Meeting
+Participant obj3497 Вертидис Александр 
+Participant obj3457 Пушкин Александр Сергеевич
+
+3539-5 Ownership
+Owner obj3464 Андржеевский Б 
+Property obj3463 Прогрессивные новости
+
+3539-6 Meeting
+Participant obj3499 Шведский Густав 
+Participant obj3417 Вертинский Александр
+
+3539-7 Meeting
+Participant obj3500 Испанский Альфонс 
+Participant obj3417 Вертинский Александр
+
+3539-8 Meeting
+Participant obj3501 Уэльский  
+Participant obj3417 Вертинский Александр
+
+3539-9 Meeting
+Participant obj3417 Вертинский Александр
+Participant obj3442 Луначарский Анатолий
+
+3539-10 Meeting
+Participant obj3480 Игнатьев  
+Participant obj3481 Толстой Алексей Николаевич
+Participant obj3417 Вертинский Александр
+Participant obj3479 Крутицкий Николай 
+Participant obj3478 Смирнов  
+
+3539-11 Meeting
+Participant obj3430 Брохес Михаил
+Participant obj3417 Вертинский Александр
+

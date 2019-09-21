@@ -1,0 +1,51 @@
+3940-0 Occupation
+Who obj1799 Пан Ги Мун 
+Job span79261 генсек
+Where obj1798 ООН
+
+3940-1 Occupation
+Who obj1801 Обама Барак 
+Job span79262 президент
+Where obj1800 США
+
+3940-3 Occupation
+Who obj1803 Путин Владимир 
+Job span79264 лидера
+Where obj1797 Россия
+Сложность повышенная
+
+3940-4 Occupation
+Who obj1803 Путин Владимир 
+Job span79266 главы
+Where obj1797 Россия
+Сложность повышенная
+
+3940-5 Occupation
+Who obj1802 Ушаков Юрий 
+Job span79267 помощник главы
+Where obj1797 Россия
+
+3940-6 Occupation
+Who obj1794 Порошенко Петр 
+Job span79279 лидер
+Where obj1793 Украина
+Сложность повышенная
+
+3940-7 Meeting
+Participant obj1794 Порошенко Петр 
+Модальность возможность
+Сложность повышенная
+Participant obj1803 Путин Владимир 
+
+3940-8 Meeting
+Participant obj1794 Порошенко Петр 
+Модальность возможность
+Participant obj1801 Обама Барак 
+
+3940-9 Occupation
+Who obj1794 Порошенко Петр 
+Job span79288 президент
+Where obj1793 Украина
+Фаза начало
+Сложность повышенная
+

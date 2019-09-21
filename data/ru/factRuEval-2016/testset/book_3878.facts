@@ -1,0 +1,46 @@
+3878-0 Occupation
+Who obj2215 Коулсон Энди 
+Job span83719 редактора
+Where obj2214 News of the World
+Сложность повышенная
+
+3878-2 Occupation
+Who obj2220 Терлбек Невилл 
+Job span83732 старший корреспондент
+Where obj2214 News of the World
+Модальность завершено в прошлом
+
+3878-3 Occupation
+Who obj2221 Уитерап Джеймс 
+Job span83745 помощник редактора
+Where obj2222 отдел новостей
+Модальность завершено в прошлом
+
+3878-4 isPartOf
+Part obj2222 отдел новостей
+Whole obj2214 News of the World
+
+3878-5 Occupation
+Who obj2219 Мискив Грег 
+Job span83737 редактор
+Where obj2222 отдел новостей
+Модальность завершено в прошлом
+
+3878-6 Occupation
+Who obj2215 Коулсон Энди 
+Job span83751 главного редактора
+Where obj2214 News of the World
+Фаза конец
+Модальность завершено в прошлом
+Сложность повышенная
+
+3878-7 Ownership
+Owner obj2213 Мердок Руперт 
+Property obj2214 News of the World
+Сложность повышенная
+
+3878-8 Ownership
+Owner obj2213 Мердок Руперт 
+Property obj2216 News International
+Сложность повышенная
+

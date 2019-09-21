@@ -1,0 +1,56 @@
+3820-0 Deal
+Participant obj2306 Греция
+Participant obj2310 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+Фаза начало
+Модальность возможность
+
+3820-1 Occupation
+Who obj2321 Камменос Панос 
+Job span84457 главы
+Where obj2322 Минобороны | греческое Министерство обороны
+
+3820-2 Occupation
+Who obj2324 Вормут Кристин 
+Job span84459 заместителем министра обороны
+Where obj2317 США
+
+3820-3 Meeting
+Participant obj2321 Камменос Панос 
+Participant obj2324 Вормут Кристин 
+
+3820-4 Deal
+Participant obj2306 Греция
+Participant obj2310 Россия
+Type услуги
+
+3820-5 Deal
+Participant obj2323 ЕС | Европейский союз | Евросоюз
+Participant obj2310 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+
+3820-6 Deal
+Participant obj2317 США
+Participant obj2310 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+
+3820-7 Deal
+Participant obj2335 Норвегия
+Participant obj2310 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+
+3820-8 Deal
+Participant obj2336 Япония
+Participant obj2310 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+
+3820-9 Deal
+Participant obj2337 Австралия
+Participant obj2310 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+
+3820-10 Deal
+Participant obj2338 Канада
+Participant obj2310 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+
