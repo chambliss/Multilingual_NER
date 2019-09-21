@@ -3,16 +3,12 @@
 import numpy as np
 
 # Torch and training-related imports
-from pytorch_transformers import (
-    BertTokenizer, BertForTokenClassification, BertConfig
-)
+from pytorch_transformers import BertTokenizer, BertForTokenClassification, BertConfig
 import torch
 from torch.optim import Adam
-from torch.utils.data import (
-    TensorDataset, DataLoader, RandomSampler, SequentialSampler
-)
+from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from keras.preprocessing.sequence import pad_sequences
-from seqeval.metrics import f1_score
+from seqeval.metrics import classification_report, f1_score
 
 # Progress bar
 from tqdm import tqdm, trange
@@ -21,15 +17,24 @@ from tqdm import tqdm, trange
 
 # Data paths and other constants
 # Place these in the YAML later
-train_data_path = '../../data/en/combined/train_combined_std.txt'
-dev_data_path = '../../data/en/combined/dev_combined_std.txt'
-test_data_path = '../../data/en/combined/test_combined_std.txt'
+train_data_path = "../../data/en/combined/train_combined_std.txt"
+dev_data_path = "../../data/en/combined/dev_combined_std.txt"
+test_data_path = "../../data/en/combined/test_combined_std.txt"
 
-label_types = ['B-PER', 'I-PER', 'B-LOC', 'I-LOC',
-               'B-ORG', 'I-ORG', 'B-MISC', 'I-MISC', 'O']
+label_types = [
+    "B-PER",
+    "I-PER",
+    "B-LOC",
+    "I-LOC",
+    "B-ORG",
+    "I-ORG",
+    "B-MISC",
+    "I-MISC",
+    "O",
+]
 MAX_LEN = 75
 BATCH_SIZE = 32
-EPOCHS = 2
+EPOCHS = 10
 MAX_GRAD_NORM = 1.0
 NUM_LABELS = len(label_types)
 FULL_FINETUNING = True
@@ -43,7 +48,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 n_gpu = torch.cuda.device_count()
 
 # Initialize tokenizer
-tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
+tokenizer = BertTokenizer.from_pretrained("bert-base-cased", do_lower_case=False)
 
 ###
 
@@ -51,7 +56,6 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False
 
 # Create class for reading in and separating sentences from their labels
 class SentenceGetter(object):
-
     def __init__(self, data_path):
 
         """
@@ -63,9 +67,9 @@ class SentenceGetter(object):
         """
 
         with open(data_path) as f:
-            txt = f.read().split('\n \n')
+            txt = f.read().split("\n \n")
 
-        self.sents_raw = [(sent.split('\n')) for sent in txt]
+        self.sents_raw = [(sent.split("\n")) for sent in txt]
         self.sents = []
         self.labels = []
 
@@ -82,11 +86,10 @@ class SentenceGetter(object):
             self.sents.append(toks)
             self.labels.append(labs)
 
-        print(f'Constructed SentenceGetter with {len(self.sents)} examples.')
+        print(f"Constructed SentenceGetter with {len(self.sents)} examples.")
 
 
 class BertDataset:
-
     def __init__(self, sg):
 
         """
@@ -98,24 +101,32 @@ class BertDataset:
         """
 
         # Tokenize the text into subwords in a label-preserving way
-        tokenized_texts = [tokenize_and_preserve_labels(sent, labs)
-                            for sent, labs in
-                            zip(sg.sents, sg.labels)]
+        tokenized_texts = [
+            tokenize_and_preserve_labels(sent, labs)
+            for sent, labs in zip(sg.sents, sg.labels)
+        ]
 
         self.toks = [text[0] for text in tokenized_texts]
         self.labs = [text[1] for text in tokenized_texts]
 
         # Convert tokens to IDs
-        self.input_ids = pad_sequences([tokenizer.convert_tokens_to_ids(txt)
-                                       for txt in self.toks],
-                                       maxlen=MAX_LEN, dtype="long",
-                                       truncating="post", padding="post")
+        self.input_ids = pad_sequences(
+            [tokenizer.convert_tokens_to_ids(txt) for txt in self.toks],
+            maxlen=MAX_LEN,
+            dtype="long",
+            truncating="post",
+            padding="post",
+        )
 
         # Convert tags to IDs
-        self.tags = pad_sequences([[tag2idx.get(l) for l in lab]
-                                   for lab in self.labs],
-                                   maxlen=MAX_LEN, value=tag2idx["O"],
-                                   padding="post", dtype="long", truncating="post")
+        self.tags = pad_sequences(
+            [[tag2idx.get(l) for l in lab] for lab in self.labs],
+            maxlen=MAX_LEN,
+            value=tag2idx["O"],
+            padding="post",
+            dtype="long",
+            truncating="post",
+        )
 
         # Place a mask (zero) over the padding tokens
         self.attn_masks = [[float(i > 0) for i in ii] for ii in self.input_ids]
@@ -148,6 +159,7 @@ def tokenize_and_preserve_labels(sentence, text_labels):
 
     return tokenized_sentence, labels
 
+
 def flat_accuracy(preds, labels):
 
     """
@@ -158,6 +170,7 @@ def flat_accuracy(preds, labels):
     labels_flat = labels.flatten()
 
     return np.sum(pred_flat == labels_flat) / len(labels_flat)
+
 
 ###
 
@@ -184,17 +197,18 @@ valid_data = TensorDataset(val_inputs, val_masks, val_tags)
 valid_sampler = SequentialSampler(valid_data)
 valid_dataloader = DataLoader(valid_data, sampler=valid_sampler, batch_size=BATCH_SIZE)
 
-print('Loaded training and validation data into DataLoaders successfully.')
+print("Loaded training and validation data into DataLoaders successfully.")
 
 ###
 
 # Initialize model
-model = BertForTokenClassification.from_pretrained('bert-base-cased',
-                                                   num_labels=NUM_LABELS)
+model = BertForTokenClassification.from_pretrained(
+    "bert-base-cased", num_labels=NUM_LABELS
+)
 
 model.to(device)
 
-print(f'Initialized model and moved it to {device}.')
+print(f"Initialized model and moved it to {device}.")
 
 ###
 
@@ -202,14 +216,20 @@ print(f'Initialized model and moved it to {device}.')
 
 if FULL_FINETUNING:
     param_optimizer = list(model.named_parameters())
-    no_decay = ['bias', 'gamma', 'beta']
+    no_decay = ["bias", "gamma", "beta"]
     optimizer_grouped_parameters = [
-        {'params': [p for n, p in param_optimizer
-                    if not any(nd in n for nd in no_decay)],
-         'weight_decay_rate': 0.01},
-        {'params': [p for n, p in param_optimizer
-                    if any(nd in n for nd in no_decay)],
-         'weight_decay_rate': 0.0}
+        {
+            "params": [
+                p for n, p in param_optimizer if not any(nd in n for nd in no_decay)
+            ],
+            "weight_decay_rate": 0.01,
+        },
+        {
+            "params": [
+                p for n, p in param_optimizer if any(nd in n for nd in no_decay)
+            ],
+            "weight_decay_rate": 0.0,
+        },
     ]
 else:
     param_optimizer = list(model.classifier.named_parameters())
@@ -217,29 +237,34 @@ else:
 
 optimizer = Adam(optimizer_grouped_parameters, lr=3e-5)
 
-print('Initialized optimizer and set hyperparameters.')
+print("Initialized optimizer and set hyperparameters.")
 
 ###
 
+epoch = 0
 for _ in trange(EPOCHS, desc="Epoch"):
-
+    epoch = epoch + 1
     # Training loop
-    print('Starting training loop.')
+    print("Starting training loop.")
     model.train()
     tr_loss = 0
     nb_tr_examples, nb_tr_steps = 0, 0
 
     for step, batch in enumerate(train_dataloader):
 
-        print('Starting a new training batch.')
+        print("Starting a new training batch.")
 
         # add batch to gpu
         batch = tuple(t.to(device) for t in batch)
         b_input_ids, b_input_mask, b_labels = batch
 
         # forward pass
-        loss = model(b_input_ids, token_type_ids=None,
-                     attention_mask=b_input_mask, labels=b_labels)
+        loss, something_else = model(
+            b_input_ids,
+            token_type_ids=None,
+            attention_mask=b_input_mask,
+            labels=b_labels,
+        )
         # backward pass
         loss.backward()
 
@@ -249,7 +274,9 @@ for _ in trange(EPOCHS, desc="Epoch"):
         nb_tr_steps += 1
 
         # gradient clipping
-        torch.nn.utils.clip_grad_norm_(parameters=model.parameters(), max_norm=MAX_GRAD_NORM)
+        torch.nn.utils.clip_grad_norm_(
+            parameters=model.parameters(), max_norm=MAX_GRAD_NORM
+        )
 
         # update parameters
         optimizer.step()
@@ -258,8 +285,7 @@ for _ in trange(EPOCHS, desc="Epoch"):
     # print train loss per epoch
     print(f"Train loss: {tr_loss / nb_tr_steps}")
 
-
-    print('Starting validation loop.')
+    print("Starting validation loop.")
 
     # VALIDATION on validation set
     model.eval()
@@ -273,13 +299,16 @@ for _ in trange(EPOCHS, desc="Epoch"):
         b_input_ids, b_input_mask, b_labels = batch
 
         with torch.no_grad():
-            tmp_eval_loss = model(b_input_ids, token_type_ids=None,
-                                  attention_mask=b_input_mask, labels=b_labels)
-            logits = model(b_input_ids, token_type_ids=None,
-                           attention_mask=b_input_mask)
+            outputs = model(
+                b_input_ids,
+                token_type_ids=None,
+                attention_mask=b_input_mask,
+                labels=b_labels,
+            )
+            tmp_eval_loss, logits = outputs[:2]
 
         logits = logits.detach().cpu().numpy()
-        label_ids = b_labels.to('cpu').numpy()
+        label_ids = b_labels.to("cpu").numpy()
         predictions.extend([list(p) for p in np.argmax(logits, axis=2)])
         true_labels.append(label_ids)
 
@@ -292,22 +321,28 @@ for _ in trange(EPOCHS, desc="Epoch"):
         nb_eval_steps += 1
 
     # Evaluate f1 score, loss, and accuracy on devset
-    pred_tags = [tags_vals[p_i] for p in predictions for p_i in p]
-    valid_tags = [tags_vals[l_ii] for l in true_labels for l_i in l for l_ii in l_i]
-    f1 = f1_score(pred_tags, valid_tags)
+    pred_tags = [label_types[p_i] for p in predictions for p_i in p]
+    valid_tags = [label_types[l_ii] for l in true_labels for l_i in l for l_ii in l_i]
+    # f1 = f1_score(pred_tags, valid_tags)
+    cl_report = classification_report(valid_tags, pred_tags)
     eval_loss = eval_loss / nb_eval_steps
     eval_acc = eval_accuracy / nb_eval_steps
 
     # Report metrics
     print(f"Validation loss: {eval_loss}")
     print(f"Validation Accuracy: {eval_acc}")
-    print(f"F1-Score: {f1}")
+    # print(f"F1-Score: {f1}")
+    print(f"Classification Report: {cl_report}")
 
     # Save model and optimizer state_dict following every epoch
-    torch.save({
-                'epoch': epoch,
-                'model_state_dict': model.state_dict(),
-                'optimizer_state_dict': optimizer.state_dict(),
-                'loss': eval_loss,
-                'f1': f1
-                }, f'train_checkpoint_epoch_{epoch}.tar')
+    torch.save(
+        {
+            "epoch": epoch,
+            "model_state_dict": model.state_dict(),
+            "optimizer_state_dict": optimizer.state_dict(),
+            "loss": eval_loss,
+            # "f1": f1,
+            "classification_report": cl_report,
+        },
+        f"train_checkpoint_epoch_{epoch}.tar",
+    )
