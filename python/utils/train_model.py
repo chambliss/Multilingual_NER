@@ -9,6 +9,7 @@ from torch.optim import Adam
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from keras.preprocessing.sequence import pad_sequences
 from seqeval.metrics import classification_report, f1_score
+from sklearn.metrics import confusion_matrix
 
 # Progress bar
 from tqdm import tqdm, trange
@@ -31,6 +32,7 @@ label_types = [
     "B-MISC",
     "I-MISC",
     "O",
+    "PAD",
 ]
 MAX_LEN = 75
 BATCH_SIZE = 32
@@ -122,7 +124,7 @@ class BertDataset:
         self.tags = pad_sequences(
             [[tag2idx.get(l) for l in lab] for lab in self.labs],
             maxlen=MAX_LEN,
-            value=tag2idx["O"],
+            value=tag2idx["PAD"],
             padding="post",
             dtype="long",
             truncating="post",
@@ -170,6 +172,27 @@ def flat_accuracy(preds, labels):
     labels_flat = labels.flatten()
 
     return np.sum(pred_flat == labels_flat) / len(labels_flat)
+
+
+def annot_confusion_matrix(valid_tags, pred_tags):
+
+    """
+    Create an annotated confusion matrix by adding label
+    annotations and formatting to sklearn's `confusion_matrix`.
+    """
+
+    # Convert tag IDs to readable labels, create header
+    predicted_or_true_tags = sorted(list(set(valid_tags + pred_tags)))
+    header = [idx2tag[n] for n in predicted_or_true_tags]
+
+    # Calculate the actual confusion matrix
+    matrix = confusion_matrix(valid_tags, pred_tags)
+
+    # Final formatting touches for the string output
+    mat_formatted = [header[i] + "\t" + str(row) for i, row in enumerate(matrix)]
+    content = "\t" + " ".join(header) + "\n" + "\n".join(mat_formatted)
+
+    return content
 
 
 ###
@@ -247,8 +270,9 @@ for _ in trange(EPOCHS, desc="Epoch"):
     # Training loop
     print("Starting training loop.")
     model.train()
-    tr_loss = 0
+    tr_loss, tr_accuracy = 0, 0
     nb_tr_examples, nb_tr_steps = 0, 0
+    tr_preds, tr_labels = [], []
 
     for step, batch in enumerate(train_dataloader):
 
@@ -259,19 +283,30 @@ for _ in trange(EPOCHS, desc="Epoch"):
         b_input_ids, b_input_mask, b_labels = batch
 
         # forward pass
-        loss, something_else = model(
+        outputs = model(
             b_input_ids,
             token_type_ids=None,
             attention_mask=b_input_mask,
             labels=b_labels,
         )
+        loss, tr_logits = outputs[:2]
+
         # backward pass
         loss.backward()
 
-        # track train loss
+        # Compute train loss
         tr_loss += loss.item()
         nb_tr_examples += b_input_ids.size(0)
         nb_tr_steps += 1
+
+        # Compute training accuracy
+        tr_logits = tr_logits.detach().cpu().numpy()
+        tr_label_ids = b_labels.to("cpu").numpy()
+        tr_preds.extend([list(p) for p in np.argmax(tr_logits, axis=2)])
+        tr_labels.append(tr_label_ids)
+
+        tmp_tr_accuracy = flat_accuracy(tr_logits, tr_label_ids)
+        tr_accuracy += tmp_tr_accuracy
 
         # gradient clipping
         torch.nn.utils.clip_grad_norm_(
@@ -282,8 +317,12 @@ for _ in trange(EPOCHS, desc="Epoch"):
         optimizer.step()
         model.zero_grad()
 
-    # print train loss per epoch
-    print(f"Train loss: {tr_loss / nb_tr_steps}")
+    tr_loss = tr_loss / nb_tr_steps
+    tr_accuracy = tr_accuracy / nb_tr_steps
+
+    # Print training loss and accuracy per epoch
+    print(f"Train loss: {tr_loss}")
+    print(f"Train accuracy: {tr_accuracy}")
 
     print("Starting validation loop.")
 
@@ -323,16 +362,16 @@ for _ in trange(EPOCHS, desc="Epoch"):
     # Evaluate f1 score, loss, and accuracy on devset
     pred_tags = [label_types[p_i] for p in predictions for p_i in p]
     valid_tags = [label_types[l_ii] for l in true_labels for l_i in l for l_ii in l_i]
-    # f1 = f1_score(pred_tags, valid_tags)
     cl_report = classification_report(valid_tags, pred_tags)
+    conf_mat = annot_confusion_matrix(valid_tags, pred_tags)
     eval_loss = eval_loss / nb_eval_steps
-    eval_acc = eval_accuracy / nb_eval_steps
+    eval_accuracy = eval_accuracy / nb_eval_steps
 
     # Report metrics
     print(f"Validation loss: {eval_loss}")
-    print(f"Validation Accuracy: {eval_acc}")
-    # print(f"F1-Score: {f1}")
+    print(f"Validation Accuracy: {eval_accuracy}")
     print(f"Classification Report: {cl_report}")
+    print(f"Confusion Matrix:\n {conf_mat}")
 
     # Save model and optimizer state_dict following every epoch
     torch.save(
@@ -340,9 +379,12 @@ for _ in trange(EPOCHS, desc="Epoch"):
             "epoch": epoch,
             "model_state_dict": model.state_dict(),
             "optimizer_state_dict": optimizer.state_dict(),
-            "loss": eval_loss,
-            # "f1": f1,
+            "train_loss": tr_loss,
+            "train_acc": tr_accuracy,
+            "eval_loss": eval_loss,
+            "eval_acc": eval_accuracy,
             "classification_report": cl_report,
+            "confusion_matrix": conf_mat,
         },
         f"train_checkpoint_epoch_{epoch}.tar",
     )
