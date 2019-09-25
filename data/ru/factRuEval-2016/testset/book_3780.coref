@@ -1,0 +1,48 @@
+2518 51209 51210 51211 51215 51218 51223 51224
+descriptor мультиформатный проект
+descriptor проект
+name F5
+
+2519 51213 51216 51227 51229 51231 51235
+firstname Юрий
+lastname Кацман
+
+2520 51219 51225 51240
+descriptor газета
+descriptor еженедельная газета
+name F5
+
+2521 51214 51228 51239 51242
+descriptor медиагруппа
+name Живи!
+
+2522 51226
+descriptor блоговая платформа
+descriptor платформа
+name www.F5.ru
+
+2523 51217
+name Facebook
+
+2524 51222
+descriptor компания
+name Kinoklub
+
+2525 51230
+descriptor галерея
+name Fotoloft
+
+2526 51241
+descriptor агитационная газета
+descriptor газета
+name Не дай Бог !
+
+2527 51234 51236
+descriptor ИД
+descriptor издательский дом
+name Коммерсантъ
+
+2528 51238
+descriptor журнал
+name Секрет фирмы
+

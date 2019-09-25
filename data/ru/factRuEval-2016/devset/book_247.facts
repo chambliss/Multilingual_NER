@@ -1,0 +1,22 @@
+247-2 isPartOf
+Company obj285 администрация Кремля
+Company obj284 Кремль
+
+247-3 isPartOf
+Company obj287 администрация Екатеринбурга
+Company obj286 Екатеринбург
+
+247-4 Occupation
+Who obj291 Щеголёв Игорь
+Position span27431 главы
+Where obj290 Минкомсвязи
+
+247-5 Deal
+Participant obj285 администрация Кремля
+Participant obj288 RU-CENTER
+Type купля/продажа
+
+247-6 Deal
+Participant obj287 администрация Екатеринбурга
+Participant obj288 RU-CENTER
+Type купля/продажа

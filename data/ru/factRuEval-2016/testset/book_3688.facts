@@ -1,0 +1,74 @@
+3688-0 Occupation
+Who obj3564 Путин Владимир 
+Job span87327 президент
+Where obj3567 Россия
+Сложность повышенная
+
+3688-1 Occupation
+Who obj3571 Волож Аркадий 
+Job span87349 гендиректор
+Where obj3570 Яндекс
+
+3688-2 Occupation
+Who obj3573 Гришин Дмитрий 
+Job span87350 гендиректор
+Where obj3572 Mail.Ru Group
+
+3688-3 Meeting
+Participant obj3564 Путин Владимир 
+Participant obj3571 Волож Аркадий 
+Participant obj3573 Гришин Дмитрий 
+
+3688-4 Occupation
+Who obj3574 Песков Дмитрий 
+Job span87351 Пресс-секретарь
+Where obj3567 Россия
+Сложность повышенная
+
+3688-5 Ownership
+Owner obj3579 Ростелеком
+Property obj3591 Спутник
+
+3688-6 Occupation
+Who obj3608 Луговой Андрей
+Job span87372 депутатов
+Where obj3605 Госдума
+
+3688-7 Occupation
+Who obj3607 Деньгин Вадим 
+Job span87372 депутатов
+Where obj3605 Госдума
+
+3688-8 Occupation
+Who obj3600 Мелкумова Ася 
+Job span87373 пресс-секретаря
+Where obj3570 Яндекс
+
+3688-9 Occupation
+Who obj3606 Алексеев Матвей 
+Job span87374 Директор по внешним коммуникациям
+Where obj3590 Rambler | Rambler & Co
+
+3688-10 Meeting
+Participant obj3608 Луговой Андрей
+Модальность возможность
+Сложность повышенная
+Participant obj3607 Деньгин Вадим 
+Participant obj3600 Мелкумова Ася 
+Participant obj3606 Алексеев Матвей 
+
+3688-11 Occupation
+Who obj3595 Тимченко Галина 
+Job span87377 бывший редактор
+Where obj3598 Lenta.ru
+
+3688-12 Occupation
+Who obj3618 Токарев Максим 
+Job span87389 главного редактора
+Where obj3617 news.rambler.ru | Раблер-Новости
+
+3688-13 Occupation
+Who obj3592 Чистов Дмитрий 
+Job span87396 Пресс-секретарь
+Where obj3591 Спутник
+

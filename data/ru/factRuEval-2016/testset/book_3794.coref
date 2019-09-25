@@ -1,0 +1,54 @@
+2623 51103 51106 51110 51116 51117 51122 51131 51764
+descriptor деловой еженедельник
+descriptor еженедельник
+descriptor журнал
+name The Economist
+name The Economist Group
+
+2624 51107
+name Pearson Plc
+
+2625 51111 51112 51124
+descriptor инвестиционный фонд
+descriptor инвестфонд
+name Exor SpA
+
+2626 51113
+descriptor автомобильный концерн
+name Fiat Chrysler
+
+2627 51114 51130
+name Италия
+
+2628 51115 51118
+name Испания
+
+2629 51120
+firstname Ивлин
+lastname де Ротшильд
+
+2630 51121
+firstname Линн
+firstname1 Форрестер
+lastname де Ротшильд
+
+2631 51125
+name La Stampa
+
+2632 51126
+name Corriere della Sera
+
+2633 51127
+name La Gazzetta dello Sport
+
+2634 51128
+name El Mundo
+
+3095 53637 53639 53641
+descriptor семья
+name семья Аньелли
+
+3096 53638 53640
+descriptor семья
+name семья Ротшильд
+

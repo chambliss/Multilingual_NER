@@ -1,0 +1,19 @@
+3817-0 Ownership
+Owner obj2354 Пугачев Александр 
+Property obj2353 France Soir
+
+3817-1 Ownership
+Owner obj2354 Пугачев Александр 
+Property obj2353 France Soir
+Фаза начало
+Модальность завершено в прошлом
+
+3817-2 Deal
+Participant obj2354 Пугачев Александр 
+Participant obj2353 France Soir
+Type инвестиции
+
+3817-3 Ownership
+Owner obj3097 семья Пугачевых
+Property obj2357 Эдиар
+

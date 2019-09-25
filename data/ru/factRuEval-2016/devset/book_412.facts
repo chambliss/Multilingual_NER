@@ -1,0 +1,11 @@
+412-0 Occupation
+Who obj578 Фрадков Михаил
+Position span29250 Премьер-министр
+Where obj577 Россия
+
+412-1 Deal
+Participant obj578 Фрадков Михаил
+Participant obj579 парижский клуб
+Модальность возможность
+Participant obj577 Россия
+Type займ/возвращение займа

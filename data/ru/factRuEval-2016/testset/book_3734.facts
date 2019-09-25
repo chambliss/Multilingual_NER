@@ -1,0 +1,116 @@
+3734-0 Occupation
+Who obj3753 Путин Владимир 
+Job span86591 президент
+Where obj3756 Россия
+
+3734-1 Occupation
+Who obj3753 Путин Владимир 
+Job span86602 глава
+Where obj3756 Россия
+Сложность повышенная
+
+3734-2 Occupation
+Who obj3766 Рютте Марк 
+Job span86635 премьер-министром
+Where obj3764 Нидерланды
+
+3734-3 Occupation
+Who obj3771 Кэмерон Дэвид 
+Job span86636 главой
+Where obj3780 правительство Великобритании
+
+3734-4 Occupation
+Who obj3768 Эббот Тони 
+Job span86637 премьером
+Where obj3779 Австралия
+
+3734-5 Occupation
+Who obj3772 Олланд Франсуа 
+Job span86638 президентом
+Where obj3773 Франция
+
+3734-6 Deal
+Participant obj3778 США
+Participant obj3756 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+
+3734-7 Deal
+Participant obj3777 Европа
+Participant obj3756 Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+Модальность возможность
+
+3734-8 Occupation
+Who obj3790 Гройсман Владимир 
+Job span86662 вице-премьер
+Where obj3798 правительство Украины | украинские власти
+
+3734-9 Occupation
+Who obj3797 Борода Александр 
+Job span86663 премьер
+Where obj3799 ДНР
+
+3734-10 Occupation
+Who obj3793 Боцюркив Майкл 
+Job span89444 представитель
+Where obj3907 группа
+
+3734-11 Occupation
+Who obj3763 Донецк
+Job span86682 Министр иностранных дел
+Where obj3760 Малайзия
+
+3734-12 Occupation
+Who obj3802 Порошенко Петр 
+Job span86684 президентом
+Where obj3754 Украина
+
+3734-13 Meeting
+Participant obj3800 Аман Анита 
+Модальность будущее
+Participant obj3802 Порошенко Петр 
+
+3734-14 Occupation
+Who obj3803 Разак Наджиб 
+Job span86686 премьер
+Where obj3760 Малайзия
+
+3734-15 Occupation
+Who obj3810 Керри Джон 
+Job span86696 глава
+Where obj3805 Госдеп США
+Сложность повышенная
+
+3734-16 Occupation
+Who obj3809 Меркель Ангела 
+Where obj3808 Германия
+Job span89441 Лидеры
+
+3734-17 Occupation
+Who obj3771 Кэмерон Дэвид 
+Where obj3774 Великобритания
+Job span89441 Лидеры
+
+3734-18 Occupation
+Who obj3772 Олланд Франсуа 
+Where obj3773 Франция
+Job span89441 Лидеры
+
+3734-19 Deal
+Participant obj3808 Германия
+Participant obj3773 Франция
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+Модальность возможность
+Participant obj3774 Великобритания
+Participant obj3756 Россия
+
+3734-20 Occupation
+Who obj3814 Хаммонд Филипп 
+Job span86726 глава
+Where obj3813 МИД Великобритании
+
+3734-21 Occupation
+Who obj3816 Диски Иосиф 
+Where obj3818 Общественная палата
+Job span89445 член
+

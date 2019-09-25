@@ -1,0 +1,45 @@
+90 10481 10482 10493 49008 49010
+descriptor банк
+descriptor государственный китайский банк
+descriptor китайский банк
+descriptor подконтрольный китайскому правительству банк
+name Industrial and Commercial Bank of China
+name Промышленный и коммерческий банк Китая
+
+91 10495
+descriptor американское отделение
+descriptor отделение
+name американское отделение Bank of East Asia
+
+92 10494
+name Bank of East Asia
+
+93 10488 10496 10497 10498
+name КНР
+name Китай
+
+94 10499
+firstname Дэмин
+lastname Чэнь
+
+95 10485
+name Калифорния
+
+96 10486
+name Нью-Йорк
+
+97 10487
+name Чикаго
+
+98 10489
+firstname Цзиньтао
+lastname Ху
+
+99 10490
+name США
+
+100 10492 49009
+descriptor китайское правительство
+descriptor правительство
+name правительство Китая
+

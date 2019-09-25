@@ -1,0 +1,30 @@
+3961-0 Occupation
+Who obj1741 Лавров Сергей 
+Job span79086 главы
+Where obj1740 МИД РФ
+
+3961-1 Occupation
+Who obj1742 Байден Джо 
+Job span79087 вице-президента
+Where obj1731 США
+
+3961-2 Meeting
+Participant obj1742 Байден Джо 
+Модальность будущее
+Participant obj1741 Лавров Сергей 
+
+3961-3 Occupation
+Who obj1745 Путин Владимир 
+Job span79089 президентом
+Where obj1733 РФ | Россия
+
+3961-4 Occupation
+Who obj1732 Обама Барак 
+Job span79053 президент
+Where obj1731 США
+
+3961-5 Meeting
+Participant obj1744 Донилон Тони 
+Модальность будущее
+Participant obj1745 Путин Владимир 
+

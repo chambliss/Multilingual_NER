@@ -1,0 +1,72 @@
+3708-0 Occupation
+Who obj3149 Крижанская Юлия 
+Job span86945 руководителем
+Where obj3147 Regnum
+Фаза начало
+Модальность будущее
+
+3708-1 Deal
+Participant obj3148 Газпром-медиа
+Participant obj3147 Regnum
+Type купля/продажа
+Participant obj3152 Сорокин Борис 
+Participant obj3153 Костин Константин 
+
+3708-2 Ownership
+Owner obj3150 Колеров Модест 
+Property obj3147 Regnum
+
+3708-3 Occupation
+Who obj3154 Акопян Виген 
+Job span86962 Главный редактор
+Where obj3147 Regnum
+
+3708-5 Ownership
+Owner obj3152 Сорокин Борис 
+Property obj3147 Regnum
+
+3708-6 Occupation
+Who obj3152 Сорокин Борис 
+Where obj3147 Regnum
+Фаза конец
+
+3708-7 Occupation
+Who obj3155 Федина Ирина 
+Job span86986 гендиректор
+Where obj3147 Regnum
+Фаза конец
+
+3708-8 Occupation
+Who obj3149 Крижанская Юлия 
+Where obj3156 совет координаторов общественного движения Суть времени
+
+3708-9 Occupation
+Who obj3149 Крижанская Юлия 
+Job span86990 бывшим зампредседателя
+Where obj3159 исполком Единой России
+
+3708-10 Occupation
+Who obj3150 Колеров Модест 
+Where obj3147 Regnum
+Фаза конец
+Модальность завершено в прошлом
+
+3708-11 Deal
+Participant obj3150 Колеров Модест 
+Participant obj3153 Костин Константин 
+Type купля/продажа
+Сложность повышенная
+Participant obj3147 Regnum
+
+3708-13 Occupation
+Who obj3150 Колеров Модест 
+Job span87017 главным редактором
+Where obj3147 Regnum
+Модальность завершено в прошлом
+
+3708-14 Occupation
+Who obj3154 Акопян Виген 
+Where obj3147 Regnum
+Фаза начало
+Модальность завершено в прошлом
+

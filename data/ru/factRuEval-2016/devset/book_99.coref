@@ -1,0 +1,30 @@
+40 10421
+name Восточная Сибирь
+
+41 10422
+descriptor город
+descriptor китайский город
+descriptor северовосточный китайский город
+name Дацин
+
+42 10423 10428
+name Россия
+
+43 10424 10425 10429 10431
+name КНР
+name Китай
+name Поднебесная
+
+44 10426
+firstname Цзиньтао
+lastname Ху
+
+45 10427
+firstname Дмитрий
+lastname Медведев
+
+46 10430
+descriptor порт
+descriptor тихоокеанский порт
+name Козьмино
+

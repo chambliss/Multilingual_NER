@@ -1,0 +1,62 @@
+3794-0 Deal
+Participant obj2624 Pearson Plc
+Participant obj2625 Exor SpA
+Type купля/продажа
+Participant obj2623 The Economist | The Economist Group
+
+3794-1 Ownership
+Owner obj2624 Pearson Plc
+Property obj2623 The Economist | The Economist Group
+
+3794-2 Ownership
+Owner obj2629 де Ротшильд Ивлин 
+Property obj2623 The Economist | The Economist Group
+
+3794-3 Ownership
+Owner obj2630 де Ротшильд Линн 
+Property obj2623 The Economist | The Economist Group
+
+3794-4 Ownership
+Owner obj2625 Exor SpA
+Property obj2623 The Economist | The Economist Group
+
+3794-5 Ownership
+Owner obj3095 семья Аньелли
+Property obj2623 The Economist | The Economist Group
+Сложность повышенная
+Фаза начало
+
+3794-6 Ownership
+Owner obj3096 семья Ротшильд
+Property obj2623 The Economist | The Economist Group
+Фаза начало
+Сложность повышенная
+
+3794-7 Ownership
+Owner obj3095 семья Аньелли
+Property obj2625 Exor SpA
+
+3794-8 Ownership
+Owner obj3095 семья Аньелли
+Property obj2626 Fiat Chrysler
+
+3794-9 Ownership
+Owner obj3095 семья Аньелли
+Property obj2632 Corriere della Sera
+Сложность повышенная
+
+3794-10 Ownership
+Owner obj3095 семья Аньелли
+Property obj2631 La Stampa
+Сложность повышенная
+
+3794-11 Ownership
+Owner obj3095 семья Аньелли
+Property obj2633 La Gazzetta dello Sport
+Сложность повышенная
+
+3794-12 Ownership
+Owner obj3095 семья Аньелли
+Property obj2634 El Mundo
+Сложность повышенная
+

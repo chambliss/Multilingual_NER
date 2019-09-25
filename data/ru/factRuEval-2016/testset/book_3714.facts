@@ -1,0 +1,44 @@
+3714-0 Occupation
+Who obj3119 Меркель Ангела 
+Job span86866 Канцлер
+Where obj3118 ФРГ
+
+3714-1 Occupation
+Who obj3127 Путин Владимир 
+Job span86883 президентом
+Where obj3122 РФ | Россия
+
+3714-2 Meeting
+Participant obj3119 Меркель Ангела 
+Participant obj3127 Путин Владимир 
+
+3714-3 Occupation
+Who obj3132 Штайнмайер Франк - Вальтер 
+Job span86902 министр иностранных дел
+Where obj3118 ФРГ
+
+3714-4 Occupation
+Who obj3144 Зайберт Штеффен 
+Job span86931 Представитель
+Where obj3133 правительство ФРГ
+
+3714-5 Occupation
+Who obj3138 Обама Барак 
+Job span86932 президент
+Where obj3134 США
+
+3714-6 Meeting
+Participant obj3119 Меркель Ангела 
+Модальность будущее
+Participant obj3138 Обама Барак 
+
+3714-7 Occupation
+Who obj3139 Купчан Чарльз 
+Job span86933 Старший директор
+Where obj3143 Совет национальной безопасности по европейским делам
+
+3714-8 Deal
+Participant obj3142 ЕС
+Participant obj3122 РФ | Россия
+Type экономичкские санкции(штраф, эмбарго и т. п.)
+

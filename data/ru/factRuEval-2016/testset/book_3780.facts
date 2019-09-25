@@ -1,0 +1,94 @@
+3780-0 Occupation
+Who obj2519 Кацман Юрий 
+Job span85448 Главный редактор | span85450 главред
+Where obj2518 F5
+
+3780-1 Ownership
+Owner obj2519 Кацман Юрий 
+Property obj2521 Живи!
+
+3780-2 Ownership
+Owner obj2519 Кацман Юрий 
+Property obj2521 Живи!
+Фаза конец
+Модальность будущее
+
+3780-3 Ownership
+Owner obj2519 Кацман Юрий 
+Property obj2518 F5
+Фаза начало
+Модальность будущее
+
+3780-4 Ownership
+Owner obj2518 F5
+Property obj2520 F5
+
+3780-5 Ownership
+Owner obj2518 F5
+Property obj2522 www.F5.ru
+
+3780-6 Ownership
+Owner obj2519 Кацман Юрий 
+Property obj2520 F5
+Фаза начало
+Модальность будущее
+Сложность повышенная
+
+3780-7 Ownership
+Owner obj2519 Кацман Юрий 
+Property obj2522 www.F5.ru
+Фаза начало
+Модальность будущее
+Сложность повышенная
+
+3780-8 Ownership
+Owner obj2519 Кацман Юрий 
+Property obj2524 Kinoklub
+Фаза начало
+Модальность будущее
+Сложность повышенная
+
+3780-9 Occupation
+Who obj2519 Кацман Юрий 
+Where obj2525 Fotoloft
+
+3780-10 Occupation
+Who obj2519 Кацман Юрий 
+Where obj2526 Не дай Бог !
+
+3780-11 Occupation
+Who obj2519 Кацман Юрий 
+Where obj2527 Коммерсантъ
+Модальность завершено в прошлом
+
+3780-12 Occupation
+Who obj2519 Кацман Юрий 
+Job span85489 заместителя шеф-редактора
+Where obj2527 Коммерсантъ
+
+3780-13 Occupation
+Who obj2519 Кацман Юрий 
+Job span85481 директора по развитию
+Where obj2527 Коммерсантъ
+
+3780-14 Occupation
+Who obj2519 Кацман Юрий 
+Where obj2527 Коммерсантъ
+Фаза конец
+
+3780-15 Occupation
+Who obj2519 Кацман Юрий 
+Where obj2528 Секрет фирмы
+Модальность завершено в прошлом
+Сложность повышенная
+
+3780-16 Occupation
+Who obj2519 Кацман Юрий 
+Job span85484 генеральным директором
+Where obj2521 Живи!
+
+3780-17 Ownership
+Owner obj2521 Живи!
+Property obj2520 F5
+Сложность повышенная
+

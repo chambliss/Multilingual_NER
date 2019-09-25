@@ -1,0 +1,75 @@
+1704 48643 48653 48657 48670
+descriptor люксембургский медиахолдинг
+descriptor медиахолдинг
+name RTL Group
+
+1705 48644 48649 48651 48654 48655 48661 48672 48742
+descriptor медиахолдинг
+descriptor холдинг
+descriptor частный медиахолдинг
+name НМГ
+name Национальная Медиа Группа
+
+1706 48656
+name Россия
+
+1707 48646 48658
+descriptor АБ
+descriptor ООО
+descriptor банк
+name Россия
+
+1708 48647
+firstname Юрий
+lastname Ковальчук
+
+1709 48650 48652 48662
+descriptor медиахолдинг
+name РЕН ТВ
+
+1710 48666
+descriptor телерадиокомпания
+name Первый канал
+
+1711 48668
+name Петербург
+
+1712 48665 48676 48678
+descriptor ОАО
+descriptor газета
+name Известия
+
+1713 48660
+descriptor страховая группа
+name Согаз
+
+1714 48659
+descriptor ОАО
+name Сургутнефтегаз
+
+1715 48669
+firstname А
+patronymic А
+lastname Мордашов
+
+1716 48671
+descriptor компания
+name Fremantle Media
+
+1717 48673
+descriptor холдинг
+name Ньюс Медиа-Рус
+
+1718 48674
+firstname Арам
+lastname Габрелянов
+
+1719 48677
+descriptor совет
+descriptor совет директоров
+name совет директоров ОАО Известия
+
+2029 48667
+descriptor телерадиокомпания
+name Петербург — Пятый канал
+

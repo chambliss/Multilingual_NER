@@ -1,0 +1,14 @@
+99-0 Occupation
+Who obj44 Ху Цзиньтао
+Position span22753 Председатель
+Where obj43 Китай
+
+99-1 Occupation
+Who obj45 Медведев Дмитрий
+Position span22754 президент
+Where obj42 Россия
+
+99-3 Deal
+Participant obj42 Россия
+Participant obj43 КНР | Китай | Поднебесная
+Type купля/продажа

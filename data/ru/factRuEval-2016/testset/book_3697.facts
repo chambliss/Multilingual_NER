@@ -1,0 +1,43 @@
+3697-0 Ownership
+Owner obj3216 Гуцериев Михаил 
+Property obj3215 Русснефть
+Фаза начало
+
+3697-1 Ownership
+Owner obj3214 Дерипаска Олег 
+Property obj3215 Русснефть
+Фаза конец
+
+3697-2 Deal
+Participant obj3214 Дерипаска Олег 
+Participant obj3216 Гуцериев Михаил 
+Type купля/продажа
+Participant obj3215 Русснефть
+
+3697-3 Ownership
+Owner obj3216 Гуцериев Михаил 
+Property obj3215 Русснефть
+Модальность завершено в прошлом
+
+3697-4 Ownership
+Owner obj3216 Гуцериев Михаил 
+Property obj3215 Русснефть
+Фаза конец
+Модальность завершено в прошлом
+
+3697-5 Occupation
+Who obj3216 Гуцериев Михаил 
+Job span87254 депутатом
+Where obj3218 Государственная дума
+
+3697-6 Occupation
+Who obj3216 Гуцериев Михаил 
+Where obj3219 ЛДПР
+
+3697-7 Deal
+Participant obj3216 Гуцериев Михаил 
+Participant obj3214 Дерипаска Олег 
+Type купля/продажа
+Модальность завершено в прошлом
+Participant obj3215 Русснефть
+

@@ -1,0 +1,26 @@
+3790-0 Meeting
+Participant obj2576 Меркель  
+Participant obj2577 Порошенко  
+Participant obj2578 Путин  
+
+3790-1 Occupation
+Who obj2578 Путин  
+Job span85396 лидера
+Where obj2581 Россия
+Сложность повышенная
+
+3790-2 Meeting
+Participant obj2576 Меркель  
+Participant obj2577 Порошенко  
+Participant obj2585 Олланд Франсуа 
+
+3790-3 Occupation
+Who obj2588 Пушилин Денис 
+Job span85406 Представитель
+Where obj2582 ДНР
+
+3790-4 Occupation
+Who obj2589 Пургин Андрей 
+Job span85422 спикер
+Where obj2590 Народный совет
+

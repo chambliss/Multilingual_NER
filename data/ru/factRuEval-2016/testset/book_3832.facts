@@ -1,0 +1,38 @@
+3832-0 Occupation
+Who obj2392 Федоров Николай 
+Job span84358 Министр сельского хозяйства
+Where obj2387 РФ
+Сложность повышенная
+
+3832-1 Ownership
+Owner obj2391 X5 Retail Group
+Property obj2394 Пятерочка
+
+3832-2 Ownership
+Owner obj2391 X5 Retail Group
+Property obj2395 Перекресток
+
+3832-3 Ownership
+Owner obj2391 X5 Retail Group
+Property obj2396 Карусель
+
+3832-4 Deal
+Participant obj2391 X5 Retail Group
+Participant obj2397 Си Прод
+Type услуги
+
+3832-5 Deal
+Participant obj2391 X5 Retail Group
+Participant obj2398 Ритейл
+Type услуги
+
+3832-6 Deal
+Participant obj2391 X5 Retail Group
+Participant obj2399 Фрут Сервис
+Type услуги
+
+3832-7 Occupation
+Who obj2400 Карпов Андрей 
+Job span84383 Исполнительный директор
+Where obj2401 Ассоциация компаний розничной торговли
+

@@ -1,0 +1,44 @@
+3915-0 Ownership
+Owner obj1817 Дерипаска Олег 
+Property obj1816 Базэлцемент-Пикалево
+
+3915-1 Deal
+Participant obj1818 Газпром межрегионгаз Санкт-Петербург
+Participant obj1816 Базэлцемент-Пикалево
+Type займ/возвращение займа/долг
+
+3915-3 Deal
+Participant obj1816 Базэлцемент-Пикалево
+Participant obj1823 Пикалевский цемент
+Type услуги
+Сложность повышенная
+
+3915-4 Deal
+Participant obj1816 Базэлцемент-Пикалево
+Participant obj1822 Пикалевская сода
+Type услуги
+Сложность повышенная
+
+3915-5 Occupation
+Who obj1824 Путин Владимир 
+Job span80314 премьер-министр
+Where obj1825 Россия
+
+3915-6 Ownership
+Owner obj1828 Базовый Элемент
+Property obj1816 Базэлцемент-Пикалево
+
+3915-7 Ownership
+Owner obj1817 Дерипаска Олег 
+Property obj1828 Базовый Элемент
+
+3915-8 Deal
+Participant obj1816 Базэлцемент-Пикалево
+Participant obj1829 Апатит
+Type услуги
+
+3915-9 Deal
+Participant obj1816 Базэлцемент-Пикалево
+Participant obj1830 Метахим
+Type услуги
+

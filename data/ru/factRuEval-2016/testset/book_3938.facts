@@ -1,0 +1,28 @@
+3938-0 Deal
+Participant obj1627 Вимм-Билль-Данн
+Participant obj1628 PepsiCo
+Type купля/продажа
+
+3938-1 Deal
+Participant obj1630 Видео Интернешнл
+Participant obj1631 банк Россия
+Type купля/продажа
+
+3938-2 Occupation
+Who obj1625 Лужков Юрий
+Job span78358 мэра
+Where obj1633 Москва
+Фаза конец
+
+3938-3 Occupation
+Who obj1626 Собянин Сергей
+Job span78358 мэра
+Where obj1633 Москва
+Фаза начало
+Сложность повышенная
+
+3938-4 Deal
+Participant obj1636 Национальная Медиа Группа
+Participant obj1637 Первый канал
+Type купля/продажа
+

@@ -1,0 +1,19 @@
+383-0 Occupation
+Who obj1241 Щёголев Игорь
+Position span28943 Министр связи и коммуникаций
+Where obj1239 РФ | Россия
+
+383-1 Deal
+Participant obj1252 ФАС | Федеральная антимонопольная служба
+Participant obj1251 МТС
+Type наложение/выплата штрафа
+
+383-2 Deal
+Participant obj1252 ФАС | Федеральная антимонопольная служба
+Participant obj1248 Мегафон
+Type наложение/выплата штрафа
+
+383-3 Deal
+Participant obj1252 ФАС | Федеральная антимонопольная служба
+Participant obj1249 Вымпелком
+Type наложение/выплата штрафа

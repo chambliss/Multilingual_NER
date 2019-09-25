@@ -1,0 +1,21 @@
+3573-0 Ownership
+Owner obj3632 Дуров Павел 
+Property obj3633 ВКонтакте
+
+3573-1 Occupation
+Who obj3632 Дуров Павел 
+Job span87482 руководителя
+Where obj3633 ВКонтакте
+Фаза конец
+Сложность повышенная
+
+3573-3 Deal
+Participant obj3641 Facebook
+Participant obj3640 WhatsApp
+Type купля/продажа
+
+3573-4 Ownership
+Owner obj3632 Дуров Павел 
+Property obj3634 Telegram
+Сложность повышенная
+

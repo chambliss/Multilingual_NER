@@ -1,0 +1,42 @@
+3757-0 Occupation
+Who obj2951 Путин Владимир 
+Job span86250 президента
+Where obj2950 Россия
+
+3757-1 Occupation
+Who obj2965 Тимченко Геннадий 
+Job span86287 глава
+Where obj2981 Volga Group
+
+3757-2 Ownership
+Owner obj2965 Тимченко Геннадий 
+Property obj2982 Gunvor
+
+3757-3 Ownership
+Owner obj2984 Ротенберг Борис 
+Property obj2985 Мостотрест
+
+3757-4 Ownership
+Owner obj2983 Ротенберг Аркадий 
+Property obj2985 Мостотрест
+
+3757-6 Ownership
+Owner obj2986 Ковальчук Юрий 
+Property obj2987 Россия
+Сложность повышенная
+
+3757-7 Occupation
+Who obj2989 Якунин Владимир 
+Job span86289 главу
+Where obj2988 РЖД
+
+3757-9 Occupation
+Who obj2992 Сечин Игорь 
+Where obj2993 Роснефть
+Сложность повышенная
+
+3757-10 Occupation
+Who obj2994 Миллер Алексей 
+Where obj2995 Газпром
+Сложность повышенная
+

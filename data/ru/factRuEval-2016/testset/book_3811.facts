@@ -1,0 +1,51 @@
+3811-0 Occupation
+Who obj3875 Гребенников Сергей
+Job span84641 заместитель директора
+Where obj3873 РАЭК | Российская ассоциация электронных коммуникаций
+
+3811-1 Occupation
+Who obj3883 Алексеев Матвей
+Job span84644 Директор по внешним коммуникациям
+Where obj3876 Ramber & Co
+
+3811-2 Occupation
+Who obj3882 Барминый Олег
+Job span84646 директором по маркетингу
+Where obj3876 Ramber & Co
+
+3811-3 Occupation
+Who obj3883 Алексеев Матвей
+Where obj3887 комиссия
+Модальность возможность
+
+3811-4 Occupation
+Who obj3882 Барминый Олег
+Where obj3887 комиссия
+Модальность возможность
+
+3811-5 Occupation
+Who obj3880 Чабаненко Ксения
+Job span84649 представитель
+Where obj3874 Mail.Ru Group
+
+3811-6 Occupation
+Who obj3878 Ампелонский Вадим
+Job span84659 Пресс-секретарь
+Where obj3871 Роскомнадзор
+
+3811-7 Occupation
+Who obj3881 Добродеев Борис
+Job span84647 первый замгендиректора
+Where obj3877 ВКонтакте
+
+3811-8 Occupation
+Who obj3881 Добродеев Борис
+Where obj3887 комиссия
+Модальность будущее
+
+3811-9 Occupation
+Who obj3890 Путин
+Job span84665 президент
+Where obj3879 Россия
+Сложность повышенная
+

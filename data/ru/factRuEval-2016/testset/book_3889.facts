@@ -1,0 +1,21 @@
+3889-0 Occupation
+Who obj888 Прянишников Николай
+Job span74269 главы
+Where obj3912 Microsoft в России
+
+3889-1 Occupation
+Who obj892 Вексельберг Виктор
+Job span74281 президента
+Where obj877 Сколково
+
+3889-2 Deal
+Participant obj882 Microsoft
+Participant obj894 Сколково
+Type инвестиции
+
+3889-3 Deal
+Participant obj882 Microsoft
+Participant obj894 Сколково
+Type инвестиции
+Participant obj879 Speereo
+

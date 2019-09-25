@@ -1,0 +1,46 @@
+3702-0 Occupation
+Who obj3167 Путин  
+Job span87080 президент
+Where obj3169 Российская Федерация | Россия
+Сложность повышенная
+
+3702-1 Occupation
+Who obj3166 Порошенко Петр 
+Job span87130 президенту
+Where obj3168 Украина
+
+3702-2 Occupation
+Who obj3175 Песков Дмитрий 
+Job span87043 пресс-секретарь
+Where obj3169 Российская Федерация | Россия
+Сложность повышенная
+
+3702-3 Occupation
+Who obj3184 Антонов Анатолий 
+Job span87057 заместитель министра обороны
+Where obj3169 Российская Федерация | Россия
+
+3702-4 Meeting
+Participant obj3167 Путин  
+Модальность завершено в прошлом
+Participant obj3166 Порошенко Петр 
+
+3702-5 Occupation
+Who obj3187 Барроз Жозе 
+Job span87105 председателем
+Where obj3186 Еврокомиссия
+
+3702-6 Meeting
+Participant obj3166 Порошенко Петр 
+Participant obj3187 Барроз Жозе 
+
+3702-7 Occupation
+Who obj3166 Порошенко Петр 
+Job span87104 лидер
+Where obj3168 Украина
+
+3702-8 Occupation
+Who obj3191 Бриг Владислав 
+Job span87131 представитель
+Where obj3192 министерство обороны ДНР
+

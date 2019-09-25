@@ -1,0 +1,68 @@
+3744-0 Occupation
+Who obj2798 Самуцевич Екатерина 
+Where obj2791 Pussy Riot
+Сложность повышенная
+Job span88851 участницам
+
+3744-1 Occupation
+Who obj2835 Алехина Мария 
+Where obj2791 Pussy Riot
+Сложность повышенная
+Job span88851 участницам
+
+3744-2 Occupation
+Who obj2800 Толоконникова Надежда 
+Where obj2791 Pussy Riot
+Сложность повышенная
+Job span88851 участницам
+
+3744-3 Occupation
+Who obj2792 Клинтон Хиллари 
+Job span86481 бывшим госсекретарем
+Where obj2801 США
+
+3744-4 Meeting
+Participant obj2835 Алехина Мария 
+Сложность повышенная
+Participant obj2800 Толоконникова Надежда 
+Participant obj2792 Клинтон Хиллари 
+
+3744-5 Occupation
+Who obj2805 Лавров Сергей 
+Job span86498 главой
+Where obj2804 российский МИД
+
+3744-6 Meeting
+Participant obj2792 Клинтон Хиллари 
+Participant obj2805 Лавров Сергей 
+
+3744-7 Occupation
+Who obj2817 Медведев Дмитрий 
+Job span86532 премьер-министра
+Where obj2803 Россия
+
+3744-8 Occupation
+Who obj2820 Сечин Игорь 
+Job span86534 президента
+Where obj2819 Роснефть
+
+3744-9 Occupation
+Who obj2822 Вексельберг Виктор 
+Job span86535 главы
+Where obj2821 Сколково
+
+3744-10 Occupation
+Who obj2827 Браудер Уильям 
+Job span86556 главой
+Where obj2826 Hermitage Capital
+
+3744-11 Meeting
+Participant obj2835 Алехина Мария 
+Participant obj2800 Толоконникова Надежда 
+Participant obj2827 Браудер Уильям 
+
+3744-12 Occupation
+Who obj2831 Лагард Кристин 
+Job span86559 главы
+Where obj2830 МВФ
+

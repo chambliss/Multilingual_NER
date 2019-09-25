@@ -1,0 +1,50 @@
+2212 50052 50057 50058
+descriptor лондонская полиция
+descriptor полиция
+name Скотланд-Ярд
+
+2213 50053 50055 50059 50062 50079
+firstname Руперт
+lastname Мердок
+
+2214 50060 50064 50065 50070 50073 50074 50076 50077
+descriptor газета
+descriptor еженедельник
+descriptor издание
+descriptor таблоид
+name News of the World
+
+2215 50061 50075
+firstname Энди
+lastname Коулсон
+
+2216 50063
+descriptor издательство
+name News International
+
+2217 50395
+descriptor суд
+
+2218 50069
+firstname Гленн
+lastname Малкейр
+
+2219 50068
+firstname Грег
+lastname Мискив
+
+2220 50066
+firstname Невилл
+lastname Терлбек
+
+2221 50067
+firstname Джеймс
+lastname Уитерап
+
+2222 50071 50072
+descriptor отдел
+descriptor отдел новостей
+
+2223 50078
+name Частный корреспондент
+

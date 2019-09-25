@@ -1,0 +1,86 @@
+3979-0 Deal
+Participant obj1984 Дуров Павел 
+Participant obj1986 Таврин Иван 
+Type купля/продажа
+Participant obj1985 Вконтакте
+
+3979-1 Occupation
+Who obj1986 Таврин Иван 
+Job span78506 руководителю
+Where obj1992 Мегафон
+
+3979-2 Ownership
+Owner obj1984 Дуров Павел 
+Property obj1985 Вконтакте
+
+3979-3 Occupation
+Who obj1986 Таврин Иван 
+Job span78526 гендиректору
+Where obj1992 Мегафон
+
+3979-4 Ownership
+Owner obj1987 Усманов Алишер 
+Property obj1993 ЮТВ
+
+3979-5 Ownership
+Owner obj1986 Таврин Иван 
+Property obj1993 ЮТВ
+
+3979-6 Occupation
+Who obj1995 Лобушкин Георгий 
+Job span78537 Пресс-секретарь
+Where obj1985 Вконтакте
+Сложность повышенная
+
+3979-7 Occupation
+Who obj1997 Стрешинский Иван 
+Job span78546 Гендиректор
+Where obj1996 USM Advisors
+
+3979-8 Ownership
+Owner obj1987 Усманов Алишер 
+Property obj1996 USM Advisors
+
+3979-9 Ownership
+Owner obj2000 Mail.ru Group
+Property obj1985 Вконтакте
+
+3979-10 Ownership
+Owner obj1987 Усманов Алишер 
+Property obj2000 Mail.ru Group
+
+3979-11 Ownership
+Owner obj1990 UCP | United Capital Partners
+Property obj1985 Вконтакте
+
+3979-12 Ownership
+Owner obj1999 Щербович Илья 
+Property obj1990 UCP | United Capital Partners
+
+3979-13 Ownership
+Owner obj2006 Мирилашвили Михаил 
+Property obj1985 Вконтакте
+
+3979-14 Ownership
+Owner obj2005 Мирилашвили Вячеслав 
+Property obj1985 Вконтакте
+
+3979-15 Ownership
+Owner obj2007 Леваев Лев 
+Property obj1985 Вконтакте
+
+3979-16 Ownership
+Owner obj2009 Digital Sky Technologies
+Property obj2000 Mail.ru Group
+
+3979-17 Deal
+Participant obj1990 UCP | United Capital Partners
+Participant obj2006 Мирилашвили Михаил 
+Type купля/продажа
+Participant obj2005 Мирилашвили Вячеслав 
+Participant obj1985 Вконтакте
+
+3979-18 Ownership
+Owner obj1984 Дуров Павел 
+Property obj1988 Telegram
+

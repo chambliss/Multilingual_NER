@@ -1,0 +1,40 @@
+3876-0 Deal
+Participant obj2224 The Beatles
+Participant obj2229 Polydor
+Type услуги
+Модальность завершено в прошлом
+Participant obj2228 Кемпферт Берт 
+
+3876-1 Occupation
+Who obj2228 Кемпферт Берт 
+Job span83864 продюсером
+Where obj2229 Polydor
+
+3876-2 Occupation
+Who obj2226 Хоермаер Дин 
+Job span83854 директор по оценке и реализации лотов
+Where obj2225 Heritage Auctions
+Сложность повышенная
+
+3876-3 Occupation
+Who obj2235 Бест Пит 
+Job span83879 ударником
+Where obj2224 The Beatles
+Модальность завершено в прошлом
+
+3876-4 Occupation
+Who obj2234 Старр Ринго 
+Job span83879 ударником
+Where obj2224 The Beatles
+Фаза начало
+Модальность завершено в прошлом
+Сложность повышенная
+
+3876-5 Occupation
+Who obj2235 Бест Пит 
+Job span83879 ударником
+Where obj2224 The Beatles
+Фаза конец
+Модальность завершено в прошлом
+Сложность повышенная
+

@@ -1,0 +1,42 @@
+3860-0 Deal
+Participant obj2064 Украина
+Participant obj2063 Российская Федерация | Россия
+Type услуги
+Participant obj2066 Нафтогаз | Нафтогаз Украины
+
+3860-1 Occupation
+Who obj2067 Азаров Николай 
+Job span84011 премьер-министр
+Where obj2064 Украина
+
+3860-2 Ownership
+Owner obj2064 Украина
+Property obj2069 Украина — Россия — Европейский союз
+Модальность возможность
+
+3860-4 Ownership
+Owner obj2063 Российская Федерация | Россия
+Property obj2069 Украина — Россия — Европейский союз
+Модальность возможность
+
+3860-5 Ownership
+Owner obj2070 Европейский союз
+Property obj2069 Украина — Россия — Европейский союз
+Модальность возможность
+
+3860-6 Deal
+Participant obj2065 Газпром
+Participant obj2066 Нафтогаз | Нафтогаз Украины
+Type услуги
+Модальность отрицание
+
+3860-7 Occupation
+Who obj2075 Куприянов Сергей 
+Job span84028 официальный представитель
+Where obj2065 Газпром
+
+3860-8 Meeting
+Participant obj2076 Янукович Виктор 
+Participant obj2077 Медведев Дмитрий 
+Participant obj2078 Путин Владимир 
+

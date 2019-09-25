@@ -1,0 +1,43 @@
+3909-0 Deal
+Participant obj1831 Dell
+Participant obj1832 EMC | EMC Corp
+Type купля/продажа
+Фаза начало
+
+3909-1 Occupation
+Who obj1835 Делл Майкл 
+Job span80461 глава
+Where obj1831 Dell
+
+3909-2 Occupation
+Who obj1835 Делл Майкл 
+Job span80458 Генеральным директором
+Where obj1831 Dell
+Модальность будущее
+
+3909-3 Ownership
+Owner obj1835 Делл Майкл 
+Property obj1831 Dell
+
+3909-4 Occupation
+Who obj1836 Туччи Джозеф 
+Job span80463 генерального директора
+Where obj1832 EMC | EMC Corp
+
+3909-5 Occupation
+Who obj1836 Туччи Джозеф 
+Job span80463 генерального директора
+Where obj1832 EMC | EMC Corp
+Фаза конец
+Модальность будущее
+
+3909-6 Ownership
+Owner obj1832 EMC | EMC Corp
+Property obj1837 VMware
+
+3909-7 Deal
+Participant obj1838 Avago Technologies
+Participant obj1839 Broadcom
+Type купля/продажа
+Модальность завершено в прошлом
+

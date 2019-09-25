@@ -1,0 +1,62 @@
+3872-0 Occupation
+Who obj2095 Абэ Синдзо 
+Job span83940 Премьер-министр
+Where obj2092 Япония
+
+3872-1 Occupation
+Who obj2098 Хасэгавой Сюнскэ 
+Job span83942 мэром
+Where obj2096 Немуро
+
+3872-2 Meeting
+Participant obj2098 Хасэгавой Сюнскэ 
+Participant obj2095 Абэ Синдзо 
+
+3872-3 Occupation
+Who obj2100 Путин Владимир 
+Job span83957 президент
+Where obj2093 Россия
+Сложность повышенная
+
+3872-4 Occupation
+Who obj2098 Хасэгавой Сюнскэ 
+Job span83948 чиновника
+Where obj2092 Япония
+Сложность повышенная
+
+3872-5 Ownership
+Owner obj2092 Япония
+Property obj2101 Хабомаи
+Модальность завершено в прошлом
+
+3872-6 Ownership
+Owner obj2092 Япония
+Property obj2103 Итуруп
+Модальность завершено в прошлом
+
+3872-7 Ownership
+Owner obj2092 Япония
+Property obj2104 Кунашир
+Модальность завершено в прошлом
+
+3872-8 Ownership
+Owner obj2092 Япония
+Property obj2105 Шикотан
+Модальность завершено в прошлом
+
+3872-9 Ownership
+Owner obj2093 Россия
+Property obj2101 Хабомаи
+
+3872-10 Ownership
+Owner obj2093 Россия
+Property obj2105 Шикотан
+
+3872-11 Ownership
+Owner obj2093 Россия
+Property obj2104 Кунашир
+
+3872-12 Ownership
+Owner obj2093 Россия
+Property obj2103 Итуруп
+

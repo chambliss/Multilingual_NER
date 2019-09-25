@@ -1,0 +1,32 @@
+3916-0 Occupation
+Who obj1720 Сечин  
+Job span80237 Президент
+Where obj1724 Роснефть
+Сложность повышенная
+
+3916-1 Ownership
+Owner obj1721 Тимченко  
+Property obj1723 Gunvor
+Сложность повышенная
+
+3916-2 Deal
+Participant obj1724 Роснефть
+Participant obj1728 Итера
+Type купля/продажа
+
+3916-3 Deal
+Participant obj1724 Роснефть
+Participant obj1729 ТНК-ВР
+Type купля/продажа
+
+3916-4 Occupation
+Who obj1730 Худайнатов Эдуард 
+Job span80270 гендиректором
+Where obj1728 Итера
+Фаза начало
+
+3916-5 Occupation
+Who obj1730 Худайнатов Эдуард 
+Job span82632 первый вице-президент
+Where obj1724 Роснефть
+

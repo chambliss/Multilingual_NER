@@ -1,0 +1,78 @@
+3383 53726 53728 53740 53744 53748 53749 53753 53760 53764 53768 53779
+descriptor американская финансовая компания
+descriptor компания
+descriptor финансовая компания
+name ICE
+
+3384 53727 53729 53732 53737 53741 53745 53747 53750 53751 53762 53763 53773 53775 53776 53781
+descriptor биржа
+descriptor главная биржа
+descriptor главная биржа мира
+descriptor фондовая биржа
+name NYSE
+name NYSE Euronext
+name Нью-Йоркская фондовая биржа
+
+3385 53730 53738 53742 53746 53766 53770 53778 53780 54094 54095
+name Америка
+name США
+
+3386 53731 53733 53783
+name Deutsche Börse
+name франкфуртская Deutsche Börse
+
+3387 53736 53755 53757 53790 54071
+descriptor биржа
+descriptor компания
+descriptor объединённая биржа
+descriptor объединённая компания
+name ICE — NYSE Euronext
+
+3388 53794
+name Exchanges & Clearing
+name Hong Kong Exchanges & Clearing
+
+3389 53793
+name CME Group
+
+3390 53743 53761 53774
+name Нью-Йорк
+
+3391 53739 53759
+name Атланта
+
+3392 53784 54072
+name Франкфурт
+
+3393 53772
+name Уолл-стрит
+
+3394 53765 53767
+name NASDAQ
+
+3395 53769
+name Минюст
+name Минюст США
+
+3396 53785 53788
+descriptor антимонопольный регулятор
+descriptor европейский антимонопольный регулятор
+descriptor регулятор
+
+3397 53786
+name Европа
+
+3398 53756 53758
+descriptor правление
+descriptor совет
+descriptor совет директоров
+descriptor совет директоров объединённой компании
+
+3399 53752
+firstname Данкан
+lastname Нидерауэр
+
+3400 53754
+firstname Джефф
+lastname Спрекер
+

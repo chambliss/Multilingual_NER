@@ -1,0 +1,105 @@
+3974-0 Deal
+Participant obj3367 BP
+Participant obj3369 Роснефть
+Type купля/продажа
+Participant obj3368 ТНК-BP
+
+3974-1 Ownership
+Owner obj3367 BP
+Property obj3369 Роснефть
+Модальность будущее
+
+3974-2 Ownership
+Owner obj3378 Россия
+Property obj3369 Роснефть
+Сложность повышенная
+
+3974-3 Ownership
+Owner obj3372 Роснефтегаз
+Property obj3369 Роснефть
+
+3974-4 Ownership
+Owner obj3378 Россия
+Property obj3372 Роснефтегаз
+
+3974-5 Ownership
+Owner obj3367 BP
+Property obj3369 Роснефть
+
+3974-6 Occupation
+Who obj3373 Сечин Игорь 
+Job span88893 президент
+Where obj3369 Роснефть
+Сложность повышенная
+
+3974-8 Deal
+Participant obj3367 BP
+Participant obj3368 ТНК-BP
+Type инвестиции
+
+3974-9 Deal
+Participant obj3369 Роснефть
+Participant obj3367 BP
+Type купля/продажа
+Модальность возможность | завершено в прошлом
+Participant obj3368 ТНК-BP
+
+3974-10 Occupation
+Who obj3380 Сванберг Карл
+Job span88942 председатель
+Where obj3371 совет директоров
+
+3974-11 Occupation
+Who obj3381 Дадли Роберт
+Job span88944 гендиректор
+Where obj3367 BP
+
+3974-12 Occupation
+Who obj3382 Путин Владимир
+Job span88946 президентом
+Where obj3378 Россия
+
+3974-13 Meeting
+Participant obj3380 Сванберг Карл
+Participant obj3381 Дадли Роберт
+Participant obj3373 Сечин Игорь 
+Participant obj3382 Путин Владимир
+
+3974-14 Ownership
+Owner obj3374 AAR | « Альфа-Групп » — Access Industries — « Ренова » | ААР
+Property obj3375 Альфа-Групп
+
+3974-15 Ownership
+Owner obj3374 AAR | « Альфа-Групп » — Access Industries — « Ренова » | ААР
+Property obj3376 Access Industries
+
+3974-16 Ownership
+Owner obj3374 AAR | « Альфа-Групп » — Access Industries — « Ренова » | ААР
+Property obj3377 Ренова
+
+3974-17 Ownership
+Owner obj3374 AAR | « Альфа-Групп » — Access Industries — « Ренова » | ААР
+Property obj3368 ТНК-BP
+
+3974-18 Deal
+Participant obj3374 AAR | « Альфа-Групп » — Access Industries — « Ренова » | ААР
+Participant obj3367 BP
+Type купля/продажа
+Модальность возможность | завершено в прошлом
+Participant obj3368 ТНК-BP
+
+3974-20 Deal
+Participant obj3369 Роснефть
+Participant obj3378 Россия
+Type купля/продажа
+Модальность завершено в прошлом
+Participant obj3369 Роснефть
+
+3974-21 Deal
+Participant obj3369 Роснефть
+Participant obj3374 AAR | « Альфа-Групп » — Access Industries — « Ренова » | ААР
+Type купля/продажа
+Модальность возможность
+Сложность повышенная
+Participant obj3368 ТНК-BP
+

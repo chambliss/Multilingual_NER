@@ -1,0 +1,40 @@
+3978-0 Deal
+Participant obj1655 Роснефть
+Participant obj1656 ТНК-BP
+Type купля/продажа
+Фаза конец
+Participant obj1659 BP
+
+3978-1 Deal
+Participant obj1655 Роснефть
+Participant obj1656 ТНК-BP
+Type купля/продажа
+Participant obj1663 AAR
+
+3978-2 Ownership
+Owner obj1659 BP
+Property obj1655 Роснефть
+
+3978-3 Deal
+Participant obj1659 BP
+Participant obj1661 Роснефтегаз
+Type купля/продажа
+Participant obj1655 Роснефть
+
+3978-4 Ownership
+Owner obj1663 AAR
+Property obj1666 Access Industries
+
+3978-5 Ownership
+Owner obj1663 AAR
+Property obj1664 Альфа-Групп
+
+3978-6 Ownership
+Owner obj1663 AAR
+Property obj1665 Ренова
+
+3978-7 Occupation
+Who obj1658 Дадли Роберт 
+Job span78679 президент
+Where obj1659 BP
+

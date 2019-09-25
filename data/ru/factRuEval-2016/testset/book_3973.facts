@@ -1,0 +1,84 @@
+3973-0 Deal
+Participant obj1937 Роснефть
+Participant obj1946 ВР
+Type купля/продажа
+Participant obj1938 ТНК-BP
+Participant obj1940 Bank of America | Bank of America Merrill Lynch
+Participant obj1941 Citigroup Global Markets Ltd
+Participant obj1939 Cleary Gottlieb Steen & Hamilton LLP
+
+3973-1 Ownership
+Owner obj1937 Роснефть
+Property obj1938 ТНК-BP
+Фаза начало
+
+3973-2 Ownership
+Owner obj1946 ВР
+Property obj1937 Роснефть
+Фаза начало
+
+3973-3 Ownership
+Owner obj1948 Роснефтегаз
+Property obj1937 Роснефть
+
+3973-4 Deal
+Participant obj1948 Роснефтегаз
+Participant obj1937 Роснефть
+Type купля/продажа
+Модальность возможность
+Participant obj1946 ВР
+Participant obj1940 Bank of America | Bank of America Merrill Lynch
+Participant obj1941 Citigroup Global Markets Ltd
+Participant obj1939 Cleary Gottlieb Steen & Hamilton LLP
+
+3973-5 Occupation
+Who obj1950 Сечин Игорь 
+Job span78828 Президент
+Where obj1937 Роснефть
+
+3973-6 Occupation
+Who obj1950 Сечин Игорь 
+Job span78829 Председатель
+Where obj1949 правление ОАО НК Роснефть
+
+3973-7 Deal
+Participant obj1946 ВР
+Participant obj1951 Россия
+Type инвестиции
+
+3973-8 Ownership
+Owner obj1951 Россия
+Property obj1937 Роснефть
+Сложность повышенная
+
+3973-9 Occupation
+Who obj1952 Путин Владимир 
+Where obj1951 Россия
+Job span78841 Президента
+
+3973-10 Deal
+Participant obj1937 Роснефть
+Participant obj1942 ААР
+Type купля/продажа
+Модальность возможность
+Participant obj1938 ТНК-BP
+Participant obj1940 Bank of America | Bank of America Merrill Lynch
+Participant obj1941 Citigroup Global Markets Ltd
+Participant obj1939 Cleary Gottlieb Steen & Hamilton LLP
+
+3973-11 Ownership
+Owner obj1942 ААР
+Property obj1938 ТНК-BP
+
+3973-12 Ownership
+Owner obj1942 ААР
+Property obj1943 Альфа-Групп
+
+3973-13 Ownership
+Owner obj1942 ААР
+Property obj1945 Ренова
+
+3973-14 Ownership
+Owner obj1942 ААР
+Property obj1944 Access Industries
+

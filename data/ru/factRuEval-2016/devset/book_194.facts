@@ -1,0 +1,9 @@
+194-1 isPartOf
+Company obj272 украинское правительство
+Company obj270 Украина
+
+194-2 Deal
+Participant obj269 Россия
+Participant obj272 украинское правительство
+Type займ/возвращение займа
+Participant obj270 Украина

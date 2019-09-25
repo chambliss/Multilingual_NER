@@ -1,0 +1,52 @@
+3910-0 Occupation
+Who obj1882 Лавров Сергей 
+Job span80339 министр иностранных дел
+Where obj1881 РФ | Россия
+
+3910-1 Occupation
+Who obj1888 Климкин Павел 
+Job span80354 глава | span80383 Руководитель
+Where obj1887 МИД Украины | министерство иностранных дел Украины
+
+3910-2 Occupation
+Who obj1891 Штайнмайер Франк 
+Job span80366 Министр иностранных дел
+Where obj1884 Германия | ФРГ
+
+3910-3 Meeting
+Participant obj1882 Лавров Сергей 
+Модальность возможность
+Participant obj1888 Климкин Павел 
+Participant obj1891 Штайнмайер Франк 
+
+3910-4 Occupation
+Who obj1888 Климкин Павел 
+Job span80384 министр
+Where obj1885 Украина
+Сложность повышенная
+
+3910-5 Occupation
+Who obj1902 Хаммонд Филипп 
+Job span80414 министр иностранных дел
+Where obj1901 Великобритания
+
+3910-6 Occupation
+Who obj1903 Кэмерон Дэвид 
+Job span80416 Премьер-министр
+Where obj1901 Великобритания
+
+3910-7 Occupation
+Who obj1906 Пентус Кейт 
+Job span80418 Министр иностранных дел
+Where obj1905 Эстония
+
+3910-8 Occupation
+Who obj1910 Пауэр Саманта 
+Job span82631 постоянный представитель США при ООН | span80436 постоянный представитель
+Where obj1909 США
+
+3910-9 Occupation
+Who obj1913 Линкявичус Линас 
+Job span80439 Глава
+Where obj1911 МИД Литвы
+

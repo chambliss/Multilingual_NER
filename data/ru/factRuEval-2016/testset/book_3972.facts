@@ -1,0 +1,56 @@
+3972-0 Deal
+Participant obj3383 ICE
+Participant obj3384 NYSE | NYSE Euronext | Нью-Йоркская фондовая биржа
+Type купля/продажа
+
+3972-1 Occupation
+Who obj3399 Нидерауэр Данкан
+Job span89009 глава
+Where obj3384 NYSE | NYSE Euronext | Нью-Йоркская фондовая биржа
+
+3972-2 Occupation
+Who obj3399 Нидерауэр Данкан
+Job span89019 президентом
+Where obj3387 ICE — NYSE Euronext
+Фаза начало
+Модальность будущее
+Сложность повышенная
+
+3972-3 Occupation
+Who obj3400 Спрекер Джефф
+Job span89010 глава
+Where obj3383 ICE
+
+3972-4 Occupation
+Who obj3400 Спрекер Джефф
+Job span89022 председателем
+Where obj3398 правление
+Фаза начало
+Модальность будущее
+
+3972-5 Occupation
+Who obj3400 Спрекер Джефф
+Job span89012 генеральным директором
+Where obj3387 ICE — NYSE Euronext
+Фаза начало
+Модальность будущее
+Сложность повышенная
+
+3972-6 Deal
+Participant obj3383 ICE
+Participant obj3394 NASDAQ
+Модальность возможность | завершено в прошлом
+Participant obj3384 NYSE | NYSE Euronext | Нью-Йоркская фондовая биржа
+
+3972-7 Deal
+Participant obj3386 Deutsche Börse | франкфуртская Deutsche Börse
+Participant obj3384 NYSE | NYSE Euronext | Нью-Йоркская фондовая биржа
+Type купля/продажа
+Модальность возможность | завершено в прошлом
+
+3972-8 Deal
+Participant obj3383 ICE
+Participant obj3384 NYSE | NYSE Euronext | Нью-Йоркская фондовая биржа
+Type купля/продажа
+Модальность завершено в прошлом | возможность
+

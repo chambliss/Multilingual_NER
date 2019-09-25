@@ -1,0 +1,47 @@
+297-0 Ownership
+Owner obj494 Цукерберг Марк
+Property obj486 Facebook
+
+297-1 Deal
+Participant obj487 DST | Digital Sky Technologies
+Participant obj486 Facebook
+Type купля/продажа
+
+297-2 Deal
+Participant obj487 DST | Digital Sky Technologies
+Participant obj486 Facebook
+Type купля/продажа
+Модальность завершено в прошлом
+
+297-3 Deal
+Participant obj487 DST | Digital Sky Technologies
+Participant obj486 Facebook
+Type купля/продажа
+Модальность завершено в прошлом
+
+297-4 Ownership
+Owner obj487 DST | Digital Sky Technologies
+Property obj486 Facebook
+
+297-5 Ownership
+Owner obj487 DST | Digital Sky Technologies
+Property obj486 Facebook
+Модальность завершено в прошлом
+
+297-6 Deal
+Participant obj490 Elevation Partners
+Participant obj486 Facebook
+Type купля/продажа
+
+297-7 Ownership
+Owner obj495 Мильнер Юрий
+Property obj487 DST | Digital Sky Technologies
+
+297-8 Ownership
+Owner obj496 Фингер Григори
+Property obj487 DST | Digital Sky Technologies
+
+297-9 Ownership
+Owner obj497 Усманов Алишер
+Property obj487 DST | Digital Sky Technologies
+

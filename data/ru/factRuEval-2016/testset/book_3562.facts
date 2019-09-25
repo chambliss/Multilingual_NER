@@ -1,0 +1,32 @@
+3562-0 Occupation
+Who obj3648 Пан Ги Мун
+Job span87528 генсеком
+Where obj3647 ООН
+
+3562-1 Occupation
+Who obj3649 Карзай Хамид 
+Job span87529 главой
+Where obj3644 Афганистан
+
+3562-2 Occupation
+Who obj3662 Браун Гордон 
+Job span87530 премьер-министром
+Where obj3645 Великобритания
+
+3562-3 Occupation
+Who obj3659 Лавров Сергей 
+Job span87531 главой
+Where obj3661 МИД РФ
+
+3562-4 Occupation
+Who obj3655 Клинтон Хилари 
+Job span87532 руководителем
+Where obj3658 Госдепартамент США
+
+3562-5 Meeting
+Participant obj3648 Пан Ги Мун
+Participant obj3649 Карзай Хамид 
+Participant obj3662 Браун Гордон 
+Participant obj3659 Лавров Сергей 
+Participant obj3655 Клинтон Хилари 
+

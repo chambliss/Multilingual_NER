@@ -1,0 +1,29 @@
+142-0 Occupation
+Who obj146 Эрдоган Реджеп
+Position span34101 премьер-министр
+Where obj144 Турецкая республика | Турция
+
+142-1 Occupation
+Who obj147 Янукович Виктор
+Position span34102 президентом
+Where obj143 Украина
+Сложность повышенная
+
+142-2 Occupation
+Who obj150 Джемилев Мустафа
+Position span34140 лидер
+Where obj166 Меджлис крымско-татарского народа
+
+142-3 Occupation
+Who obj150 Джемилев Мустафа
+Position span34141 народный депутат
+Where obj143 Украина
+
+142-4 Ownership
+Owner obj143 Украина | obj144 Турецкая республика | Турция
+Property obj164 Стратегический совет
+
+142-5 Meeting
+Participant obj147 Янукович Виктор
+Participant obj146 Эрдоган Реджеп
+

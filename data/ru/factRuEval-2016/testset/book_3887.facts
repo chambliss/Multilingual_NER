@@ -1,0 +1,67 @@
+3887-0 Ownership
+Owner obj2045 Россия
+Property obj2044 Южный поток
+Сложность повышенная
+
+3887-1 Ownership
+Owner obj2046 Италия
+Property obj2044 Южный поток
+
+3887-2 Ownership
+Owner obj2043 Германия
+Property obj2044 Южный поток
+Фаза начало
+
+3887-3 Occupation
+Who obj2048 Берлускони Сильвио 
+Job span81482 премьера
+Where obj2046 Италия
+Сложность повышенная
+
+3887-4 Occupation
+Who obj2047 Путин Владимир 
+Job span81482 премьера
+Where obj2045 Россия
+Сложность повышенная
+
+3887-5 Occupation
+Who obj2047 Путин Владимир 
+Job span81484 глава
+Where obj2051 российское правительство
+Сложность повышенная
+
+3887-6 Ownership
+Owner obj2054 Болгария
+Property obj2044 Южный поток
+Модальность возможность
+
+3887-7 Ownership
+Owner obj2056 Сербия
+Property obj2044 Южный поток
+Модальность возможность
+
+3887-8 Ownership
+Owner obj2057 Венгрия
+Property obj2044 Южный поток
+Модальность возможность
+
+3887-9 Ownership
+Owner obj2055 Греция
+Property obj2044 Южный поток
+Модальность возможность
+
+3887-10 Ownership
+Owner obj2059 Словения
+Property obj2044 Южный поток
+Модальность возможность
+
+3887-11 Ownership
+Owner obj2060 Хорватия
+Property obj2044 Южный поток
+Модальность возможность
+
+3887-12 Ownership
+Owner obj2058 Австрия
+Property obj2044 Южный поток
+Модальность возможность
+
