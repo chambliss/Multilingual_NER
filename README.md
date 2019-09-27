@@ -1,7 +1,7 @@
 # multilingual_NER
 
 ## About
-Deployable [BERT](https://github.com/google-research/bert) ensemble models for named entity recognition in English and Russian. `multilingual_NER` provides a toolkit to train, validate, and deploy NER models with an interactive frontend and callable API.
+This repository applies [BERT](https://github.com/google-research/bert) to named entity recognition in English and Russian in order to improve machine translation quality estimation between English-Russian sentence pairs. Named entities are a known challenge in machine translation, and this repository aims to quantify accuracy by comparing named entity recognition between Russian and English in translated sentence pairs.
 
 ## Installation
 (will make available via `pip install` and `conda install` when project is closer to completion - hit the Watch button if you'd like to be updated on progress!)
