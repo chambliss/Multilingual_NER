@@ -8,7 +8,7 @@ import torch
 from torch.optim import Adam
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from keras.preprocessing.sequence import pad_sequences
-from seqeval.metrics import classification_report, f1_score
+from seqeval.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
 # Progress bar
@@ -32,7 +32,6 @@ label_types = [
     "B-MISC",
     "I-MISC",
     "O",
-    "PAD",
 ]
 MAX_LEN = 75
 BATCH_SIZE = 32
@@ -41,16 +40,23 @@ MAX_GRAD_NORM = 1.0
 NUM_LABELS = len(label_types)
 FULL_FINETUNING = True
 
-# Create dicts for mapping from labels to IDs and back
-tag2idx = {t: i for i, t in enumerate(label_types)}
-idx2tag = {i: t for t, i in tag2idx.items()}
-
 # Specify device data for training
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 n_gpu = torch.cuda.device_count()
 
 # Initialize tokenizer
 tokenizer = BertTokenizer.from_pretrained("bert-base-cased", do_lower_case=False)
+
+# Create dicts for mapping from labels to IDs and back
+tag2idx = {t: i for i, t in enumerate(label_types)}
+idx2tag = {i: t for t, i in tag2idx.items()}
+
+# For use in preprocessing (see BertDataset class) and filtering
+# only for non-padding predictions during calculation of metrics
+pad_tok = tokenizer.vocab["[PAD]"]
+sep_tok = tokenizer.vocab["[SEP]"]
+cls_tok = tokenizer.vocab["[CLS]"]
+o_lab = tag2idx["O"]
 
 ###
 
@@ -108,8 +114,8 @@ class BertDataset:
             for sent, labs in zip(sg.sents, sg.labels)
         ]
 
-        self.toks = [text[0] for text in tokenized_texts]
-        self.labs = [text[1] for text in tokenized_texts]
+        self.toks = [["[CLS]"] + text[0] for text in tokenized_texts]
+        self.labs = [["O"] + text[1] for text in tokenized_texts]
 
         # Convert tokens to IDs
         self.input_ids = pad_sequences(
@@ -124,11 +130,20 @@ class BertDataset:
         self.tags = pad_sequences(
             [[tag2idx.get(l) for l in lab] for lab in self.labs],
             maxlen=MAX_LEN,
-            value=tag2idx["PAD"],
+            value=tag2idx["O"],
             padding="post",
             dtype="long",
             truncating="post",
         )
+
+        # Swaps out the final token-label pair for ([SEP], O)
+        # for any sequences that reach the MAX_LEN
+        for voc_ids, tag_ids in zip(self.input_ids, self.tags):
+            if voc_ids[-1] == pad_tok:
+                continue
+            else:
+                voc_ids[-1] = sep_tok
+                tag_ids[-1] = o_lab
 
         # Place a mask (zero) over the padding tokens
         self.attn_masks = [[float(i > 0) for i in ii] for ii in self.input_ids]
@@ -162,16 +177,13 @@ def tokenize_and_preserve_labels(sentence, text_labels):
     return tokenized_sentence, labels
 
 
-def flat_accuracy(preds, labels):
+def flat_accuracy(valid_tags, pred_tags):
 
     """
     Define a flat accuracy metric to use while training the model.
     """
 
-    pred_flat = np.argmax(preds, axis=2).flatten()
-    labels_flat = labels.flatten()
-
-    return np.sum(pred_flat == labels_flat) / len(labels_flat)
+    return (np.array(valid_tags) == np.array(pred_tags)).mean()
 
 
 def annot_confusion_matrix(valid_tags, pred_tags):
@@ -181,12 +193,11 @@ def annot_confusion_matrix(valid_tags, pred_tags):
     annotations and formatting to sklearn's `confusion_matrix`.
     """
 
-    # Convert tag IDs to readable labels, create header
-    predicted_or_true_tags = sorted(list(set(valid_tags + pred_tags)))
-    header = [idx2tag[n] for n in predicted_or_true_tags]
+    # Create header from unique tags
+    header = sorted(list(set(valid_tags + pred_tags)))
 
     # Calculate the actual confusion matrix
-    matrix = confusion_matrix(valid_tags, pred_tags)
+    matrix = confusion_matrix(valid_tags, pred_tags, labels=header)
 
     # Final formatting touches for the string output
     mat_formatted = [header[i] + "\t" + str(row) for i, row in enumerate(matrix)]
@@ -220,7 +231,7 @@ valid_data = TensorDataset(val_inputs, val_masks, val_tags)
 valid_sampler = SequentialSampler(valid_data)
 valid_dataloader = DataLoader(valid_data, sampler=valid_sampler, batch_size=BATCH_SIZE)
 
-print("Loaded training and validation data into DataLoaders successfully.")
+print("Loaded training and validation data into DataLoaders.")
 
 ###
 
@@ -266,7 +277,8 @@ print("Initialized optimizer and set hyperparameters.")
 
 epoch = 0
 for _ in trange(EPOCHS, desc="Epoch"):
-    epoch = epoch + 1
+    epoch += 1
+
     # Training loop
     print("Starting training loop.")
     model.train()
@@ -276,13 +288,11 @@ for _ in trange(EPOCHS, desc="Epoch"):
 
     for step, batch in enumerate(train_dataloader):
 
-        print("Starting a new training batch.")
-
-        # add batch to gpu
+        # Add batch to gpu
         batch = tuple(t.to(device) for t in batch)
         b_input_ids, b_input_mask, b_labels = batch
 
-        # forward pass
+        # Forward pass
         outputs = model(
             b_input_ids,
             token_type_ids=None,
@@ -291,7 +301,7 @@ for _ in trange(EPOCHS, desc="Epoch"):
         )
         loss, tr_logits = outputs[:2]
 
-        # backward pass
+        # Backward pass
         loss.backward()
 
         # Compute train loss
@@ -299,13 +309,22 @@ for _ in trange(EPOCHS, desc="Epoch"):
         nb_tr_examples += b_input_ids.size(0)
         nb_tr_steps += 1
 
-        # Compute training accuracy
-        tr_logits = tr_logits.detach().cpu().numpy()
-        tr_label_ids = b_labels.to("cpu").numpy()
-        tr_preds.extend([list(p) for p in np.argmax(tr_logits, axis=2)])
-        tr_labels.append(tr_label_ids)
+        # Subset out unwanted predictions on CLS/PAD/SEP tokens
+        preds_mask = (
+            (b_input_ids != cls_tok)
+            & (b_input_ids != pad_tok)
+            & (b_input_ids != sep_tok)
+        )
 
-        tmp_tr_accuracy = flat_accuracy(tr_logits, tr_label_ids)
+        tr_logits = tr_logits.detach().cpu().numpy()
+        tr_label_ids = torch.masked_select(b_labels, (preds_mask == 1))
+        tr_batch_preds = np.argmax(tr_logits[preds_mask.squeeze()], axis=1)
+        tr_batch_labels = tr_label_ids.to("cpu").numpy()
+        tr_preds.extend(tr_batch_preds)
+        tr_labels.extend(tr_batch_labels)
+
+        # Compute training accuracy
+        tmp_tr_accuracy = flat_accuracy(tr_batch_labels, tr_batch_preds)
         tr_accuracy += tmp_tr_accuracy
 
         # gradient clipping
@@ -326,7 +345,7 @@ for _ in trange(EPOCHS, desc="Epoch"):
 
     print("Starting validation loop.")
 
-    # VALIDATION on validation set
+    # Validation loop
     model.eval()
     eval_loss, eval_accuracy = 0, 0
     nb_eval_steps, nb_eval_examples = 0, 0
@@ -346,12 +365,21 @@ for _ in trange(EPOCHS, desc="Epoch"):
             )
             tmp_eval_loss, logits = outputs[:2]
 
-        logits = logits.detach().cpu().numpy()
-        label_ids = b_labels.to("cpu").numpy()
-        predictions.extend([list(p) for p in np.argmax(logits, axis=2)])
-        true_labels.append(label_ids)
+        # Subset out unwanted predictions on CLS/PAD/SEP tokens
+        preds_mask = (
+            (b_input_ids != cls_tok)
+            & (b_input_ids != pad_tok)
+            & (b_input_ids != sep_tok)
+        )
 
-        tmp_eval_accuracy = flat_accuracy(logits, label_ids)
+        logits = logits.detach().cpu().numpy()
+        label_ids = torch.masked_select(b_labels, (preds_mask == 1))
+        val_batch_preds = np.argmax(logits[preds_mask.squeeze()], axis=1)
+        val_batch_labels = label_ids.to("cpu").numpy()
+        predictions.extend(val_batch_preds)
+        true_labels.extend(val_batch_labels)
+
+        tmp_eval_accuracy = flat_accuracy(val_batch_labels, val_batch_preds)
 
         eval_loss += tmp_eval_loss.mean().item()
         eval_accuracy += tmp_eval_accuracy
@@ -359,9 +387,9 @@ for _ in trange(EPOCHS, desc="Epoch"):
         nb_eval_examples += b_input_ids.size(0)
         nb_eval_steps += 1
 
-    # Evaluate f1 score, loss, and accuracy on devset
-    pred_tags = [label_types[p_i] for p in predictions for p_i in p]
-    valid_tags = [label_types[l_ii] for l in true_labels for l_i in l for l_ii in l_i]
+    # Evaluate loss, acc, conf. matrix, and class. report on devset
+    pred_tags = [idx2tag[i] for i in predictions]
+    valid_tags = [idx2tag[i] for i in true_labels]
     cl_report = classification_report(valid_tags, pred_tags)
     conf_mat = annot_confusion_matrix(valid_tags, pred_tags)
     eval_loss = eval_loss / nb_eval_steps
