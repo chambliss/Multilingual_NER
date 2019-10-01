@@ -324,6 +324,8 @@ for _ in trange(EPOCHS, desc="Epoch"):
         tr_labels.extend(tr_batch_labels)
 
         # Compute training accuracy
+        print("TR_BATCH_LABELS: ", tr_batch_labels)
+        print("TR_BATCH_PREDS: ", tr_batch_preds)
         tmp_tr_accuracy = flat_accuracy(tr_batch_labels, tr_batch_preds)
         tr_accuracy += tmp_tr_accuracy
 
