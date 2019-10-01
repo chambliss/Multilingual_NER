@@ -18,8 +18,6 @@ cycler==0.10.0
 cymem==2.0.2
 decorator==4.4.0
 docutils==0.15.2
-en-core-web-lg==2.1.0
-en-core-web-sm==2.0.0
 gast==0.2.2
 grpcio==1.16.1
 h5py==2.9.0
@@ -33,8 +31,6 @@ jedi==0.15.1
 jmespath==0.9.4
 joblib==0.13.2
 jsonschema==3.0.2
-jupyter-client==5.3.1
-jupyter-core==4.5.0
 Keras==2.2.4
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
@@ -103,5 +99,4 @@ wasabi==0.2.2
 wcwidth==0.1.7
 Werkzeug==0.15.5
 wrapt==1.11.2
-xx-ent-wiki-sm==2.1.0
 zipp==0.6.0
