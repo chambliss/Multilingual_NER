@@ -78,6 +78,7 @@ scipy==1.1.0
 seaborn==0.9.0
 sentencepiece==0.1.83
 seqeval==0.0.12
+streamlit==0.47.2
 six==1.12.0
 spacy==2.1.8
 srsly==0.1.0
