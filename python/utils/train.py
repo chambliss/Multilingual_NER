@@ -20,8 +20,8 @@ class SentenceGetter(object):
         """
 
         with open(data_path) as f:
-            if "factRuEval" in data_path:
-                txt = f.read().split("\n\n\n")
+            if "ru" in data_path:
+                txt = f.read().split("\n\n")
             else:
                 txt = f.read().split("\n \n")
 
@@ -88,7 +88,6 @@ class BertDataset:
             padding="post",
         )
 
-        print([[tag2idx.get(l) for l in lab] for lab in self.labs])
         # Convert tags to IDs
         self.tags = pad_sequences(
             [[tag2idx.get(l) for l in lab] for lab in self.labs],

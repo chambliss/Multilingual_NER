@@ -6,9 +6,10 @@ import numpy as np
 import os
 import pandas as pd
 from pytorch_transformers import BertTokenizer, BertForTokenClassification, BertConfig
+import re
 from seqeval.metrics import classification_report
 from sklearn.metrics import confusion_matrix
-from spacy import load
+import spacy
 from spacy.gold import Doc, biluo_tags_from_offsets
 import subprocess
 import torch
@@ -25,7 +26,17 @@ from utils.combine_en_data import (
     standardize_labels_and_save,
 )
 
-from utils.combine_ru_data import open_file, process_pair, process_and_save_data
+from utils.combine_ru_data import (
+    FACTRU_LABEL_DICT,
+    open_file,
+    process_pair,
+    process_pair_ST,
+    process_and_save_factRu,
+    prep_st_data,
+    find_exact_matches,
+    process_and_append_ST,
+    cleanup,
+)
 
 from utils.train import (
     SentenceGetter,
@@ -134,9 +145,12 @@ if __name__ == "__main__":
         # Standardize the labels on all 3 combined datasets
         standardize_labels_and_save(dataset_file_list)
 
-    # Valid bc 'en' and 'ru' are the only allowed choices for arg parser
     else:
-        process_and_save_data(cfg["ru_data_path"])
+        process_and_save_factRu(
+            cfg["factRu_path"], cfg["ru_combined_path"], FACTRU_LABEL_DICT
+        )
+        process_and_append_ST(cfg["st_path"], cfg["ru_combined_path"])
+        cleanup(cfg["ru_combined_path"])
 
     ### Training code starts here
 
