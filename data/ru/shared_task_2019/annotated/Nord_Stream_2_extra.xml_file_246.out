@@ -1,0 +1,20 @@
+ru-ryanair-new-extra-246
+Белого дома	Белый дом	LOC	LOC-White-House
+Бундестага	Бундестаг	ORG	ORG-Bundestag
+Донбасса	Донбасс	LOC	LOC-Donbass
+ЕС	ЕС	ORG	ORG-European-Union
+Киевом	Киев	LOC	GPE-Kiev
+Кремль	Кремль	LOC	LOC-Kremlin
+Кремлю	Кремль	LOC	LOC-Kremlin
+Кремля	Кремль	LOC	LOC-Kremlin
+Крыма	Крым	LOC	GPE-Crimea
+Москвы	Москва	LOC	GPE-Moscow
+РФ	РФ	LOC	GPE-Russia
+Россия	Россия	LOC	GPE-Russia
+США	США	LOC	GPE-USA
+Украины	Украина	LOC	GPE-Ukraine
+“Газпрома”	“Газпром”	ORG	ORG-Gazprom
+“Газпром”	“Газпром”	ORG	
+“Северному потоку - 2”	“Северный поток - 2”	PRO	PRO-Nord-Stream-2
+“Северный поток - 2”	“Северный поток - 2”	PRO	
+“Северный поток - 2”	“Северный поток - 2”	PRO	PRO-Nord-Stream-2

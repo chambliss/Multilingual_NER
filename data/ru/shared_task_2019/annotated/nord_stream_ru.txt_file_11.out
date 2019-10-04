@@ -1,0 +1,31 @@
+ru-11
+ МИДа	МИД	ORG	ORG-Ministry-of-Foreign-Affairs-Ukraine
+Bild	Bild	PRO	PRO-Bild
+Nord Stream 2	Nord Stream 2	ORG	ORG-Eustream
+Wall Street Journal	Wall Street Journal	ORG	ORG-Downing-Street
+Берлином	Берлин	LOC	GPE-Berlin
+Бильд	Бильд	PRO	PRO-Bild
+Ведомости	Ведомости	PRO	PRO-Vedomosti
+Владимира Путина	Владимир Путин	PER	PER-Vladimir-Putin
+Германии 	Германия	LOC	GPE-Germany
+Германию 	Германия	LOC	GPE-Germany
+Герхард Шрёдер	Герхард Шрёдер	PER	PER-Gerhard-Fritz-Kurt-Schröder
+Герхарда Шрёдера	Герхард Шрёдер	PER	PER-Gerhard-Fritz-Kurt-Schröder
+Евросоюз	Евросоюз	ORG	ORG-European-Union
+Евросоюзу 	Евросоюз	ORG	ORG-European-Union
+Киев 	Киев	LOC	GPE-Kiev
+МИДа	МИД	ORG	ORG-Ministry-of-Foreign-Affairs-Ukraine
+Москвой 	Москва	LOC	GPE-Moscow
+Норд Стрим	Норд Стрим	ORG	ORG-Nord-Stream-AG
+Павел Климкин	Павел Климкин	PER	PER-Pavel-Klimkin
+Путина 	Путин	PER	PER-Vladimir-Putin
+Путина	Путин	PER	PER-Vladimir-Putin
+Роснефти	Роснефть	ORG	ORG-Rosneft
+Роснефть 	Роснефть	ORG	ORG-Rosneft
+России	Россия	LOC	GPE-Russia
+США 	США	LOC	GPE-USA
+Северный поток	Северный поток	PRO	PRO-Nord-Stream-2
+Сечина	Сечин	PER	PER-Igor-Sechin
+Украины	Украина	LOC	GPE-Ukraine
+Шрёдер 	Шрёдер	PER	PER-Gerhard-Fritz-Kurt-Schröder
+Шрёдеру 	Шрёдер	PER	PER-Gerhard-Fritz-Kurt-Schröder

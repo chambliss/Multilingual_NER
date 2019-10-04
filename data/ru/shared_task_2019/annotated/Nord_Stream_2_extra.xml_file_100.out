@@ -1,0 +1,33 @@
+ru-ryanair-new-extra-100
+"Газпрома"	"Газпром"	ORG	ORG-Gazprom
+"Северного потока-2"	"Северный поток-2"	PRO	PRO-Nord-Stream-2
+"Северный поток-2"	"Северный поток-2"	PRO	PRO-Nord-Stream-2
+DW	DW	PRO	PRO-Deutsche-Welle
+Балтийское море	Балтийское море	LOC	LOC-Baltic-Sea
+Берлин	Берлин	LOC	GPE-Berlin
+Берлине	Берлин	LOC	GPE-Berlin
+Вашингтона	Вашингтон	LOC	GPE-WashingtonDC
+Вольфганг Бюхеле	Вольфганг Бюхеле	PER	PER-Wolfgang-Buchele
+Восточного комитета немецкой экономики	Восточный комитет немецкой экономики	ORG	ORG-Committee-on-Eastern-European-Economic-Relations
+Восточного комитета	Восточный комитет	ORG	ORG-Committee-on-Eastern-European-Economic-Relations
+Германии	Германия	LOC	GPE-Germany
+Германию	Германия	LOC	GPE-Germany
+Дания	Дания	LOC	GPE-Denmark
+ЕС	ЕС	ORG	ORG-European-Union
+Европарламента	Европарламент	ORG	ORG-European-Parlament
+Европе	Европа	LOC	LOC-Europe
+Европу	Европа	LOC	LOC-Europe
+МИД Германии	МИД Германии	ORG	ORG-Ministry-of-Foreign-Affairs-Germany
+МИД ФРН	МИД ФРН	ORG	ORG-Federal-Foreign-Office-Germany
+Маас	Маас	PER	PER-Heiko-Maas
+Молдова	Молдова	LOC	GPE-Moldova
+Нидерландах	Нидерланды	LOC	GPE-Holland
+Палата представителей Конгресса США	Палата представителей Конгресса США	ORG	ORG-House-of-Representatives(USA)
+Польша	Польша	LOC	GPE-Poland
+РФ	РФ	LOC	GPE-Russia
+России	Россия	LOC	GPE-Russia
+США	США	LOC	GPE-USA
+Украина	Украина	LOC	GPE-Ukraine
+Украину	Украина	LOC	GPE-Ukraine
+Хайко Маас	Хайко Маас	PER	PER-Heiko-Maas
+страны Балтии	страны Балтии	LOC	LOC-Baltic-countries
