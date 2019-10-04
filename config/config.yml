@@ -1,9 +1,95 @@
 # paths:
-repo_path: Multilingual_NER/
-utils_path: python/utils/
+repo_path:         Multilingual_NER/
+utils_path:        python/utils/
+
+# path to models (relative to demo.py)
+models_path:       '../models/'
+
+### NOTE:          these are all specified relative to the location of main.py
 
 # data paths:
 ## en data:
-conll_path: 'data/en/CONLL2003/'
-ee_path: 'data/en/emerging_entities_17/'
-en_combined_path: 'data/en/combined/'
+conll_path:        '../data/en/CONLL2003/'
+ee_path:           '../data/en/emerging_entities_17/'
+en_combined_path:  '../data/en/combined/'
+## ru data:
+factRu_path:       "../data/ru/factRuEval-2016/"
+st_path:           "../data/ru/shared_task_2019/"
+ru_combined_path:  '../data/ru/combined/'
+
+# language-specific parameters for training stage
+en:
+  train_data_path: "../data/en/combined/train_combined_std.txt"
+  dev_data_path:   "../data/en/combined/dev_combined_std.txt"
+  test_data_path:  "../data/en/combined/test_combined_std.txt"
+  label_types:
+    - "B-PER"
+    - "I-PER"
+    - "B-LOC"
+    - "I-LOC"
+    - "B-ORG"
+    - "I-ORG"
+    - "B-MISC"
+    - "I-MISC"
+    - "O"
+  model:           'bert-base-cased'
+
+ru:
+  train_data_path: "../data/ru/combined/devset_combined.txt"
+  dev_data_path:   "../data/ru/combined/testset_combined.txt"
+  label_types:
+      - "PER"
+      - "LOC"
+      - "ORG"
+      - "MISC"
+      - "EVT"
+      - "PRO"
+      - "O"
+    # - "B-geo_adj"
+    # - "B-job"
+    # - "B-loc_descr"
+    # - "B-loc_name"
+    # - "B-name"
+    # - "B-nickname"
+    # - "B-org_descr"
+    # - "B-org_name"
+    # - "B-patronymic"
+    # - "B-prj_name"
+    # - "B-surname"
+    # - "I-geo_adj"
+    # - "I-job"
+    # - "I-loc_descr"
+    # - "I-loc_name"
+    # - "I-name"
+    # - "I-nickname"
+    # - "I-org_descr"
+    # - "I-org_name"
+    # - "I-surname"
+    # - "L-geo_adj"
+    # - "L-job"
+    # - "L-loc_descr"
+    # - "L-loc_name"
+    # - "L-name"
+    # - "L-nickname"
+    # - "L-org_descr"
+    # - "L-org_name"
+    # - "L-patronymic"
+    # - "L-prj_name"
+    # - "L-surname"
+    # - "U-geo_adj"
+    # - "U-job"
+    # - "U-loc_descr"
+    # - "U-loc_name"
+    # - "U-name"
+    # - "U-nickname"
+    # - "U-org_descr"
+    # - "U-org_name"
+    # - "U-patronymic"
+    # - "U-prj_descr"
+    # - "U-surname"
+    # - "O"
+  model:           'bert-base-multilingual-cased'
+
+demo_text:
+  en:              On this day in 1957, a California Superior Court judge ruled that "Howl", a poem by Allen Ginsberg, was of "redeeming social importance" and thus not obscene.
+  ru:              МОСКВА, 4 авг - РИА Новости. Россия рассчитывает, что США воздействуют на Тбилиси в связи с обострением ситуации в зоне грузино-осетинского конфликта. Об этом статс-секретарь - заместитель министра иностранных дел России Григорий Карасин заявил в телефонном разговоре с заместителем госсекретаря США Дэниэлом Фридом.

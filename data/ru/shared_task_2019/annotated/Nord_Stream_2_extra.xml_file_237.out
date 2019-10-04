@@ -1,0 +1,15 @@
+ru-ryanair-new-extra-237
+" Газпром "	" Газпром "	ORG	ORG-Gazprom
+" Газпрома "	" Газпром "	ORG	ORG-Gazprom
+"Газпромом"	"Газпром"	ORG	ORG-Gazprom
+"Нафтогаза Украины"	"Нафтогаз Украины"	ORG	ORG-Naftogaz
+Берлине	Берлин	LOC	GPE-Berlin
+Брюсселе	Брюссель	LOC	GPE-Brussles
+Еврокомиссии	Еврокомиссия	ORG	ORG-European-Commission
+Европу	Европа	LOC	LOC-Europe
+Елена Зеркаль	Елена Зеркаль	PER	PER-Olena-Zerkal
+МИД	МИД	ORG	ORG-Foreign-Office
+Марош Шефчович	Марош Шефчович	PER	PER-Maros-Sefcovic
+Северный Поток-2	Северный Поток-2	PRO	PRO-Nord-Stream-2
+Украиной	Украина	LOC	GPE-Ukraine
+Украины	Украина	LOC	GPE-Ukraine

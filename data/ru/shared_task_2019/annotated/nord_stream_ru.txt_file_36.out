@@ -1,0 +1,37 @@
+ru-36
+ Nord Stream 2	Nord Stream 2	ORG	ORG-Nord-Stream-2-AG
+ Южной Кореи	Южная Корея	LOC	GPE-South-Korea
+Amazon 	Amazon	ORG	ORG-Amazon
+Apple	Apple	ORG	ORG-Apple
+Fox News	Fox News	PRO	PRO-Fox-News
+Netflix	Netflix	ORG	ORG-Netflix
+Nord Stream AG	Nord Stream AG	ORG	ORG-Nord-Stream-AG
+The New York Times	The New York Times	ORG	ORG-Financial-Times-Stock-Exchange-FTSE-100
+Америки 	Америка	LOC	LOC-America
+Афганистане	Афганистан	LOC	GPE-Afghanistan
+Ахмадинежад 	Ахмадинежад	PER	PER-Mahmoud-Ahmadinejad
+Багамах	Багамы	LOC	GPE-Bahamas
+Балканах 	Балканы	LOC	LOC-Balkans
+Вашингтоне	Вашингтон	LOC	GPE-WashingtonDC
+Второй мировой войны	Второй мировой войны	EVT	EVT-World-War-II
+Германии 	Германия	LOC	GPE-Germany
+Германия 	Германия	LOC	GPE-Germany
+Герхард Шрёдер	Герхард Шрёдер	PER	PER-Gerhard-Fritz-Kurt-Schröder
+Диоклетиан 	Диоклетиан	PER	PER-Diocletian
+Ирана 	Иран	LOC	GPE-Iran
+Ким Со Ён	Ким Со Ён	PER	PER-Km-So-Yeon
+Махмуд Ахмадинежад	Махмуд Ахмадинежад	PER	PER-Mahmoud-Ahmadinejad
+Николь Авант	Николь Авант	PER	PER-Nicole-Avant
+Нью-Дели	Нью-Дели	LOC	GPE-New-Deli
+Обама 	Обама	PER	PER-Barack-Obama
+Обаме 	Обама	PER	PER-Barack-Obama
+Обамой 	Обама	PER	PER-Barack-Obama
+Обамы 	Обама	PER	PER-Barack-Obama
+Петербурге	Петербург	LOC	GPE-Saint-Petersburg
+Роснефти	Роснефть	ORG	ORG-Rosneft
+Сарандос 	Сарандос	PER	PER-Theodore-Sarandos
+Северный поток – 2	Северный поток – 2	PRO	PRO-Nord-Stream-2
+Северный поток	Северный поток	PRO	PRO-Nord-Stream-2
+Тедом Сарандосом	Тед Сарандос	PER	PER-Theodore-Sarandos
+Шрёдер 	Шрёдер	PER	PER-Gerhard-Fritz-Kurt-Schröder
+Шрёдера 	Шрёдер	PER	PER-Gerhard-Fritz-Kurt-Schröder
