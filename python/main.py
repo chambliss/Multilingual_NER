@@ -98,8 +98,7 @@ if __name__ == "__main__":
         dest="verbose",
         type=bool,
         default=True,
-        help="whether to print out the confusion matrix during training; "
-        + "not recommended if language = 'ru'",
+        help="whether to print out the confusion matrix during training",
     )
 
     args = parser.parse_args()
@@ -165,6 +164,9 @@ if __name__ == "__main__":
     FULL_FINETUNING = True
 
     # Create directory for storing our model checkpoints
+    if not os.path.exists("../models"):
+        subprocess.run(["mkdir", "../models"])
+
     subprocess.run(["mkdir", f"../models/{THIS_RUN}"])
 
     # Specify device data for training
