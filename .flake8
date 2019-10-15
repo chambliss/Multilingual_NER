@@ -1,4 +1,14 @@
 [flake8]
+# Exceptions:
+# E203: Whitespace before ':'
+# E266: Too many '#' for block comment
+# E501: Line too long (Using Black, 88 chars is acceptable)
+# W503: Line break occured before a binary operator 
+# F403: 'from module import *' used
+# F401: Module imported but unused
+# E302: Expected 2 blank lines, found 0
+# E731: Do not assign a lambda expression
+# F841: Local variable assigned to but never used
 ignore = E203, E266, E501, W503, F403, F401, E302, E731, F841
 max-line-length = 88
 max-complexity = 18
