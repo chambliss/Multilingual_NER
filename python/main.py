@@ -381,9 +381,6 @@ for _ in trange(EPOCHS, desc="Epoch"):
         print(f"Confusion Matrix:\n {conf_mat}")
 
     # Save model and optimizer state_dict following every epoch
-    # TODO: Make this more robust by creating a timestamped directory in 'models'
-    # for each new run of the script - could save logs here too if/when logging
-    # is implemented
     save_path = f"../models/{THIS_RUN}/train_checkpoint_epoch_{epoch}.tar"
     torch.save(
         {
