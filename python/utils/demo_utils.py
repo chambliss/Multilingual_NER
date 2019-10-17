@@ -103,9 +103,10 @@ def get_spacy_pred_df(spacy_model, text):
 
     s_preds_df = pd.DataFrame([texts, preds]).T
     s_preds_df.columns = ["text", "pred"]
-    s_preds_df["s_pred_per"] = np.where(s_preds_df["pred"] == "PERSON", 1, 0)
+    pred_per = (s_preds_df["pred"] == "PERSON") | (s_preds_df["pred"] == "PER")
+    s_preds_df["s_pred_per"] = np.where(pred_per, 1, 0)
 
-    return s_preds_df[["text", "s_pred_per"]]
+    return s_preds_df
 
 
 def create_pred_consistency_column(combined_df):
