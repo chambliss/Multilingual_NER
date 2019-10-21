@@ -6,18 +6,18 @@ This repository applies [BERT](https://github.com/google-research/bert) to named
 
 ## Installation
 
-(will make available via `pip install` and `conda install` when project is closer to completion - hit the Watch button if you'd like to be updated on progress!)
+**NOTE**: Since there are quite a few requirements, creating a virtual environment for this repo is strongly recommended.
 
-## Usage
+**Instructions**: Use `conda` to create the environment. Currently environment creation via pip is not supported.
 
-`python main.py` to train an English model and save per-epoch checkpoints.
-Add `-lang ru` to train a Russian model.
+To create the environment with `conda`, all you need to do is navigate to the `Multilingual_NER` directory and run the following in the command line:
 
-Once you have a usable model checkpoint, open `python/demo.py` and set the path to the model checkpoint you'd like to use and the demo's default language. Then run `streamlit run demo.py`, which opens a web app you can use to test the model's predictions interactively.
+`conda env create -f environment.yml`
 
-## Requirements
+You can verify that the required packages installed correctly by activating the environment (`conda activate m_ner`) and running `conda list`.
 
-- **NOTE**: Since there are quite a few requirements, we recommend creating a virtual environment when using this package. (use `requirements.txt` when creating environment from scratch)
+Partial list of dependencies:  
+
 - pytorch-transformers 1.1.0+, torch 1.2.0+
 - spaCy (2.1.0+)
 - TensorFlow 1.14.0+, keras 2.2.4+ (only used for utility functions - will try to eliminate this dependency down the line)
@@ -26,6 +26,13 @@ Once you have a usable model checkpoint, open `python/demo.py` and set the path 
 - streamlit 0.4.0+
 - (Deployment dependencies - TBD)
 - Miscellaneous minor packages: pathlib, seqeval, tqdm, yaml
+
+## Usage
+
+`python main.py` to train an English model and save per-epoch checkpoints.
+Add `-lang ru` to train a Russian model.
+
+Once you have a usable model checkpoint, open `python/demo.py` and set the path to the model checkpoint you'd like to use and the demo's default language. Then run `streamlit run demo.py en`, which opens a web app you can use to test the model's predictions interactively. For the Russian demo, change `en` to `ru`.
 
 ## Models
 
