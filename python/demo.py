@@ -8,8 +8,9 @@ from utils.demo_utils import (
     create_input_prompt,
     get_bert_pred_df,
     get_spacy_pred_df,
-    create_pred_consistency_column,
+    create_pred_consistency_columns,
     get_viz_df,
+    create_explainer,
     produce_text_display,
 )
 import numpy as np
@@ -83,22 +84,29 @@ if __name__ == "__main__":
     bert_preds = mgr.get_preds(user_input, "bert")
     spacy_preds = mgr.get_preds(user_input, "spacy")
     viz_df = get_viz_df(bert_preds, spacy_preds)
-    div = produce_text_display(viz_df)
 
-    # Show the highlighted HTML output of the input text
-    explainer = """<pred style="background-color:#bdc9e1">Light blue</pred>: Entity
-    predicted by one model<br><pred style="background-color:#74a9cf">Medium blue
-    </pred>: Entity predicted by both models""".replace(
-        "\n", ""
-    )
+    # Set up colors and HTML for the explainer and the predicted text
+    color_dict = cfg["demo_colors"]
+    ent_dict = {
+        "Person": "per",
+        "Location": "loc",
+        "Organization": "org",
+        "Misc": "misc",
+    }
+    div = produce_text_display(viz_df, color_dict)
+    explainer = create_explainer(color_dict, ent_dict)
+    ent_types = list(ent_dict.keys())
 
-    div_explainer = Div(text=explainer)
-    st.bokeh_chart(div_explainer)
+    # Display the explainer and predicted text
+    st.bokeh_chart(explainer)
     st.bokeh_chart(div)
 
-    entity_type = ["PER", "PERSON"]
-    st.write("Prediction summary:")
-    st.write(viz_df[viz_df["pred_sum"] > 0])
-
-    msg = "(NOTE: this demo currently only supports Person entity predictions.)"
-    st.write(msg)
+    # Allow users to view detailed prediction breakdown for a chosen entity type
+    ent = st.selectbox("Entity type: ", [ent_type for ent_type in ent_dict])
+    ent_short = ent_dict[ent]
+    st.write(f"Prediction summary for {ent}: ")
+    st.table(
+        viz_df[viz_df[f"pred_sum_{ent_short}"] > 0][
+            ["text", f"b_pred_{ent_short}", f"s_pred_{ent_short}"]
+        ]
+    )
