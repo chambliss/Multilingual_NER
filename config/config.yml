@@ -54,3 +54,10 @@ demo_text:
 parallel_demo_text:
   en:                Just last December, fellow economists Martin Feldstein and Nouriel Roubini each penned op-eds bravely questioning bullish market sentiment, sensibly pointing out gold’s risks.
   ru:                Еще в декабре прошлого года экономисты-коллеги Мартин Фельдштейн и Нуриэль Рубини опубликовали свои пророческие статьи в колонках альтернативных мнений, храбро ставя в них под вопрос стремление игры на повышение, благоразумно указывая на риски золота.
+
+# pred_type: [dark_highlight, light_highlight]
+demo_colors:
+  per: ["#17becf", "#9edae5"] # blues
+  org: ["#9467bd", "#c5b0d5"] # purples
+  loc: ["#74c476", "#c7e9c0"] # greens
+  misc: ["#e377c2", "#f7b6d2"] # pinks
