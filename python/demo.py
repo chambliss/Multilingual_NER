@@ -64,17 +64,11 @@ if __name__ == "__main__":
     # Create selectbox for users to select checkpoint
     CHK_PATH = st.selectbox("Model checkpoint:", tuple(available_chkpts))
 
-    # Load in models and tokenizer
     try:
-        model_load_state = st.text("Loading models...")
-        model, tokenizer = load_model_and_tokenizer(CHK_PATH, lang=args.lang)
-        nlp = load_spacy(args.lang)
-        model_load_state.text("Loading models...done!")
+        mgr = LanguageResourceManager(args.lang, cfg, CHK_PATH)
     except RuntimeError:
-        st.write("The selected checkpoint is not compatible with this BERT Model.")
+        st.write("The selected checkpoint is not compatible with this BERT model.")
         st.write("Are you sure you have the right checkpoint?")
-
-    mgr = LanguageResourceManager(args.lang, cfg, CHK_PATH)
 
     user_prompt = "What text do you want to predict on?"
     default_input = cfg["demo_text"][args.lang]
@@ -85,6 +79,8 @@ if __name__ == "__main__":
     spacy_preds = mgr.get_preds(user_input, "spacy")
     viz_df = get_viz_df(bert_preds, spacy_preds)
 
+    st.subheader("Prediction Summary:")
+
     # Set up colors and HTML for the explainer and the predicted text
     color_dict = cfg["demo_colors"]
     ent_dict = {
@@ -93,20 +89,21 @@ if __name__ == "__main__":
         "Organization": "org",
         "Misc": "misc",
     }
-    div = produce_text_display(viz_df, color_dict)
+    display = produce_text_display(viz_df, color_dict)
     explainer = create_explainer(color_dict, ent_dict)
     ent_types = list(ent_dict.keys())
 
     # Display the explainer and predicted text
     st.bokeh_chart(explainer)
-    st.bokeh_chart(div)
+    st.bokeh_chart(display)
+
+    st.subheader("Prediction Details Per Entity Type:")
 
     # Allow users to view detailed prediction breakdown for a chosen entity type
-    ent = st.selectbox("Entity type: ", [ent_type for ent_type in ent_dict])
-    ent_short = ent_dict[ent]
-    st.write(f"Prediction summary for {ent}: ")
-    st.table(
-        viz_df[viz_df[f"pred_sum_{ent_short}"] > 0][
-            ["text", f"b_pred_{ent_short}", f"s_pred_{ent_short}"]
-        ]
-    )
+    selected_ent = st.selectbox("Entity type: ", [ent_type for ent_type in ent_dict])
+    ent = ent_dict[selected_ent]
+    st.write(f"Prediction summary for {selected_ent}: ")
+
+    # Display fine-grained model prediction columns for selected entity
+    mask = viz_df[f"pred_sum_{ent}"].values > 0
+    st.table(viz_df[mask][["text", f"b_pred_{ent}", f"s_pred_{ent}"]])
