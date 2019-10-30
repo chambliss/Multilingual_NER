@@ -219,16 +219,16 @@ class LanguageResourceManager:
 
 def create_explainer(color_dict, ent_dict):
 
-    explainer = (
-        """<b>Left:</b> Both models agree <br><b>Right:</b> One model only <br><br>"""
-    )
+    explainer = """<b>Left:</b> Both BERT and spaCy found this entity <br>
+        <b>Right:</b> Only one of BERT or spaCy found this entity <br><br>"""
 
     for ent_type in ent_dict:
         dark, light = color_dict[ent_dict[ent_type]]
-        ent_html = f"""<span style="color: {dark}">{ent_type}</span> <span style="color: {light}">{ent_type}</span><br>"""
+        ent_html = f"""<b><span style="color: {dark}">{ent_type}</span>
+        <span style="color: {light}">{ent_type}</span></b><br>"""
         explainer += ent_html
 
-    return Div(text=explainer)
+    return Div(text=explainer, width=500)
 
 
 def produce_text_display(combined_pred_df, color_dict):
