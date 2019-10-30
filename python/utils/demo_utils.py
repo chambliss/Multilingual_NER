@@ -139,9 +139,6 @@ def create_pred_consistency_columns(combined_df):
     Condition 1: spaCy predicts no, BERT predicts yes
     Condition 2: spaCy predicts yes, BERT predicts no
     Condition 3: Both models agree
-
-    (The "fmt" and "noqa" comments tell Black and flake8 to ignore minor
-    stylistic violations here, in favor of increased readability.)
     """
 
     consistency_cols = []
