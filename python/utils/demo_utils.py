@@ -128,6 +128,7 @@ def get_spacy_pred_df(spacy_model, text):
     return s_preds_df.loc[:, "s_pred_per":]
 
 
+# fmt: off
 def create_pred_consistency_columns(combined_df):
 
     """
@@ -138,23 +139,22 @@ def create_pred_consistency_columns(combined_df):
     Condition 1: spaCy predicts no, BERT predicts yes
     Condition 2: spaCy predicts yes, BERT predicts no
     Condition 3: Both models agree
+
+    (The "fmt" and "noqa" comments tell Black and flake8 to ignore minor
+    stylistic violations here, in favor of increased readability.)
     """
 
     consistency_cols = []
 
     for tag in ["per", "loc", "org", "misc"]:
-        cond1 = (combined_df[f"s_pred_{tag}"] == 0) & (
-            combined_df[f"b_pred_{tag}"] == 1
-        )
-        cond2 = (combined_df[f"s_pred_{tag}"] == 1) & (
-            combined_df[f"b_pred_{tag}"] == 0
-        )
-        cond3 = (combined_df[f"b_pred_{tag}"] == 1) & (
-            combined_df[f"s_pred_{tag}"] == 1
-        )
+        cond1 = (combined_df[f"s_pred_{tag}"] == 0) & (combined_df[f"b_pred_{tag}"] == 1)
+        cond2 = (combined_df[f"s_pred_{tag}"] == 1) & (combined_df[f"b_pred_{tag}"] == 0)
+        cond3 = (combined_df[f"b_pred_{tag}"] == 1) & (combined_df[f"s_pred_{tag}"] == 1)
 
-        which_model = np.where(
-            cond1, "BERT", np.where(cond2, "spaCy", np.where(cond3, "", ""))
+        which_model = np.where( # noqa
+            cond1, "BERT",
+                np.where(cond2, "spaCy",
+                    np.where(cond3, "", ""))
         )
 
         consistency_col = pd.Series(which_model, name=f"model_name_{tag}")
@@ -162,7 +162,7 @@ def create_pred_consistency_columns(combined_df):
 
     return pd.concat(consistency_cols, axis=1)
 
-
+# fmt: on
 def get_viz_df(bert_preds_df, spacy_preds_df):
 
     """
