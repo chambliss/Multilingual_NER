@@ -70,7 +70,7 @@ def process_pair(pair, dataset_dir, label_dict):
     tokens_biluo_temp = []
     for tup in tokens_biluo:
         if tup[1] != "O" and tup[1][2:] != "":
-            new_lab = label_dict[tup[1][2:]]
+            new_lab = label_dict[tup[1][2:]]  # [0:2] tag prefix; [2:] tag body
             tokens_biluo_temp.append((tup[0], new_lab))
         else:
             tokens_biluo_temp.append((tup[0], tup[1]))
@@ -84,7 +84,7 @@ def process_pair(pair, dataset_dir, label_dict):
     # Format lines for writing out
     formatted_lines = ["\t".join(str(s) for s in tup) + "\n" for tup in tokens_biluo]
     for i, line in enumerate(formatted_lines):
-        if line == ".\tO\n":
+        if line == ".\tO\n":  # Insert newlines after periods
             formatted_lines.insert(i + 1, "\n\n")
 
     return formatted_lines
