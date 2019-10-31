@@ -8,8 +8,9 @@ from utils.demo_utils import (
     create_input_prompt,
     get_bert_pred_df,
     get_spacy_pred_df,
-    create_pred_consistency_column,
+    create_pred_consistency_columns,
     get_viz_df,
+    create_explainer,
     produce_text_display,
 )
 import numpy as np
@@ -63,17 +64,11 @@ if __name__ == "__main__":
     # Create selectbox for users to select checkpoint
     CHK_PATH = st.selectbox("Model checkpoint:", tuple(available_chkpts))
 
-    # Load in models and tokenizer
     try:
-        model_load_state = st.text("Loading models...")
-        model, tokenizer = load_model_and_tokenizer(CHK_PATH, lang=args.lang)
-        nlp = load_spacy(args.lang)
-        model_load_state.text("Loading models...done!")
+        mgr = LanguageResourceManager(args.lang, cfg, CHK_PATH)
     except RuntimeError:
-        st.write("The selected checkpoint is not compatible with this BERT Model.")
+        st.write("The selected checkpoint is not compatible with this BERT model.")
         st.write("Are you sure you have the right checkpoint?")
-
-    mgr = LanguageResourceManager(args.lang, cfg, CHK_PATH)
 
     user_prompt = "What text do you want to predict on?"
     default_input = cfg["demo_text"][args.lang]
@@ -83,22 +78,32 @@ if __name__ == "__main__":
     bert_preds = mgr.get_preds(user_input, "bert")
     spacy_preds = mgr.get_preds(user_input, "spacy")
     viz_df = get_viz_df(bert_preds, spacy_preds)
-    div = produce_text_display(viz_df)
 
-    # Show the highlighted HTML output of the input text
-    explainer = """<pred style="background-color:#bdc9e1">Light blue</pred>: Entity
-    predicted by one model<br><pred style="background-color:#74a9cf">Medium blue
-    </pred>: Entity predicted by both models""".replace(
-        "\n", ""
-    )
+    st.subheader("Prediction Summary:")
 
-    div_explainer = Div(text=explainer)
-    st.bokeh_chart(div_explainer)
-    st.bokeh_chart(div)
+    # Set up colors and HTML for the explainer and the predicted text
+    color_dict = cfg["demo_colors"]
+    ent_dict = {
+        "Person": "per",
+        "Location": "loc",
+        "Organization": "org",
+        "Misc": "misc",
+    }
+    display = produce_text_display(viz_df, color_dict)
+    explainer = create_explainer(color_dict, ent_dict)
+    ent_types = list(ent_dict.keys())
 
-    entity_type = ["PER", "PERSON"]
-    st.write("Prediction summary:")
-    st.write(viz_df[viz_df["pred_sum"] > 0])
+    # Display the explainer and predicted text
+    st.bokeh_chart(explainer)
+    st.bokeh_chart(display)
 
-    msg = "(NOTE: this demo currently only supports Person entity predictions.)"
-    st.write(msg)
+    st.subheader("Prediction Details Per Entity Type:")
+
+    # Allow users to view detailed prediction breakdown for a chosen entity type
+    selected_ent = st.selectbox("Entity type: ", [ent_type for ent_type in ent_dict])
+    ent = ent_dict[selected_ent]
+    st.write(f"Prediction summary for {selected_ent}: ")
+
+    # Display fine-grained model prediction columns for selected entity
+    mask = viz_df[f"pred_sum_{ent}"].values > 0
+    st.table(viz_df[mask][["text", f"b_pred_{ent}", f"s_pred_{ent}"]])
