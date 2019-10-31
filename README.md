@@ -17,7 +17,7 @@ The repo includes:
 
 * Raw and preprocessed data for fine-tuning BERT models in both English and Russian
 * Done-for-you training script to train and save a model
-* Comprehensive outputs of performance, including P/R/F1 and classification reports for every label at each epoch (included in each saved checkpoint)
+* Comprehensive outputs of performance, including confusion matrix and P/R/F1 for every label at each epoch (included in each saved checkpoint)
 * Interactive demos for testing the performance of the model on both monolingual and parallel text
 
 ## Installation
