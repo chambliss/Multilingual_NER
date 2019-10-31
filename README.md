@@ -1,6 +1,7 @@
 # multilingual_NER
 
-![Russian NER Demo](/img/monolingual_demo.png)
+<!-- markdownlint-disable MD033 -->
+<div style="text-align:center"><img src="./img/monolingual_demo.png"/></div>
 
 ## About
 
@@ -53,7 +54,8 @@ Once you have a usable model checkpoint, run `streamlit run demo.py en` (or `ru`
 
 In line with the main goal of the project, there is also a demo specifically for testing NER performance on parallel Russian-English sentences. Use `streamlit run parallel_demo.py` to try out the parallel demo. Keep in mind that **you will need to have at least one usable model checkpoint for each language.**
 
-![Parallel NER Demo](/img/parallel_demo.png)
+<!-- markdownlint-disable MD033 -->
+<div style="text-align:center"><img src="./img/parallel_demo.png"/></div>
 
 ## Models
 
