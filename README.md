@@ -5,7 +5,7 @@
 
 ## About
 
-This repository applies [BERT](https://github.com/google-research/bert) to named entity recognition in English and Russian. The goal is to help developers of MT models to analyze and address model errors in the translation of names. More precisely, these NER models will be used as part of a pipeline for improving machine translation quality estimation between Russian-English sentence pairs.
+This repository applies [BERT](https://github.com/google-research/bert) to named entity recognition in English and Russian. The goal is to help developers of machine translation models to analyze and address model errors in the translation of names. More precisely, these NER models will be used as part of a pipeline for improving MT quality estimation between Russian-English sentence pairs.
 
 Named entities are a known challenge in machine translation, and in particular, identifying names in Slavic languages such as Russian presents a unique challenge. Slavic names can vary in spelling depending on what role the name occupies in the sentence (see [Slavic name suffixes](https://en.wikipedia.org/wiki/Slavic_name_suffixes) on Wikipedia for more details). This means an NER model cannot learn to rely on spelling alone, like it could for many English names ("Smith", etc.). In addition, word order in Russian is highly variable, so models cannot necessarily rely on positional cues either.
 
