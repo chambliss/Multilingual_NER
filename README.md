@@ -1,5 +1,7 @@
 # multilingual_NER
 
+![Russian NER Demo](/img/monolingual_demo.png)
+
 ## About
 
 This repository applies [BERT](https://github.com/google-research/bert) to named entity recognition in English and Russian. The goal is to help developers of MT models to analyze and address model errors in the translation of names. More precisely, these NER models will be used as part of a pipeline for improving machine translation quality estimation between Russian-English sentence pairs.
@@ -50,6 +52,8 @@ Once you have a usable model checkpoint, run `streamlit run demo.py en` (or `ru`
 ### Demo for parallel NER
 
 In line with the main goal of the project, there is also a demo specifically for testing NER performance on parallel Russian-English sentences. Use `streamlit run parallel_demo.py` to try out the parallel demo. Keep in mind that **you will need to have at least one usable model checkpoint for each language.**
+
+![Parallel NER Demo](/img/parallel_demo.png)
 
 ## Models
 
