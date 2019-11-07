@@ -1,8 +1,18 @@
 # -*- coding: UTF-8 -*-
 import argparse
 from bokeh.models.widgets.markups import Div
+import boto3
+import numpy as np
+import os
+import pandas as pd
+from pytorch_transformers import BertTokenizer, BertForTokenClassification, BertConfig
+import spacy
+import streamlit as st
+import torch
+from utils.main_utils import str2bool
 from utils.demo_utils import (
     LanguageResourceManager,
+    download_model,
     load_model_and_tokenizer,
     load_spacy,
     create_input_prompt,
@@ -13,13 +23,6 @@ from utils.demo_utils import (
     create_explainer,
     produce_text_display,
 )
-import numpy as np
-import os
-import pandas as pd
-from pytorch_transformers import BertTokenizer, BertForTokenClassification, BertConfig
-import spacy
-import streamlit as st
-import torch
 import yaml
 
 # Run using `streamlit run demo.py en`
@@ -45,6 +48,14 @@ if __name__ == "__main__":
         default="../config/config.yml",
         help="where the config file is located",
     )
+    parser.add_argument(
+        "-dm",
+        "--download-model",
+        dest="download",
+        type=str2bool,
+        default=False,
+        help="whether to download the BERT checkpoint from S3 (Heroku only)",
+    )
     args = parser.parse_args()
 
     # Set up configuration (see config/config.yml)
@@ -55,14 +66,21 @@ if __name__ == "__main__":
     # App functionality code begins here
     st.title("Predict Named Entities with BERT!")
 
-    available_chkpts = [
-        f"../models/{dir}/" + os.listdir(f"../models/{dir}")[0]
-        for dir in os.listdir("../models/")
-        if dir != ".DS_Store"
-    ]
+    # For hosting on Heroku: get the model from S3
+    if args.download:
+        download_model()
+        CHK_PATH = "../models/bert-en.tar"
 
-    # Create selectbox for users to select checkpoint
-    CHK_PATH = st.selectbox("Model checkpoint:", tuple(available_chkpts))
+    # Otherwise: check all dirs inside of /models/ dir for checkpoints
+    else:
+        available_chkpts = [
+            f"../models/{dir}/" + os.listdir(f"../models/{dir}")[0]
+            for dir in os.listdir("../models/")
+            if dir != ".DS_Store"
+        ]
+
+        # Create selectbox for users to select checkpoint
+        CHK_PATH = st.selectbox("Model checkpoint:", tuple(available_chkpts))
 
     try:
         mgr = LanguageResourceManager(args.lang, cfg, CHK_PATH)

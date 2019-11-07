@@ -1,13 +1,29 @@
 # -*- coding: UTF-8 -*-
 import argparse
 from bokeh.models.widgets.markups import Div
+import boto3
 import numpy as np
 import pandas as pd
+import os
 from pytorch_transformers import BertTokenizer, BertForTokenClassification, BertConfig
 import spacy
 import streamlit as st
 import torch
 import yaml
+
+
+def download_model():
+
+    """
+    Downloads an English model checkpoint from an S3 bucket. (For the
+    Heroku demo only.)
+    """
+
+    S3_KEY = os.environ["AWS_ACCESS_KEY_ID"]
+    S3_SECRET = os.environ["AWS_SECRET_ACCESS_KEY"]
+
+    s3 = boto3.client("s3", aws_access_key_id=S3_KEY, aws_secret_access_key=S3_SECRET)
+    s3.download_file("ml-models-212121", "bert_en.tar", "../models/bert-en.tar")
 
 
 @st.cache()

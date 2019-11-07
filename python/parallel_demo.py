@@ -1,5 +1,12 @@
 import argparse
 from bokeh.models.widgets.markups import Div
+import numpy as np
+import os
+import pandas as pd
+from pytorch_transformers import BertTokenizer, BertForTokenClassification, BertConfig
+import spacy
+import streamlit as st
+import torch
 from utils.demo_utils import (
     LanguageResourceManager,
     load_model_and_tokenizer,
@@ -12,13 +19,6 @@ from utils.demo_utils import (
     produce_text_display,
     create_explainer,
 )
-import numpy as np
-import os
-import pandas as pd
-from pytorch_transformers import BertTokenizer, BertForTokenClassification, BertConfig
-import spacy
-import streamlit as st
-import torch
 import yaml
 
 
