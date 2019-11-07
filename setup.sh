@@ -1,3 +1,5 @@
+mkdir models
+
 mkdir -p ~/.streamlit/
 
 spacy download en_core_web_lg
