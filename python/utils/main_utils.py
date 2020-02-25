@@ -462,7 +462,7 @@ def train_and_save_model(
 
             tr_logits = tr_logits.detach().cpu().numpy()
             tr_label_ids = torch.masked_select(b_labels, (preds_mask == 1))
-            tr_batch_preds = np.argmax(tr_logits[preds_mask.squeeze()], axis=1)
+            tr_batch_preds = np.argmax(tr_logits[preds_mask.squeeze().cpu()], axis=1)
             tr_batch_labels = tr_label_ids.to("cpu").numpy()
             tr_preds.extend(tr_batch_preds)
             tr_labels.extend(tr_batch_labels)
