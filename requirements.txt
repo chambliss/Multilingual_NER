@@ -20,7 +20,7 @@ cfgv==2.0.1
 chardet==3.0.4
 Click==7.0
 colorama==0.3.9
-cryptography==2.7
+cryptography==3.2
 cursor==1.2.0
 cycler==0.10.0
 cymem==2.0.2
