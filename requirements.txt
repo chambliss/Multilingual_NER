@@ -101,7 +101,7 @@ pythainlp==2.0.7
 python-dateutil==2.8.0
 pytorch-transformers==1.2.0
 pytz==2019.2
-PyYAML==5.1.2
+PyYAML==5.4
 pyzmq==18.1.0
 regex==2018.1.10
 requests==2.22.0
