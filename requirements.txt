@@ -140,7 +140,7 @@ traitlets==4.3.2
 typed-ast==1.4.0
 typing-extensions==3.7.4
 tzlocal==2.0.0
-urllib3==1.25.3
+urllib3==1.25.8
 validators==0.14.0
 virtualenv==16.7.5
 wasabi==0.2.2
