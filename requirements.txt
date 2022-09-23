@@ -85,7 +85,7 @@ plac==0.9.6
 pre-commit==1.18.3
 preshed==2.0.1
 prompt-toolkit==2.0.9
-protobuf==3.8.0
+protobuf==3.18.3
 ptyprocess==0.6.0
 pyaml==19.4.1
 pycodestyle==2.5.0
